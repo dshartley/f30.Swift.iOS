@@ -1,0 +1,28 @@
+/* 
+  PlayAreaTileDataDummyRESTWebAPIResponse.strings
+  f30
+
+  Created by David on 08/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"byPlayAreaTileID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayAreaTileData\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayAreaTileID\",\"Value\":\"1\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n	
+				{\"Key\":\"AttributeData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+

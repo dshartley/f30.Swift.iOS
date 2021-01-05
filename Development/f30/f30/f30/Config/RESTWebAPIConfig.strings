@@ -1,0 +1,129 @@
+/*
+ RESTWebAPIConfig.strings
+ f30
+ 
+ Created by David on 03/02/2018.
+ Copyright © 2018 com.smartfoundation. All rights reserved.
+ */
+
+// RelativeConnections
+"RelativeConnectionsInsertUrl" = "http://www.sfserver.co.uk/api/relativeconnections/insert";
+"RelativeConnectionsUpdateUrl" = "http://www.sfserver.co.uk/api/relativeconnections/update/id/%@";
+"RelativeConnectionsDeleteUrl" = "http://www.sfserver.co.uk/api/relativeconnections/delete/id/%@";
+"RelativeConnectionsSelectUrl" = "http://www.sfserver.co.uk/api/relativeconnections/select";
+"RelativeConnectionsSelectByFromRelativeMemberIDUrl" = "http://www.sfserver.co.uk/api/relativeconnections/select/fromrelativememberid/%@/connectioncontracttype/%@";
+"RelativeConnectionsSelectByToRelativeMemberIDUrl" = "http://www.sfserver.co.uk/api/relativeconnections/select/torelativememberid/%@/connectioncontracttype/%@";
+"RelativeConnectionsSelectByFromRelativeMemberIDToRelativeMemberIDUrl" = "http://www.sfserver.co.uk/api/relativeconnections/select/fromrelativememberid/%@/torelativememberid/%@/connectioncontracttype/%@";
+"RelativeConnectionsSelectByWithRelativeMemberIDUrl" = "http://www.sfserver.co.uk/api/relativeconnections/select/withrelativememberid/%@/connectioncontracttype/%@";
+"RelativeConnectionsSelectByForRelativeMemberIDWithRelativeMemberIDUrl" = "http://www.sfserver.co.uk/api/relativeconnections/select/forrelativememberid/%@/withrelativememberid/%@/connectioncontracttype/%@";
+
+// RelativeConnectionRequests
+"RelativeConnectionRequestsInsertUrl" = "http://www.sfserver.co.uk/api/relativeconnectionrequests/insert";
+"RelativeConnectionRequestsUpdateUrl" = "http://www.sfserver.co.uk/api/relativeconnectionrequests/update/id/%@";
+"RelativeConnectionRequestsDeleteUrl" = "http://www.sfserver.co.uk/api/relativeconnectionrequests/delete/id/%@";
+"RelativeConnectionRequestsSelectUrl" = "http://www.sfserver.co.uk/api/relativeconnectionrequests/select";
+"RelativeConnectionRequestsSelectByFromRelativeMemberIDUrl" = "http://www.sfserver.co.uk/api/relativeconnectionrequests/select/fromrelativememberid/%@/requesttype/%@";
+"RelativeConnectionRequestsSelectByToRelativeMemberIDUrl" = "http://www.sfserver.co.uk/api/relativeconnectionrequests/select/torelativememberid/%@/requesttype/%@";
+"RelativeConnectionRequestsSelectByFromRelativeMemberIDToRelativeMemberIDUrl" = "http://www.sfserver.co.uk/api/relativeconnectionrequests/select/fromrelativememberid/%@/torelativememberid/%@/requesttype/%@";
+
+// RelativeInteractions
+"RelativeInteractionsInsertUrl" = "http://www.sfserver.co.uk/api/relativeinteractions/insert";
+"RelativeInteractionsUpdateUrl" = "http://www.sfserver.co.uk/api/relativeinteractions/update/id/%@";
+"RelativeInteractionsDeleteUrl" = "http://www.sfserver.co.uk/api/relativeinteractions/delete/id/%@";
+"RelativeInteractionsSelectUrl" = "http://www.sfserver.co.uk/api/relativeinteractions/select";
+"RelativeInteractionsSelectByFromRelativeMemberIDUrl" = "http://www.sfserver.co.uk/api/relativeinteractions/select/fromrelativememberid/%@/interactiontype/%@";
+"RelativeInteractionsSelectByToRelativeMemberIDUrl" = "http://www.sfserver.co.uk/api/relativeinteractions/select/torelativememberid/%@/interactiontype/%@";
+
+// RelativeTimelineEvents
+"RelativeTimelineEventsInsertUrl" = "http://www.sfserver.co.uk/api/relativetimelineevents/insert";
+"RelativeTimelineEventsUpdateUrl" = "http://www.sfserver.co.uk/api/relativetimelineevents/update/id/%@";
+"RelativeTimelineEventsDeleteUrl" = "http://www.sfserver.co.uk/api/relativetimelineevents/delete/id/%@";
+"RelativeTimelineEventsSelectUrl" = "http://www.sfserver.co.uk/api/relativetimelineevents/select";
+"RelativeTimelineEventsSelectByForRelativeMemberIDPreviousRelativeTimelineEventIDUrl" = "http://www.sfserver.co.uk/api/relativetimelineevents/select/forrelativememberid/%@/scopetype/%@/numberofitemstoload/%@";
+"RelativeTimelineEventsSelectByRelativeInteractionIDUrl" = "http://www.sfserver.co.uk/api/relativetimelineevents/select/relativeinteractionid/%@";
+
+// RelativeMembers
+"RelativeMembersInsertUrl" = "http://www.sfserver.co.uk/api/relativemembers/insert";
+"RelativeMembersUpdateUrl" = "http://www.sfserver.co.uk/api/relativemembers/update/id/%@";
+"RelativeMembersDeleteUrl" = "http://www.sfserver.co.uk/api/relativemembers/delete/id/%@";
+"RelativeMembersSelectUrl" = "http://www.sfserver.co.uk/api/relativemembers/select";
+"RelativeMembersSelectByUserProfileIDUrl" = "http://www.sfserver.co.uk/api/relativemembers/select/userprofileid/%@";
+"RelativeMembersSelectByEmailUrl" = "http://www.sfserver.co.uk/api/relativemembers/select/email";
+"RelativeMembersSelectByEmailConnectionContractTypeCurrentRelativeMemberIDUrl" = "http://www.sfserver.co.uk/api/relativemembers/select/email/connectioncontracttype/%@";
+"RelativeMembersSelectByIDConnectionContractTypeCurrentRelativeMemberIDUrl" = "http://www.sfserver.co.uk/api/relativemembers/select/id/%@/connectioncontracttype/%@";
+"RelativeMembersSelectByFindTextUrl" = "http://www.sfserver.co.uk/api/relativemembers/select/findtext/scopetype/%@/numberofitemstoload/%@";
+"RelativeMembersSelectByAspectsUrl" = "http://www.sfserver.co.uk/api/relativemembers/select/aspects/maxresults/%@/scopetype/%@/numberofitemstoload/%@";
+
+// PlaySubsets
+"PlaySubsetsSelectByRelativeMemberIDUrl" = "http://f30.sfserver.co.uk/api/playsubsets/select/relativememberid/%@";
+
+// PlayAreaCellTypes
+"PlayAreaCellTypesSelectByIDUrl" = "";
+"PlayAreaCellTypesSelectByPlaySubsetIDUrl" = "http://f30.sfserver.co.uk/api/playareacelltypes/select/playsubsetid/%@";
+
+// PlayAreaTileTypes
+"PlayAreaTileTypesSelectByIDUrl" = "";
+"PlayAreaTileTypesSelectByPlaySubsetIDUrl" = "http://f30.sfserver.co.uk/api/playareatiletypes/select/playsubsetid/%@";
+
+// PlayAreaCells
+"PlayAreaCellsInsertUrl" = "http://f30.sfserver.co.uk/api/playareacells/insert";
+"PlayAreaCellsUpdateUrl" = "http://f30.sfserver.co.uk/api/playareacells/update/id/%@";
+"PlayAreaCellsDeleteUrl" = "http://f30.sfserver.co.uk/api/playareacells/delete/id/%@";
+"PlayAreaCellsSelectByIDUrl" = "http://f30.sfserver.co.uk/api/playareacells/select/id/%@";
+"PlayAreaCellsSelectByCellCoordRangePlayGameIDUrl" = "http://f30.sfserver.co.uk/api/playareacells/select/cellcoordrange/relativememberid/%@/playgameid/%@";
+"PlayAreaCellsSelectByIsSpecialYNPlayGameIDUrl" = "http://f30.sfserver.co.uk/api/playareacells/select/isspecialyn/relativememberid/%@/playgameid/%@";
+
+// PlayAreaTiles
+"PlayAreaTilesInsertUrl" = "http://f30.sfserver.co.uk/api/playareatiles/insert";
+"PlayAreaTilesUpdateUrl" = "http://f30.sfserver.co.uk/api/playareatiles/update/id/%@";
+"PlayAreaTilesDeleteUrl" = "http://f30.sfserver.co.uk/api/playareatiles/delete/id/%@";
+"PlayAreaTilesSelectByIDUrl" = "http://f30.sfserver.co.uk/api/playareatiles/select/id/%@";
+
+// PlayAreaTileData
+"PlayAreaTileDataInsertUrl" = "http://f30.sfserver.co.uk/api/playareatiledata/insert";
+"PlayAreaTileDataUpdateUrl" = "http://f30.sfserver.co.uk/api/playareatiledata/update/id/%@";
+"PlayAreaTileDataDeleteUrl" = "http://f30.sfserver.co.uk/api/playareatiledata/delete/id/%@";
+"PlayAreaTileDataSelectByIDUrl" = "http://f30.sfserver.co.uk/api/playareatiledata/select/id/%@";
+
+// PlayGames
+"PlayGamesInsertUrl" = "http://f30.sfserver.co.uk/api/playgames/insert";
+"PlayGamesUpdateUrl" = "http://f30.sfserver.co.uk/api/playgames/update/id/%@";
+"PlayGamesDeleteUrl" = "http://f30.sfserver.co.uk/api/playgames/delete/id/%@";
+"PlayGamesSelectByIDUrl" = "http://f30.sfserver.co.uk/api/playgames/select/id/%@";
+"PlayGamesSelectByRelativeMemberIDUrl" = "http://f30.sfserver.co.uk/api/playgames/select/relativememberid/%@";
+
+// PlayAreaTokens
+"PlayAreaTokensInsertUrl" = "http://f30.sfserver.co.uk/api/playareatokens/insert";
+"PlayAreaTokensUpdateUrl" = "http://f30.sfserver.co.uk/api/playareatokens/update/id/%@";
+"PlayAreaTokensDeleteUrl" = "http://f30.sfserver.co.uk/api/playareatokens/delete/id/%@";
+"PlayAreaTokensSelectByPlayGameIDUrl" = "http://f30.sfserver.co.uk/api/playareatokens/select/playgameid/%@";
+
+// PlayChallenges
+"PlayChallengesInsertUrl" = "http://f30.sfserver.co.uk/api/playchallenges/insert";
+"PlayChallengesUpdateUrl" = "http://f30.sfserver.co.uk/api/playchallenges/update/id/%@";
+"PlayChallengesDeleteUrl" = "http://f30.sfserver.co.uk/api/playchallenges/delete/id/%@";
+"PlayChallengesSelectbyIDUrl" = "http://f30.sfserver.co.uk/api/playchallenges/select/id/%@";
+"PlayChallengesSelectbyIsActiveYNPlayGameIDUrl" = "http://f30.sfserver.co.uk/api/playchallenges/select/isactiveyn/relativememberid/%@/playgameid/%@";
+
+// PlayChallengeObjectives
+"PlayChallengeObjectivesUpdateUrl" = "http://f30.sfserver.co.uk/api/playchallengeobjectives/update/id/%@";
+"PlayChallengeObjectivesCompleteUrl" = "http://f30.sfserver.co.uk/api/playchallengeobjectives/complete/id/%@";
+
+// PlayResults
+"PlayResultsInsertUrl" = "http://f30.sfserver.co.uk/api/playresults/insert";
+
+// PlayMoves
+"PlayMovesSelectByPlayAreaTileIDUrl" = "http://f30.sfserver.co.uk/api/playmoves/select/playareatileid/%@/playgameid/%@";
+"PlayMovesSelectByPlayAreaTokenIDUrl" = "http://f30.sfserver.co.uk/api/playmoves/select/playareatokenid/%@/playgameid/%@";
+"PlayMovesSelectByPlayAreaTokenIDPlayAreaPathUrl" = "http://f30.sfserver.co.uk/api/playmoves/select/playareapathdata/playareatokenid/%@/playgameid/%@";
+
+// PlayAreaPaths
+"PlayAreaPathsSelectByFromCellCoordToCellCoordPlayGameIDUrl" = "http://f30.sfserver.co.uk/api/playareapaths/select/fromcellcoordtocellcoord/playgameid/%@";
+
+// PlayExperiences
+"PlayExperiencesSelectByPlayMoveIDPlaySubsetIDUrl" = "http://f30.sfserver.co.uk/api/playexperiences/select/playmoveid/%@/playsubsetid/%@";
+
+// PlayExperienceSteps
+"PlayExperienceStepsSelectByIDUrl" = "http://f30.sfserver.co.uk/api/playexperiencesteps/select/id/%@";
+
+

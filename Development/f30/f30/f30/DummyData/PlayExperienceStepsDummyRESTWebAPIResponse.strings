@@ -1,0 +1,102 @@
+/* 
+  PlayExperienceStepsDummyRESTWebAPIResponse.strings
+  f30
+
+  Created by David on 08/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"byID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayExperienceSteps\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceStepType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"PlayExperienceStep1\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"byID_9FE24559-089C-4F32-A76E-0ECB1EF2FC70" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayExperienceSteps\",\n
+		\"Items\":[\n
+			{\"ID\":\"9FE24559-089C-4F32-A76E-0ECB1EF2FC70\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceStepType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"WhereIsMilk2\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Where is the milk?\\\"}, {\\\"Key\\\" : \\\"Index\\\", \\\"Value\\\" : \\\"0\\\"}, {\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"exp01_milk\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n	
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayExperienceStepExercises\",\n
+		\"Items\":[\n
+			{\"ID\":\"39144EB5-F07C-4866-86A8-63BB9AD72222\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"\"},\n
+				{\"Key\":\"PlayExperienceStepExerciseType\",\"Value\":\"1\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[{\\\"ID\\\":\\\"ContentImages\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"1\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"ImageName\\\",\\\"Value\\\":\\\"shopping1\\\"},{\\\"Key\\\":\\\"Answer\\\",\\\"Value\\\":\\\"0\\\"}]},{\\\"ID\\\":\\\"2\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"ImageName\\\",\\\"Value\\\":\\\"shopping2\\\"},{\\\"Key\\\":\\\"Answer\\\",\\\"Value\\\":\\\"1\\\"}]},{\\\"ID\\\":\\\"3\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"ImageName\\\",\\\"Value\\\":\\\"shopping3\\\"},{\\\"Key\\\":\\\"Answer\\\",\\\"Value\\\":\\\"0\\\"}]}],\\\"Params\\\":[]}], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Text\\\", \\\"Value\\\" : \\\"text1\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"}\n
+			]\n
+			},\n
+			{\"ID\":\"46FC6E93-8BB3-4A85-B07F-EE641D43E367\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"\"},\n
+				{\"Key\":\"PlayExperienceStepExerciseType\",\"Value\":\"1\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[{\\\"ID\\\":\\\"ContentImages\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"1\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"ImageName\\\",\\\"Value\\\":\\\"shopping4\\\"},{\\\"Key\\\":\\\"Answer\\\",\\\"Value\\\":\\\"0\\\"}]},{\\\"ID\\\":\\\"2\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"ImageName\\\",\\\"Value\\\":\\\"shopping5\\\"},{\\\"Key\\\":\\\"Answer\\\",\\\"Value\\\":\\\"1\\\"}]},{\\\"ID\\\":\\\"3\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"ImageName\\\",\\\"Value\\\":\\\"shopping6\\\"},{\\\"Key\\\":\\\"Answer\\\",\\\"Value\\\":\\\"0\\\"}]}],\\\"Params\\\":[]}], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Text\\\", \\\"Value\\\" : \\\"text2\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayExperienceStepPlayExperienceStepExerciseLinks\",\n
+			\"Items\":[
+				{\"ID\":\"1\",\n
+				\"Items\":[],\n
+				\"Params\":[\n
+					{\"Key\":\"PlayExperienceStepID\",\"Value\":\"9FE24559-089C-4F32-A76E-0ECB1EF2FC70\"},\n
+					{\"Key\":\"PlayExperienceStepExerciseID\",\"Value\":\"39144EB5-F07C-4866-86A8-63BB9AD72222\"},\n
+					{\"Key\":\"Index\",\"Value\":\"1\"}\n
+				]\n
+				},\n
+				{\"ID\":\"2\",\n
+				\"Items\":[],\n
+				\"Params\":[\n
+					{\"Key\":\"PlayExperienceStepID\",\"Value\":\"9FE24559-089C-4F32-A76E-0ECB1EF2FC70\"},\n
+					{\"Key\":\"PlayExperienceStepExerciseID\",\"Value\":\"46FC6E93-8BB3-4A85-B07F-EE641D43E367\"},\n
+					{\"Key\":\"Index\",\"Value\":\"2\"}\n
+				]\n
+				}\n
+			],\n
+			\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+

@@ -1,0 +1,29 @@
+/* 
+  PlayGameDataDummyRESTWebAPIResponse.strings
+  f30
+
+  Created by David on 08/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"byPlayGameID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayGameData\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"DateLastPlayed\",\"Value\":\"18/01/2018 12:00:00 AM\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"AttributeData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+

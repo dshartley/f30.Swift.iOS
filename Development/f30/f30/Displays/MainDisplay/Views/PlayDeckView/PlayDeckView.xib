@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayDeckView">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="jFa-yq-fXs"/>
+                <outlet property="deckCellContainerView" destination="0Xd-Vj-w6F" id="nyE-WU-f8U"/>
+                <outlet property="deckCellRotateRightImageView" destination="UU1-bo-nmM" id="6yA-E1-gzw"/>
+                <outlet property="deckCellSwapImageView" destination="tgM-Oy-grO" id="XoR-Eh-vVY"/>
+                <outlet property="deckContainerView" destination="nhF-pI-05p" id="rp4-Nq-yiU"/>
+                <outlet property="deckTileContainerView" destination="fbr-Px-YN9" id="E8L-7v-Qa0"/>
+                <outlet property="deckTileSwapImageView" destination="fVJ-EI-y6L" id="5Y4-MX-MaC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nhF-pI-05p">
+                    <rect key="frame" x="0.0" y="20" width="365" height="637"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZPA-fy-E3D">
+                            <rect key="frame" x="0.0" y="0.0" width="70" height="637"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Xtb-qz-p5C">
+                                    <rect key="frame" x="30" y="258.5" width="30" height="120"/>
+                                    <subviews>
+                                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Swap" translatesAutoresizingMaskIntoConstraints="NO" id="tgM-Oy-grO">
+                                            <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                            <gestureRecognizers/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="VGO-vX-3J7"/>
+                                                <constraint firstAttribute="width" secondItem="tgM-Oy-grO" secondAttribute="height" multiplier="1:1" id="mra-J2-imu"/>
+                                            </constraints>
+                                            <connections>
+                                                <outletCollection property="gestureRecognizers" destination="k94-T7-ct0" appends="YES" id="MLE-bh-EcC"/>
+                                            </connections>
+                                        </imageView>
+                                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FlagSwap" translatesAutoresizingMaskIntoConstraints="NO" id="fVJ-EI-y6L">
+                                            <rect key="frame" x="0.0" y="45" width="30" height="30"/>
+                                            <gestureRecognizers/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="KFf-47-U3v"/>
+                                                <constraint firstAttribute="width" secondItem="fVJ-EI-y6L" secondAttribute="height" multiplier="1:1" id="rAp-fF-dyF"/>
+                                            </constraints>
+                                            <connections>
+                                                <outletCollection property="gestureRecognizers" destination="9wc-jI-hJJ" appends="YES" id="4kR-R0-LKd"/>
+                                            </connections>
+                                        </imageView>
+                                        <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RotateRight" translatesAutoresizingMaskIntoConstraints="NO" id="UU1-bo-nmM">
+                                            <rect key="frame" x="0.0" y="90" width="30" height="30"/>
+                                            <gestureRecognizers/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="30" id="egM-Mr-JwJ"/>
+                                                <constraint firstAttribute="width" secondItem="UU1-bo-nmM" secondAttribute="height" multiplier="1:1" id="xDw-fn-wS3"/>
+                                            </constraints>
+                                            <connections>
+                                                <outletCollection property="gestureRecognizers" destination="Jtr-uN-yP8" appends="YES" id="mOA-If-YXx"/>
+                                            </connections>
+                                        </imageView>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="70" id="Ylq-cs-R4a"/>
+                                <constraint firstItem="Xtb-qz-p5C" firstAttribute="centerY" secondItem="ZPA-fy-E3D" secondAttribute="centerY" id="bCM-po-xHD"/>
+                                <constraint firstAttribute="trailing" secondItem="Xtb-qz-p5C" secondAttribute="trailing" constant="10" id="vDV-7N-9jd"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="ZPA-fy-E3D" firstAttribute="leading" secondItem="nhF-pI-05p" secondAttribute="leading" id="3vn-rd-blH"/>
+                        <constraint firstAttribute="bottom" secondItem="ZPA-fy-E3D" secondAttribute="bottom" id="hvh-VO-F5q"/>
+                        <constraint firstItem="ZPA-fy-E3D" firstAttribute="top" secondItem="nhF-pI-05p" secondAttribute="top" id="hx7-OD-DcF"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Z4-BC-5lP">
+                    <rect key="frame" x="70" y="20" width="295" height="637"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fbr-Px-YN9">
+                            <rect key="frame" x="97.5" y="268.5" width="100" height="100"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="fbr-Px-YN9" secondAttribute="height" multiplier="1:1" id="eTp-0Y-u5T"/>
+                                <constraint firstAttribute="width" constant="100" id="l47-Af-S75"/>
+                            </constraints>
+                            <viewLayoutGuide key="safeArea" id="kOf-gu-eWG"/>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Xd-Vj-w6F">
+                            <rect key="frame" x="97" y="268" width="100" height="100"/>
+                            <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            <gestureRecognizers/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="0Xd-Vj-w6F" secondAttribute="height" multiplier="1:1" id="NJQ-lD-dGA"/>
+                                <constraint firstAttribute="width" constant="100" id="kCB-BM-tc8"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="0Xd-Vj-w6F" firstAttribute="centerY" secondItem="9Z4-BC-5lP" secondAttribute="centerY" id="Cs6-tT-ilp"/>
+                        <constraint firstItem="0Xd-Vj-w6F" firstAttribute="centerX" secondItem="9Z4-BC-5lP" secondAttribute="centerX" id="dS5-jh-LX5"/>
+                        <constraint firstItem="fbr-Px-YN9" firstAttribute="centerX" secondItem="9Z4-BC-5lP" secondAttribute="centerX" id="p1p-fa-B1p"/>
+                        <constraint firstItem="fbr-Px-YN9" firstAttribute="centerY" secondItem="9Z4-BC-5lP" secondAttribute="centerY" id="xBK-E8-KKA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="nhF-pI-05p" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="016-ff-4G9"/>
+                <constraint firstItem="9Z4-BC-5lP" firstAttribute="leading" secondItem="ZPA-fy-E3D" secondAttribute="trailing" id="4Na-kC-As2"/>
+                <constraint firstItem="nhF-pI-05p" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="4vn-VH-N4j"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="nhF-pI-05p" secondAttribute="trailing" constant="10" id="Ypg-ko-YWW"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="nhF-pI-05p" secondAttribute="bottom" constant="10" id="naf-9c-m3B"/>
+                <constraint firstItem="9Z4-BC-5lP" firstAttribute="trailing" secondItem="nhF-pI-05p" secondAttribute="trailing" id="qqU-Oy-UMi"/>
+                <constraint firstItem="9Z4-BC-5lP" firstAttribute="bottom" secondItem="nhF-pI-05p" secondAttribute="bottom" id="wAQ-e6-aYp"/>
+                <constraint firstItem="9Z4-BC-5lP" firstAttribute="top" secondItem="nhF-pI-05p" secondAttribute="top" id="yEa-Rg-9uV"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+        <tapGestureRecognizer id="Jtr-uN-yP8">
+            <connections>
+                <action selector="rotateRightImageViewTapped:" destination="-1" id="0af-ih-sf7"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="k94-T7-ct0">
+            <connections>
+                <action selector="swapCellImageViewTapped:" destination="-1" id="Csm-iO-eGw"/>
+            </connections>
+        </tapGestureRecognizer>
+        <tapGestureRecognizer id="9wc-jI-hJJ">
+            <connections>
+                <action selector="swapTileImageViewTapped:" destination="-1" id="QvN-MT-V7j"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="FlagSwap" width="25" height="25"/>
+        <image name="RotateRight" width="25" height="25"/>
+        <image name="Swap" width="25" height="25"/>
+    </resources>
+</document>

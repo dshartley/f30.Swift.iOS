@@ -1,0 +1,382 @@
+/* 
+  PlayExperiencesDummyRESTWebAPIResponse.strings
+  f30
+
+  Created by David on 08/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"byPlayMoveID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayExperiences\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"Experience1\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Experience1\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayExperienceSteps\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceStepType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"ExperienceStep1\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"QuestionText\\\", \\\"Value\\\" : \\\"Ich kann Deutsch sprechen\\\"}, {\\\"Key\\\" : \\\"Option1Text\\\", \\\"Value\\\" : \\\"Richtig!\\\"}, {\\\"Key\\\" : \\\"Option2Text\\\", \\\"Value\\\" : \\\"Falsch!\\\"}, {\\\"Key\\\" : \\\"CorrectOption\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayExperiencePlayExperienceStepLinks\",\n
+			\"Items\":[],\n
+			\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayExperienceStepExercises\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceStepExerciseType\",\"Value\":\"1\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"DEBUG_byPlayMoveID_DD6C0DF5-1215-4CC8-B6B7-71156095F7D1" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayExperiences\",\n
+		\"Items\":[\n
+			{\"ID\":\"46E77123-D251-4E63-9054-7D1FA84F658C\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"Supermarket1\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Lets go shopping1!\\\"}, {\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"exp01_milk\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayExperienceSteps\",\n
+		\"Items\":[\n
+			{\"ID\":\"9FE24559-089C-4F32-A76E-0ECB1EF2FC70\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceStepType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"WhereIsMilk1\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Where is the milk?\\\"}, {\\\"Key\\\" : \\\"Index\\\", \\\"Value\\\" : \\\"0\\\"}, {\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"exp01_milk\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			},\n
+			{\"ID\":\"D61889C1-1C4E-4BD9-AE58-382E268148E0\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceStepType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"AskShopAssistant1\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Ask shop assistant\\\"}, {\\\"Key\\\" : \\\"Index\\\", \\\"Value\\\" : \\\"1\\\"}, {\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"exp01_shopassistant\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			},\n
+			{\"ID\":\"EB49BA63-5443-44F9-B097-FCDD8E49D6D1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceStepType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"Scale1\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Weigh fruit\\\"}, {\\\"Key\\\" : \\\"Index\\\", \\\"Value\\\" : \\\"2\\\"}, {\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"exp01_scale\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+				
+"byPlayMoveID_DD6C0DF5-1215-4CC8-B6B7-71156095F7D1" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayExperiences\",\n
+		\"Items\":[\n
+			{\"ID\":\"46E77123-D251-4E63-9054-7D1FA84F658C\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"Supermarket2\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Lets go shopping2!\\\"}, {\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"exp01_milk\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayExperienceSteps\",\n
+		\"Items\":[\n
+			{\"ID\":\"9FE24559-089C-4F32-A76E-0ECB1EF2FC70\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceStepType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"WhereIsMilk2\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Where is the milk?\\\"}, {\\\"Key\\\" : \\\"Index\\\", \\\"Value\\\" : \\\"0\\\"}, {\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"exp01_milk\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+				
+"byPlayMoveID_BeforeStartMovingAlongPath1" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayExperiences\",\n
+		\"Items\":[\n
+			{\"ID\":\"46E77123-D251-4E63-9054-7D1FA84F658C\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"Supermarket2\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Lets go shopping2!\\\"}, {\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"exp01_milk\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayExperienceSteps\",\n
+		\"Items\":[\n
+			{\"ID\":\"9FE24559-089C-4F32-A76E-0ECB1EF2FC70\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceStepType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"WhereIsMilk2\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Where is the milk?\\\"}, {\\\"Key\\\" : \\\"Index\\\", \\\"Value\\\" : \\\"0\\\"}, {\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"exp01_milk\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayExperiencePlayExperienceStepLinks\",\n
+			\"Items\":[
+				{\"ID\":\"1\",\n
+				\"Items\":[],\n
+				\"Params\":[\n
+					{\"Key\":\"PlayExperienceID\",\"Value\":\"46E77123-D251-4E63-9054-7D1FA84F658C\"},\n
+					{\"Key\":\"PlayExperienceStepID\",\"Value\":\"9FE24559-089C-4F32-A76E-0ECB1EF2FC70\"},\n
+					{\"Key\":\"Index\",\"Value\":\"1\"}\n
+				]\n
+				}\n
+			],\n
+			\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"byPlayMoveID_BeforeMoveToPathPoint2" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayExperiences\",\n
+		\"Items\":[\n
+			{\"ID\":\"46E77123-D251-4E63-9054-7D1FA84F658C\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"Supermarket2\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Lets go shopping2!\\\"}, {\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"exp01_milk\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayExperienceSteps\",\n
+		\"Items\":[\n
+			{\"ID\":\"9FE24559-089C-4F32-A76E-0ECB1EF2FC70\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceStepType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"WhereIsMilk2\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Where is the milk?\\\"}, {\\\"Key\\\" : \\\"Index\\\", \\\"Value\\\" : \\\"0\\\"}, {\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"exp01_milk\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayExperiencePlayExperienceStepLinks\",\n
+		\"Items\":[
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlayExperienceID\",\"Value\":\"46E77123-D251-4E63-9054-7D1FA84F658C\"},\n
+				{\"Key\":\"PlayExperienceStepID\",\"Value\":\"9FE24559-089C-4F32-A76E-0ECB1EF2FC70\"},\n
+				{\"Key\":\"Index\",\"Value\":\"1\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"byPlayMoveID_AfterMoveToPathPoint2" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayExperiences\",\n
+		\"Items\":[\n
+			{\"ID\":\"46E77123-D251-4E63-9054-7D1FA84F658C\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"Supermarket2\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Lets go shopping2!\\\"}, {\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"exp01_milk\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayExperienceSteps\",\n
+		\"Items\":[\n
+			{\"ID\":\"9FE24559-089C-4F32-A76E-0ECB1EF2FC70\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceStepType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"WhereIsMilk2\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Where is the milk?\\\"}, {\\\"Key\\\" : \\\"Index\\\", \\\"Value\\\" : \\\"0\\\"}, {\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"exp01_milk\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayExperiencePlayExperienceStepLinks\",\n
+		\"Items\":[
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlayExperienceID\",\"Value\":\"46E77123-D251-4E63-9054-7D1FA84F658C\"},\n
+				{\"Key\":\"PlayExperienceStepID\",\"Value\":\"9FE24559-089C-4F32-A76E-0ECB1EF2FC70\"},\n
+				{\"Key\":\"Index\",\"Value\":\"1\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"byPlayMoveID_AfterFinishedMovingAlongPath1" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayExperiences\",\n
+		\"Items\":[\n
+			{\"ID\":\"46E77123-D251-4E63-9054-7D1FA84F658C\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"Supermarket2\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Lets go shopping2!\\\"}, {\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"exp01_milk\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayExperienceSteps\",\n
+		\"Items\":[\n
+			{\"ID\":\"9FE24559-089C-4F32-A76E-0ECB1EF2FC70\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayExperienceStepType\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"WhereIsMilk2\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"Title\\\", \\\"Value\\\" : \\\"Where is the milk?\\\"}, {\\\"Key\\\" : \\\"Index\\\", \\\"Value\\\" : \\\"0\\\"}, {\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"exp01_milk\\\"}]}\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n	
+				{\"Key\":\"PlayChallengeObjectiveDefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayExperiencePlayExperienceStepLinks\",\n
+		\"Items\":[
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlayExperienceID\",\"Value\":\"46E77123-D251-4E63-9054-7D1FA84F658C\"},\n
+				{\"Key\":\"PlayExperienceStepID\",\"Value\":\"9FE24559-089C-4F32-A76E-0ECB1EF2FC70\"},\n
+				{\"Key\":\"Index\",\"Value\":\"1\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";

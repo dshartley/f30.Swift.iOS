@@ -1,0 +1,302 @@
+/* 
+  RelativeMembersDummyRESTWebAPIResponse.strings
+  f30
+
+  Created by David on 08/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"byUserProfileID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"RelativeMembers\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Email\",\"Value\":\"1\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"1\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"1\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+		
+"byEmail" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"RelativeMembers\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Email\",\"Value\":\"1\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"1\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"1\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"byFindText_scopeType_previousRelativeMemberID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"RelativeMembers\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Email\",\"Value\":\"1\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"dummy1\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"881A4E64-CC34-4638-BC7C-09CACF2A27C8.jpg\"},\n
+				{\"Key\":\"ConnectionContractTypes\",\"Value\":\"1, 2\"},\n
+				{\"Key\":\"RowNumber\",\"Value\":\"1\"}\n
+			]\n
+			},\n
+			{\"ID\":\"2\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"2\"},\n
+				{\"Key\":\"Email\",\"Value\":\"2\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"dummy2\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"\"},\n
+				{\"Key\":\"ConnectionContractTypes\",\"Value\":\"1, 2\"},\n
+				{\"Key\":\"RowNumber\",\"Value\":\"2\"}\n
+			]\n
+			},\n
+			{\"ID\":\"3\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"3\"},\n
+				{\"Key\":\"Email\",\"Value\":\"3\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"dummy3\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"881A4E64-CC34-4638-BC7C-09CACF2A27C8.jpg\"},\n
+				{\"Key\":\"ConnectionContractTypes\",\"Value\":\"1, 2\"},\n
+				{\"Key\":\"RowNumber\",\"Value\":\"3\"}\n
+			]\n
+			},\n
+			{\"ID\":\"4\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"4\"},\n
+				{\"Key\":\"Email\",\"Value\":\"4\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"dummy4\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"\"},\n
+				{\"Key\":\"ConnectionContractTypes\",\"Value\":\"1, 2\"},\n
+				{\"Key\":\"RowNumber\",\"Value\":\"4\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"RelativeConnections\",\n
+		\"Items\":[],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+																			
+"byID_connectionContractType_1_currentRelativeMemberID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"RelativeMembers\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Email\",\"Value\":\"1\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"1\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"1\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+				
+"byID_connectionContractType_2_currentRelativeMemberID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"RelativeMembers\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Email\",\"Value\":\"1\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"1\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"1\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"byID_connectionContractType_3_currentRelativeMemberID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"RelativeMembers\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Email\",\"Value\":\"1\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"1\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"1\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+				
+"byEmail_connectionContractType_1_currentRelativeMemberID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"RelativeMembers\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Email\",\"Value\":\"1\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"1\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"1\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"byEmail_connectionContractType_2_currentRelativeMemberID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"RelativeMembers\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Email\",\"Value\":\"1\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"1\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"1\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"byEmail_connectionContractType_3_currentRelativeMemberID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"RelativeMembers\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Email\",\"Value\":\"1\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"1\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"1\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+				
+"byAspects_aspectTypes_scopeType_previousRelativeMemberID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"RelativeMembers\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Email\",\"Value\":\"1\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"dummy1\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"881A4E64-CC34-4638-BC7C-09CACF2A27C8.jpg\"},\n
+				{\"Key\":\"ConnectionContractTypes\",\"Value\":\"1, 2\"},\n
+				{\"Key\":\"RowNumber\",\"Value\":\"1\"}\n
+			]\n
+			},\n
+			{\"ID\":\"2\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"2\"},\n
+				{\"Key\":\"Email\",\"Value\":\"2\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"dummy2\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"\"},\n
+				{\"Key\":\"ConnectionContractTypes\",\"Value\":\"1, 2\"},\n
+				{\"Key\":\"RowNumber\",\"Value\":\"2\"}\n
+			]\n
+			},\n
+			{\"ID\":\"3\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"3\"},\n
+				{\"Key\":\"Email\",\"Value\":\"3\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"dummy3\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"881A4E64-CC34-4638-BC7C-09CACF2A27C8.jpg\"},\n
+				{\"Key\":\"ConnectionContractTypes\",\"Value\":\"1, 2\"},\n
+				{\"Key\":\"RowNumber\",\"Value\":\"3\"}\n
+			]\n
+			},\n
+			{\"ID\":\"4\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"ApplicationID\",\"Value\":\"f30\"},\n
+				{\"Key\":\"UserProfileID\",\"Value\":\"4\"},\n
+				{\"Key\":\"Email\",\"Value\":\"4\"},\n
+				{\"Key\":\"FullName\",\"Value\":\"dummy4\"},\n
+				{\"Key\":\"AvatarImageFileName\",\"Value\":\"\"},\n
+				{\"Key\":\"ConnectionContractTypes\",\"Value\":\"1, 2\"},\n
+				{\"Key\":\"RowNumber\",\"Value\":\"4\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"RelativeConnections\",\n
+		\"Items\":[],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+

@@ -1,0 +1,81 @@
+/* 
+  PlayAreaCellsDummyRESTWebAPIResponse.strings
+  f30
+
+  Created by David on 08/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"byID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayAreaCells\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"CellTypeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Column\",\"Value\":\"0\"},\n
+				{\"Key\":\"Row\",\"Value\":\"0\"},\n
+				{\"Key\":\"RotationDegrees\",\"Value\":\"0\"},\n
+				{\"Key\":\"ImageName\",\"Value\":\"PlayAreaCellTestImage\"},\n
+				{\"Key\":\"CellAttributesString\",\"Value\":\"\"},\n
+				{\"Key\":\"CellSideAttributesString\",\"Value\":\"\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"byCellCoordRange_playGameID" = "{\"ID\":\"\",\n
+\"Items\":[\n
+	{\"ID\":\"PlayAreaCells\",\n
+	\"Items\":[\n
+		{\"ID\":\"1\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+			{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+			{\"Key\":\"CellTypeID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Column\",\"Value\":\"0\"},\n
+			{\"Key\":\"Row\",\"Value\":\"0\"},\n
+			{\"Key\":\"RotationDegrees\",\"Value\":\"0\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"\"}\n
+		]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+	},\n
+	{\"ID\":\"PlayAreaTiles\",\n
+	\"Items\":[\n
+		{\"ID\":\"1\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+			{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+			{\"Key\":\"TileTypeID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Column\",\"Value\":\"0\"},\n
+			{\"Key\":\"Row\",\"Value\":\"0\"},\n
+			{\"Key\":\"RotationDegrees\",\"Value\":\"0\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"\"},\n
+			{\"Key\":\"WidthPixels\",\"Value\":\"0\"},\n
+			{\"Key\":\"HeightPixels\",\"Value\":\"0\"},\n
+			{\"Key\":\"Position\",\"Value\":\"0\"},\n
+			{\"Key\":\"PositionFixToCellRotationYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"TileAttributesString\",\"Value\":\"\"},\n
+			{\"Key\":\"TileSideAttributesString\",\"Value\":\"\"}\n
+		]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+	}\n
+],\n
+\"Params\":[]\n
+}";
+

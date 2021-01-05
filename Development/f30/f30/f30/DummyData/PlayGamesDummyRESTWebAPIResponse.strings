@@ -1,0 +1,164 @@
+/* 
+  PlayGamesDummyRESTWebAPIResponse.strings
+  f30
+
+  Created by David on 08/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"byID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayGames\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"DateCreated\",\"Value\":\"18/01/2018 12:00:00 AM\"},\n
+				{\"Key\":\"Name\",\"Value\":\"1\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayGameData\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"DateLastPlayed\",\"Value\":\"18/01/2018 12:00:00 AM\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n
+				{\"Key\":\"AttributeData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayAreaTokens\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Column\",\"Value\":\"0\"},\n
+				{\"Key\":\"Row\",\"Value\":\"0\"},\n
+				{\"Key\":\"ImageName\",\"Value\":\"Token1\"},\n
+				{\"Key\":\"TokenAttributesString\",\"Value\":\"\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayAreaCellTypes\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"StartCell\"},\n
+				{\"Key\":\"IsSpecialYN\",\"Value\":\"1\"},\n
+				{\"Key\":\"DeckWeighting\",\"Value\":\"1\"},\n
+				{\"Key\":\"ImageName\",\"Value\":\"Cell1\"},\n
+				{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+				{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayAreaCells\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"CellTypeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Column\",\"Value\":\"0\"},\n
+				{\"Key\":\"Row\",\"Value\":\"0\"},\n
+				{\"Key\":\"RotationDegrees\",\"Value\":\"0\"},\n
+				{\"Key\":\"ImageName\",\"Value\":\"PlayAreaCellTestImage\"},\n
+				{\"Key\":\"CellAttributesString\",\"Value\":\"\"},\n
+				{\"Key\":\"CellSideAttributesString\",\"Value\":\"\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayChallenges\",\n
+		\"Items\":[\n
+			{\"ID\":\"1234\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayMoveID\",\"Value\":\"1\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"IsActiveYN\",\"Value\":\"1\"},\n
+				{\"Key\":\"DateActive\",\"Value\":\"01/05/2019 12:00:00 AM\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayChallengeObjectives\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlayChallengeID\",\"Value\":\"1234\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"Code\",\"Value\":\"1234\"},\n
+				{\"Key\":\"DefinitionData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"IsAchievedYN\",\"Value\":\"0\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+	
+"byRelativeMemberID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayGames\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"DateCreated\",\"Value\":\"18/01/2018 12:00:00 AM\"},\n
+				{\"Key\":\"Name\",\"Value\":\"1\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayGameData\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"DateLastPlayed\",\"Value\":\"18/01/2018 12:00:00 AM\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"{\\\"ID\\\":\\\"\\\",\\\"Items\\\":[{\\\"ID\\\":\\\"Points\\\",\\\"Items\\\":[],\\\"Params\\\":[{\\\"Key\\\":\\\"1\\\",\\\"Value\\\":\\\"1\\\"},{\\\"Key\\\":\\\"2\\\",\\\"Value\\\":\\\"5\\\"}]}],\\\"Params\\\":[]}\"},\n	
+				{\"Key\":\"AttributeData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+

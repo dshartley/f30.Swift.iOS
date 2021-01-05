@@ -1,0 +1,30 @@
+/* 
+  PlayChallengeObjectiveTypesDummyRESTWebAPIResponse.strings
+  f30
+
+  Created by David on 08/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"byID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayChallengeObjectiveTypes\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"Code\",\"Value\":\"1234\"},\n
+				{\"Key\":\"DefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+

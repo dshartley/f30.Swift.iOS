@@ -1,0 +1,420 @@
+/* 
+  PlayAreaCellTypesDummyRESTWebAPIResponse.strings
+  f30
+
+  Created by David on 08/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"byID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayAreaCellTypes\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"type1\"},\n
+				{\"Key\":\"IsSpecialYN\",\"Value\":\"1\"},\n
+				{\"Key\":\"DeckWeighting\",\"Value\":\"1\"},\n
+				{\"Key\":\"ImageName\",\"Value\":\"Cell1\"},\n
+				{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+				{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+				{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"byPlaySubsetID_playGameID" = "{\"ID\":\"\",\n
+\"Items\":[\n
+	{\"ID\":\"PlayAreaCellTypes\",\n
+	\"Items\":[\n
+		{\"ID\":\"1\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"StartCell\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"1\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"1\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell1\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"2\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type2\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"1\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell2\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"3\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type3\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"10\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell3\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"4\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type4\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell4\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"abbey\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"5\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type5\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell5\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"abbey\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"6\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type6\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell6\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"7\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type7\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell7\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"8\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type8\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell8\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"9\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type9\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell9\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"10\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type10\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell10\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"11\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type11\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell11\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"12\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type12\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell12\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"13\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type13\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell13\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"14\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type14\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell14\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"15\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type15\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell15\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"16\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type16\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell16\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"17\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type17\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell17\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"18\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type18\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell18\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"19\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type19\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell19\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"20\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type20\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell20\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"21\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type21\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell21\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"22\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type22\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell22\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"23\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type23\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell23\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"24\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type24\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell24\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+				]\n
+		},\n
+		{\"ID\":\"25\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type25\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell25\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"26\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type26\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell26\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"27\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type27\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell27\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"28\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type28\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell28\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2,3,4,5,7,8,9\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"abbey\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"29\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type29\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"5\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Cell29\"},\n
+			{\"Key\":\"BlockedContentPositionsString\",\"Value\":\"1,2\"},\n
+			{\"Key\":\"CellAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"CellSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"river\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+	}\n
+],\n
+\"Params\":[]\n
+}";
+

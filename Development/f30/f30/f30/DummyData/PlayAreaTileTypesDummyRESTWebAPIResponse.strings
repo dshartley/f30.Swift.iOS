@@ -1,0 +1,126 @@
+/* 
+  PlayAreaTileTypesDummyRESTWebAPIResponse.strings
+  f30
+
+  Created by David on 08/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"byID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayAreaTileTypes\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"type1\"},\n
+				{\"Key\":\"IsSpecialYN\",\"Value\":\"1\"},\n
+				{\"Key\":\"DeckWeighting\",\"Value\":\"1\"},\n
+				{\"Key\":\"ImageName\",\"Value\":\"Tile1\"},\n
+				{\"Key\":\"WidthPixels\",\"Value\":\"0\"},\n
+				{\"Key\":\"HeightPixels\",\"Value\":\"0\"},\n
+				{\"Key\":\"Position\",\"Value\":\"0\"},\n
+				{\"Key\":\"PositionFixToCellRotationYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"TileAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+				{\"Key\":\"TileSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"byPlaySubsetID_playGameID" = "{\"ID\":\"\",\n
+\"Items\":[\n
+	{\"ID\":\"PlayAreaTileTypes\",\n
+	\"Items\":[\n
+		{\"ID\":\"1\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"StartTile\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"1\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"1\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Tile1\"},\n
+			{\"Key\":\"WidthPixels\",\"Value\":\"0\"},\n
+			{\"Key\":\"HeightPixels\",\"Value\":\"0\"},\n
+			{\"Key\":\"Position\",\"Value\":\"0\"},\n
+			{\"Key\":\"PositionFixToCellRotationYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"TileAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"TileSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"2\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type2\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"1\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Tile2\"},\n
+			{\"Key\":\"WidthPixels\",\"Value\":\"0\"},\n
+			{\"Key\":\"HeightPixels\",\"Value\":\"0\"},\n
+			{\"Key\":\"Position\",\"Value\":\"0\"},\n
+			{\"Key\":\"PositionFixToCellRotationYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"TileAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"TileSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"3\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type3\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"1\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Tile1\"},\n
+			{\"Key\":\"WidthPixels\",\"Value\":\"0\"},\n
+			{\"Key\":\"HeightPixels\",\"Value\":\"0\"},\n
+			{\"Key\":\"Position\",\"Value\":\"0\"},\n
+			{\"Key\":\"PositionFixToCellRotationYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"TileAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"TileSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"grass\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"castle\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"4\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"type4\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"1\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"1\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"Tile2\"},\n
+			{\"Key\":\"WidthPixels\",\"Value\":\"50\"},\n
+			{\"Key\":\"HeightPixels\",\"Value\":\"50\"},\n
+			{\"Key\":\"Position\",\"Value\":\"0\"},\n
+			{\"Key\":\"PositionFixToCellRotationYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"TileAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"TileSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		},\n
+		{\"ID\":\"5\",\n
+		\"Items\":[],\n
+		\"Params\":[\n
+			{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+			{\"Key\":\"Name\",\"Value\":\"supermarket\"},\n
+			{\"Key\":\"IsSpecialYN\",\"Value\":\"1\"},\n
+			{\"Key\":\"DeckWeighting\",\"Value\":\"1\"},\n
+			{\"Key\":\"ImageName\",\"Value\":\"exp01_supermarket\"},\n
+			{\"Key\":\"WidthPixels\",\"Value\":\"0\"},\n
+			{\"Key\":\"HeightPixels\",\"Value\":\"0\"},\n
+			{\"Key\":\"Position\",\"Value\":\"0\"},\n
+			{\"Key\":\"PositionFixToCellRotationYN\",\"Value\":\"0\"},\n
+			{\"Key\":\"TileAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+			{\"Key\":\"TileSideAttributesString\",\"Value\":\"{\\\"ID\\\" : \\\"\\\", \\\"Items\\\" : [{\\\"ID\\\" : \\\"0\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"90\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"180\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}, {\\\"ID\\\" : \\\"270\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"road\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}\"}\n
+		]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+	}\n
+],\n
+\"Params\":[]\n
+}";
+

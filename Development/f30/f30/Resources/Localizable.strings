@@ -1,0 +1,111 @@
+/* 
+  Localizable.strings
+  f30
+
+  Created by David on 30/10/2017.
+  Copyright © 2017 com.smartfoundation. All rights reserved.
+*/
+
+"AlertActionTitleOk"						= "OK";
+
+
+/* Close PlayExperience */
+
+"AlertTitleConfirmClosePlayExperience"		= "Close";
+"AlertMessageConfirmClosePlayExperience"	= "Are you sure you want to close? All progress will be lost.";
+
+
+/* Close PlayExperienceStep */
+
+"AlertTitleConfirmClosePlayExperienceStep"		= "Close";
+"AlertMessageConfirmClosePlayExperienceStep"	= "Are you sure you want to close? All progress will be lost.";
+
+
+/* Operation Failed */
+
+"AlertTitleOperationFailed" 				= "Operation didn't finish";
+"AlertMessageOperationFailed" 				= "Oops, what happened? The operation didn't finish. Please try again.";
+
+
+/* Not Connected */
+
+"AlertTitleNotConnected" 					= "Network unavailable";
+"AlertMessageNotConnected" 					= "Please check your internet connection and try again.";
+
+
+/* Sign In Messages */
+
+"AlertTitleSignInInvalidEmail" 				= "Incorrect email";
+"AlertMessageSignInInvalidEmail" 			= "The email that you've entered doesn't appear to belong to an account. Please check your email address and try again.";
+
+"AlertTitleSignInWrongPassword" 			= "Incorrect password";
+"AlertMessageSignInWrongPassword" 			= "The password that you've entered is incorrect. Please try again.";
+
+"AlertTitleSignInNotConnected" 				= "Network unavailable";
+"AlertMessageSignInNotConnected" 			= "Unable to sign in. Please check your internet connection and try again.";
+
+"AlertTitleSignInFailedUnspecified" 		= "Could not sign in";
+"AlertMessageSignInFailedUnspecified" 		= "You have not been signed in. Please check your account details and try again.";
+
+
+/* Sign Up Messages */
+
+"AlertTitleSignUpInvalidEmail" 				= "Incorrect email";
+"AlertMessageSignUpInvalidEmail" 			= "Enter the email address in the format someone@example.com.";
+
+"AlertTitleSignUpEmailAlreadyInUse" 		= "Email already in use";
+"AlertMessageSignUpEmailAlreadyInUse" 		= "The email that you've entered is already in use. Please try a different email address.";
+
+"AlertTitleSignUpWeakPassword" 				= "Incorrect password";
+"AlertMessageSignUpWeakPassword" 			= "The password must have at least 6 characters. Please try again.";
+
+"AlertTitleSignUpWrongConfirmPassword" 		= "Password does not match";
+"AlertMessageSignUpWrongConfirmPassword" 	= "The password that you've entered does not match. Please try again.";
+
+"AlertTitleSignUpNotConnected" 				= "Network unavailable";
+"AlertMessageSignUpNotConnected" 			= "Unable to sign up. Please check your internet connection and try again.";
+
+"AlertTitleSignUpFailedUnspecified" 		= "Could not sign up";
+"AlertMessageSignUpFailedUnspecified" 		= "You have not been signed up. Please check your account details and try again.";
+
+
+/* Recover Password Messages */
+
+"AlertTitleRecoverPasswordSuccessful" 		= "Password reset";
+"AlertMessageRecoverPasswordSuccessful" 	= "We have sent you an email to help you reset your password.";
+
+"AlertTitleRecoverPasswordUserNotFound" 	= "Incorrect email";
+"AlertMessageRecoverPasswordUserNotFound" 	= "The email that you've entered doesn't appear to belong to an account. Please check your email address and try again.";
+
+"AlertTitleRecoverPasswordNotConnected" 		= "Network unavailable";
+"AlertMessageRecoverPasswordNotConnected" 		= "Unable to recover password. Please check your internet connection and try again.";
+
+"AlertTitleRecoverPasswordFailedUnspecified" 	= "Could not recover password";
+"AlertMessageRecoverPasswordFailedUnspecified" 	= "Your password could not be recovered. Please check your details and try again.";
+
+
+/* Change Password Messages */
+
+"AlertTitleChangePasswordSuccessful" 				= "Password changed";
+"AlertMessageChangePasswordSuccessful" 				= "Your password has been changed.";
+
+"AlertTitleChangePasswordWrongPassword" 			= "Incorrect current password";
+"AlertMessageChangePasswordWrongPassword" 			= "The current password that you've entered is incorrect. Please try again.";
+
+"AlertTitleChangePasswordWeakPassword" 				= "Incorrect new password";
+"AlertMessageChangePasswordWeakPassword" 			= "The password must have at least 6 characters. Please try again.";
+
+"AlertTitleChangePasswordWrongConfirmPassword" 		= "Password does not match";
+"AlertMessageChangePasswordWrongConfirmPassword" 	= "The password that you've entered does not match. Please try again.";
+
+"AlertTitleChangePasswordNotConnected" 				= "Network unavailable";
+"AlertMessageChangePasswordNotConnected" 			= "Unable to change password. Please check your internet connection and try again.";
+
+"AlertTitleChangePasswordFailedUnspecified" 		= "Could not change password";
+"AlertMessageChangePasswordFailedUnspecified" 		= "Your password could not be changed. Please check your details and try again.";
+
+
+/* SearchBar Scopes */
+
+"SearchBarScopeYourFriends" 						= "Your friends";	// ScopeType = 2
+"SearchBarScopeAll" 								= "All members";	// ScopeType = 1

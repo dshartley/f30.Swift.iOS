@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayAreaView" customModule="f30" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="jFa-yq-fXs"/>
+                <outlet property="gridScapePlaceholderView" destination="PY1-pu-3Pw" id="9AA-iT-Ea4"/>
+                <outlet property="gridScapeView" destination="yg4-nG-ArY" id="dJX-jU-Jts"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yg4-nG-ArY" customClass="GridScapeView" customModule="SFGridScape">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PY1-pu-3Pw">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grid Scape View" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ScM-P9-84d">
+                                    <rect key="frame" x="124.5" y="323" width="126" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstItem="ScM-P9-84d" firstAttribute="centerY" secondItem="PY1-pu-3Pw" secondAttribute="centerY" id="fxm-pK-dNs"/>
+                                <constraint firstItem="ScM-P9-84d" firstAttribute="centerX" secondItem="PY1-pu-3Pw" secondAttribute="centerX" id="vvF-ZC-4dY"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="PY1-pu-3Pw" firstAttribute="top" secondItem="yg4-nG-ArY" secondAttribute="top" id="Bdr-wo-vaH"/>
+                        <constraint firstAttribute="trailing" secondItem="PY1-pu-3Pw" secondAttribute="trailing" id="RfP-Xe-FWE"/>
+                        <constraint firstAttribute="bottom" secondItem="PY1-pu-3Pw" secondAttribute="bottom" id="mi3-T7-MGg"/>
+                        <constraint firstItem="PY1-pu-3Pw" firstAttribute="leading" secondItem="yg4-nG-ArY" secondAttribute="leading" id="xvK-PZ-bh6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="yg4-nG-ArY" secondAttribute="trailing" id="0O1-bx-GB7"/>
+                <constraint firstItem="yg4-nG-ArY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="0WK-7y-WnX"/>
+                <constraint firstItem="yg4-nG-ArY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Cj0-gG-mf9"/>
+                <constraint firstAttribute="bottom" secondItem="yg4-nG-ArY" secondAttribute="bottom" id="TfR-x6-vaB"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+</document>

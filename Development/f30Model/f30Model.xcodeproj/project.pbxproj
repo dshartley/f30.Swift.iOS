@@ -1,0 +1,1529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630C0AC7215CE1D300F460E7 /* PlayExperienceOnCompleteDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C0AC6215CE1D300F460E7 /* PlayExperienceOnCompleteDataWrapper.swift */; };
+		630C0AC9215CFEA500F460E7 /* PlayExperienceStepOnCompleteDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630C0AC8215CFEA500F460E7 /* PlayExperienceStepOnCompleteDataWrapper.swift */; };
+		631545A5227DB204008EA6A9 /* PlayMoveContentDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631545A4227DB204008EA6A9 /* PlayMoveContentDataWrapper.swift */; };
+		63283F721FA6A68E00D35084 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63283F711FA6A68E00D35084 /* ModelManager.swift */; };
+		63283FB41FA6BD3400D35084 /* ModelProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63283FB31FA6BD3400D35084 /* ModelProperties.swift */; };
+		63342949250CD49300E1F87D /* ModelItemAssetDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63342948250CD49300E1F87D /* ModelItemAssetDataWrapper.swift */; };
+		6334294B250CD76100E1F87D /* ModelItemAssetDataItemWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334294A250CD76100E1F87D /* ModelItemAssetDataItemWrapper.swift */; };
+		63342970250E352300E1F87D /* Img1Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334296F250E352200E1F87D /* Img1Wrapper.swift */; };
+		63342992251FBEEC00E1F87D /* P1Wrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63342991251FBEEC00E1F87D /* P1Wrapper.swift */; };
+		633429AE252277FA00E1F87D /* P1SubItemWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633429AD252277FA00E1F87D /* P1SubItemWrapper.swift */; };
+		633EBD5C2143D352005D0C75 /* SFModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633EBD5D2143D352005D0C75 /* SFModel.framework */; };
+		633EBD5E2143D358005D0C75 /* SFCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633EBD5F2143D358005D0C75 /* SFCore.framework */; };
+		633EBD602143D360005D0C75 /* f30Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633EBD612143D360005D0C75 /* f30Core.framework */; };
+		633FE982227F5B730063D49A /* PlayAreaToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FE97B227F5B730063D49A /* PlayAreaToken.swift */; };
+		633FE983227F5B730063D49A /* ProtocolPlayAreaTokenModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FE97E227F5B730063D49A /* ProtocolPlayAreaTokenModelAccessStrategy.swift */; };
+		633FE984227F5B730063D49A /* PlayAreaTokenWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FE97F227F5B730063D49A /* PlayAreaTokenWrapper.swift */; };
+		633FE985227F5B730063D49A /* PlayAreaTokenModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FE980227F5B730063D49A /* PlayAreaTokenModelAdministrator.swift */; };
+		633FE986227F5B730063D49A /* PlayAreaTokenCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FE981227F5B730063D49A /* PlayAreaTokenCollection.swift */; };
+		633FEAB8228EF19B0063D49A /* PlayChallengeModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FEAAF228EF19A0063D49A /* PlayChallengeModelAdministrator.swift */; };
+		633FEABB228EF19B0063D49A /* ProtocolPlayChallengeModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FEAB4228EF19A0063D49A /* ProtocolPlayChallengeModelAccessStrategy.swift */; };
+		633FEABC228EF19B0063D49A /* PlayChallengeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FEAB5228EF19A0063D49A /* PlayChallengeCollection.swift */; };
+		633FEABD228EF19B0063D49A /* PlayChallengeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FEAB6228EF19A0063D49A /* PlayChallengeWrapper.swift */; };
+		633FEABE228EF19B0063D49A /* PlayChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FEAB7228EF19A0063D49A /* PlayChallenge.swift */; };
+		633FEACA228EF1CD0063D49A /* PlayChallengeObjectiveModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FEAC0228EF1CD0063D49A /* PlayChallengeObjectiveModelAdministrator.swift */; };
+		633FEACC228EF1CD0063D49A /* PlayChallengeObjectiveCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FEAC2228EF1CD0063D49A /* PlayChallengeObjectiveCollection.swift */; };
+		633FEACE228EF1CD0063D49A /* PlayChallengeObjective.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FEAC4228EF1CD0063D49A /* PlayChallengeObjective.swift */; };
+		633FEACF228EF1CD0063D49A /* ProtocolPlayChallengeObjectiveModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FEAC7228EF1CD0063D49A /* ProtocolPlayChallengeObjectiveModelAccessStrategy.swift */; };
+		633FEAD0228EF1CD0063D49A /* PlayChallengeObjectiveWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FEAC8228EF1CD0063D49A /* PlayChallengeObjectiveWrapper.swift */; };
+		6362212C21566FF80030F50C /* PlayExperienceStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362212521566FF80030F50C /* PlayExperienceStep.swift */; };
+		6362212D21566FF80030F50C /* PlayExperienceStepWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362212621566FF80030F50C /* PlayExperienceStepWrapper.swift */; };
+		6362212E21566FF80030F50C /* PlayExperienceStepModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362212721566FF80030F50C /* PlayExperienceStepModelAdministrator.swift */; };
+		6362212F21566FF80030F50C /* PlayExperienceStepCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362212821566FF80030F50C /* PlayExperienceStepCollection.swift */; };
+		6362213021566FF80030F50C /* ProtocolPlayExperienceStepModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6362212B21566FF80030F50C /* ProtocolPlayExperienceStepModelAccessStrategy.swift */; };
+		6367FB32216799050097E213 /* PlayExperienceStepContentDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367FB31216799050097E213 /* PlayExperienceStepContentDataWrapper.swift */; };
+		6367FB5C216B60CB0097E213 /* PlayMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367FB55216B60CB0097E213 /* PlayMove.swift */; };
+		6367FB5D216B60CC0097E213 /* ProtocolPlayMoveModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367FB58216B60CB0097E213 /* ProtocolPlayMoveModelAccessStrategy.swift */; };
+		6367FB5E216B60CC0097E213 /* PlayMoveWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367FB59216B60CB0097E213 /* PlayMoveWrapper.swift */; };
+		6367FB5F216B60CC0097E213 /* PlayMoveCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367FB5A216B60CB0097E213 /* PlayMoveCollection.swift */; };
+		6367FB60216B60CC0097E213 /* PlayMoveModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367FB5B216B60CB0097E213 /* PlayMoveModelAdministrator.swift */; };
+		6367FB6B217269E10097E213 /* PlayMoveOnCompleteDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367FB6A217269E10097E213 /* PlayMoveOnCompleteDataWrapper.swift */; };
+		63696F1D21773AC900EBCD8D /* PlayAreaTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63696F1621773AC800EBCD8D /* PlayAreaTile.swift */; };
+		63696F1E21773AC900EBCD8D /* PlayAreaTileCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63696F1721773AC800EBCD8D /* PlayAreaTileCollection.swift */; };
+		63696F1F21773AC900EBCD8D /* PlayAreaTileModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63696F1821773AC800EBCD8D /* PlayAreaTileModelAdministrator.swift */; };
+		63696F2021773AC900EBCD8D /* ProtocolPlayAreaTileModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63696F1B21773AC800EBCD8D /* ProtocolPlayAreaTileModelAccessStrategy.swift */; };
+		63696F2121773AC900EBCD8D /* PlayAreaTileWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63696F1C21773AC800EBCD8D /* PlayAreaTileWrapper.swift */; };
+		63696F2A21773AD100EBCD8D /* PlayAreaTileTypeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63696F2321773AD100EBCD8D /* PlayAreaTileTypeWrapper.swift */; };
+		63696F2B21773AD100EBCD8D /* PlayAreaTileTypeModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63696F2421773AD100EBCD8D /* PlayAreaTileTypeModelAdministrator.swift */; };
+		63696F2C21773AD100EBCD8D /* ProtocolPlayAreaTileTypeModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63696F2721773AD100EBCD8D /* ProtocolPlayAreaTileTypeModelAccessStrategy.swift */; };
+		63696F2D21773AD100EBCD8D /* PlayAreaTileTypeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63696F2821773AD100EBCD8D /* PlayAreaTileTypeCollection.swift */; };
+		63696F2E21773AD100EBCD8D /* PlayAreaTileType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63696F2921773AD100EBCD8D /* PlayAreaTileType.swift */; };
+		636BD28421FB41DB00A38AC7 /* PlayAreaCellModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD27C21FB41DB00A38AC7 /* PlayAreaCellModelAdministrator.swift */; };
+		636BD28521FB41DB00A38AC7 /* ProtocolPlayAreaCellModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD27F21FB41DB00A38AC7 /* ProtocolPlayAreaCellModelAccessStrategy.swift */; };
+		636BD28621FB41DB00A38AC7 /* PlayAreaCellCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD28021FB41DB00A38AC7 /* PlayAreaCellCollection.swift */; };
+		636BD28721FB41DB00A38AC7 /* PlayAreaCellWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD28121FB41DB00A38AC7 /* PlayAreaCellWrapper.swift */; };
+		636BD28921FB41DB00A38AC7 /* PlayAreaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD28321FB41DB00A38AC7 /* PlayAreaCell.swift */; };
+		636BD3442200975400A38AC7 /* SFGridScape.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636BD3452200975400A38AC7 /* SFGridScape.framework */; };
+		636BD41522031A7A00A38AC7 /* PlayGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD40E22031A7A00A38AC7 /* PlayGame.swift */; };
+		636BD41622031A7A00A38AC7 /* ProtocolPlayGameModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD41122031A7A00A38AC7 /* ProtocolPlayGameModelAccessStrategy.swift */; };
+		636BD41722031A7A00A38AC7 /* PlayGameCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD41222031A7A00A38AC7 /* PlayGameCollection.swift */; };
+		636BD41822031A7A00A38AC7 /* PlayGameModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD41322031A7A00A38AC7 /* PlayGameModelAdministrator.swift */; };
+		636BD41922031A7A00A38AC7 /* PlayGameWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD41422031A7A00A38AC7 /* PlayGameWrapper.swift */; };
+		636BD42822031E8200A38AC7 /* PlayGameDataModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD42022031E8200A38AC7 /* PlayGameDataModelAdministrator.swift */; };
+		636BD42922031E8200A38AC7 /* ProtocolPlayGameDataModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD42322031E8200A38AC7 /* ProtocolPlayGameDataModelAccessStrategy.swift */; };
+		636BD42A22031E8200A38AC7 /* PlayGameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD42422031E8200A38AC7 /* PlayGameData.swift */; };
+		636BD42B22031E8200A38AC7 /* PlayGameDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD42522031E8200A38AC7 /* PlayGameDataWrapper.swift */; };
+		636BD42C22031E8200A38AC7 /* PlayGameDataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD42622031E8200A38AC7 /* PlayGameDataCollection.swift */; };
+		636BD42D22031E8200A38AC7 /* PlayGameDataAttributeDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD42722031E8200A38AC7 /* PlayGameDataAttributeDataWrapper.swift */; };
+		636BD489220461F600A38AC7 /* PlayGameWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD488220461F600A38AC7 /* PlayGameWrappers.swift */; };
+		636BD4AE2204CEB600A38AC7 /* PlayGameDataWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD4AD2204CEB600A38AC7 /* PlayGameDataWrappers.swift */; };
+		638164482243186000718A4B /* ProtocolPlayAreaCellTypeGameCenterModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638164472243186000718A4B /* ProtocolPlayAreaCellTypeGameCenterModelAccessStrategy.swift */; };
+		6381EAF21FA5066D00963A7D /* f30Model.h in Headers */ = {isa = PBXBuildFile; fileRef = 6381EAF01FA5066D00963A7D /* f30Model.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		638B01B821569B420006B316 /* PlayExperienceStepResultWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B01B721569B420006B316 /* PlayExperienceStepResultWrapper.swift */; };
+		638B01BA21569B5C0006B316 /* PlayExperienceResultWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B01B921569B5C0006B316 /* PlayExperienceResultWrapper.swift */; };
+		638B01D12157BA750006B316 /* ProtocolPlayResultModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B01CC2157BA750006B316 /* ProtocolPlayResultModelAccessStrategy.swift */; };
+		638B01D22157BA750006B316 /* PlayResultModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B01CD2157BA750006B316 /* PlayResultModelAdministrator.swift */; };
+		638B01D32157BA750006B316 /* PlayResultWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B01CE2157BA750006B316 /* PlayResultWrapper.swift */; };
+		638B01D42157BA750006B316 /* PlayResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B01CF2157BA750006B316 /* PlayResult.swift */; };
+		638B01D52157BA750006B316 /* PlayResultCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B01D02157BA750006B316 /* PlayResultCollection.swift */; };
+		638B01DC21591C950006B316 /* PlayWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B01DB21591C950006B316 /* PlayWrapper.swift */; };
+		63943E2A2477F4E100D96CEA /* PlayExperiencePlayExperienceStepLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E232477F4DF00D96CEA /* PlayExperiencePlayExperienceStepLink.swift */; };
+		63943E2B2477F4E100D96CEA /* PlayExperiencePlayExperienceStepLinkCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E242477F4DF00D96CEA /* PlayExperiencePlayExperienceStepLinkCollection.swift */; };
+		63943E2C2477F4E100D96CEA /* PlayExperiencePlayExperienceStepLinkWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E252477F4DF00D96CEA /* PlayExperiencePlayExperienceStepLinkWrapper.swift */; };
+		63943E2E2477F4E100D96CEA /* PlayExperiencePlayExperienceStepLinkModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E292477F4E100D96CEA /* PlayExperiencePlayExperienceStepLinkModelAdministrator.swift */; };
+		63943E302477F51E00D96CEA /* ProtocolPlayExperiencePlayExperienceStepLinkModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E2F2477F51E00D96CEA /* ProtocolPlayExperiencePlayExperienceStepLinkModelAccessStrategy.swift */; };
+		63943E3E2478547100D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E372478547000D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLink.swift */; };
+		63943E3F2478547100D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinkModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E382478547000D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinkModelAdministrator.swift */; };
+		63943E402478547100D96CEA /* ProtocolPlayExperienceStepPlayExperienceStepExerciseLinkModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E3B2478547000D96CEA /* ProtocolPlayExperienceStepPlayExperienceStepExerciseLinkModelAccessStrategy.swift */; };
+		63943E412478547100D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinkWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E3C2478547000D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinkWrapper.swift */; };
+		63943E422478547100D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinkCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E3D2478547000D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinkCollection.swift */; };
+		63943E50248FB3F000D96CEA /* PlaySubsetCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E49248FB3EE00D96CEA /* PlaySubsetCollection.swift */; };
+		63943E51248FB3F000D96CEA /* PlaySubset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E4A248FB3EE00D96CEA /* PlaySubset.swift */; };
+		63943E52248FB3F000D96CEA /* PlaySubsetModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E4B248FB3EE00D96CEA /* PlaySubsetModelAdministrator.swift */; };
+		63943E53248FB3F000D96CEA /* ProtocolPlaySubsetModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E4E248FB3EE00D96CEA /* ProtocolPlaySubsetModelAccessStrategy.swift */; };
+		63943E54248FB3F000D96CEA /* PlaySubsetWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E4F248FB3EE00D96CEA /* PlaySubsetWrapper.swift */; };
+		63943E56248FB91D00D96CEA /* PlaySubsetContentDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63943E55248FB91D00D96CEA /* PlaySubsetContentDataWrapper.swift */; };
+		63A74B5B2152E5E3008424F5 /* PlayExperience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A74B542152E5E3008424F5 /* PlayExperience.swift */; };
+		63A74B5C2152E5E3008424F5 /* PlayExperienceCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A74B552152E5E3008424F5 /* PlayExperienceCollection.swift */; };
+		63A74B5D2152E5E3008424F5 /* ProtocolPlayExperienceModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A74B582152E5E3008424F5 /* ProtocolPlayExperienceModelAccessStrategy.swift */; };
+		63A74B5E2152E5E3008424F5 /* PlayExperienceModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A74B592152E5E3008424F5 /* PlayExperienceModelAdministrator.swift */; };
+		63A74B5F2152E5E3008424F5 /* PlayExperienceWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A74B5A2152E5E3008424F5 /* PlayExperienceWrapper.swift */; };
+		63AB9E3A22269F1A00E7125A /* PlayAreaCellTypeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB9E3322269F1900E7125A /* PlayAreaCellTypeCollection.swift */; };
+		63AB9E3B22269F1A00E7125A /* PlayAreaCellTypeModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB9E3422269F1900E7125A /* PlayAreaCellTypeModelAdministrator.swift */; };
+		63AB9E3C22269F1A00E7125A /* PlayAreaCellTypeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB9E3522269F1900E7125A /* PlayAreaCellTypeWrapper.swift */; };
+		63AB9E3D22269F1A00E7125A /* ProtocolPlayAreaCellTypeModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB9E3822269F1900E7125A /* ProtocolPlayAreaCellTypeModelAccessStrategy.swift */; };
+		63AB9E3E22269F1A00E7125A /* PlayAreaCellType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AB9E3922269F1900E7125A /* PlayAreaCellType.swift */; };
+		63B560142279B1D100365284 /* ProtocolPlayAreaTileDataModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B5600E2279B1D100365284 /* ProtocolPlayAreaTileDataModelAccessStrategy.swift */; };
+		63B560152279B1D100365284 /* PlayAreaTileDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B5600F2279B1D100365284 /* PlayAreaTileDataWrapper.swift */; };
+		63B560162279B1D100365284 /* PlayAreaTileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B560102279B1D100365284 /* PlayAreaTileData.swift */; };
+		63B560172279B1D100365284 /* PlayAreaTileDataAttributeDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B560112279B1D100365284 /* PlayAreaTileDataAttributeDataWrapper.swift */; };
+		63B560182279B1D100365284 /* PlayAreaTileDataCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B560122279B1D100365284 /* PlayAreaTileDataCollection.swift */; };
+		63B560192279B1D100365284 /* PlayAreaTileDataModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B560132279B1D100365284 /* PlayAreaTileDataModelAdministrator.swift */; };
+		63BC135322F096790019D74A /* PlayAreaPathWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC134C22F096790019D74A /* PlayAreaPathWrapper.swift */; };
+		63BC135422F096790019D74A /* PlayAreaPathModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC134D22F096790019D74A /* PlayAreaPathModelAdministrator.swift */; };
+		63BC135522F096790019D74A /* PlayAreaPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC134E22F096790019D74A /* PlayAreaPath.swift */; };
+		63BC135622F096790019D74A /* ProtocolPlayAreaPathModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC135122F096790019D74A /* ProtocolPlayAreaPathModelAccessStrategy.swift */; };
+		63BC135722F096790019D74A /* PlayAreaPathCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC135222F096790019D74A /* PlayAreaPathCollection.swift */; };
+		63BC136D22F098DA0019D74A /* ProtocolPlayAreaPathPointModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC136822F098D90019D74A /* ProtocolPlayAreaPathPointModelAccessStrategy.swift */; };
+		63BC136E22F098DA0019D74A /* PlayAreaPathPointWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC136922F098D90019D74A /* PlayAreaPathPointWrapper.swift */; };
+		63BC136F22F098DA0019D74A /* PlayAreaPathPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC136A22F098D90019D74A /* PlayAreaPathPoint.swift */; };
+		63BC137022F098DA0019D74A /* PlayAreaPathPointCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC136B22F098D90019D74A /* PlayAreaPathPointCollection.swift */; };
+		63BC137122F098DA0019D74A /* PlayAreaPathPointModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC136C22F098D90019D74A /* PlayAreaPathPointModelAdministrator.swift */; };
+		63C15002229AC9F00080C430 /* PlayExperienceContentDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C15001229AC9F00080C430 /* PlayExperienceContentDataWrapper.swift */; };
+		63C1502822AAE1490080C430 /* PlayExperienceStepExerciseCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1501E22AAE1480080C430 /* PlayExperienceStepExerciseCollection.swift */; };
+		63C1502922AAE1490080C430 /* PlayExperienceStepExerciseOnCompleteDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1501F22AAE1480080C430 /* PlayExperienceStepExerciseOnCompleteDataWrapper.swift */; };
+		63C1502A22AAE1490080C430 /* PlayExperienceStepExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1502022AAE1480080C430 /* PlayExperienceStepExercise.swift */; };
+		63C1502B22AAE1490080C430 /* ProtocolPlayExperienceStepExerciseModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1502322AAE1480080C430 /* ProtocolPlayExperienceStepExerciseModelAccessStrategy.swift */; };
+		63C1502C22AAE1490080C430 /* PlayExperienceStepExerciseContentDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1502422AAE1480080C430 /* PlayExperienceStepExerciseContentDataWrapper.swift */; };
+		63C1502D22AAE1490080C430 /* PlayExperienceStepExerciseWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1502522AAE1480080C430 /* PlayExperienceStepExerciseWrapper.swift */; };
+		63C1502E22AAE1490080C430 /* PlayExperienceStepExerciseResultWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1502622AAE1480080C430 /* PlayExperienceStepExerciseResultWrapper.swift */; };
+		63C1502F22AAE1490080C430 /* PlayExperienceStepExerciseModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1502722AAE1480080C430 /* PlayExperienceStepExerciseModelAdministrator.swift */; };
+		63C1EE611FA771C90094FE54 /* ProtocolUserProfileModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1EE601FA771C90094FE54 /* ProtocolUserProfileModelAccessStrategy.swift */; };
+		63C1EE631FA772650094FE54 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1EE621FA772650094FE54 /* UserProfile.swift */; };
+		63C1EE681FA773F90094FE54 /* UserProfileCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1EE671FA773F90094FE54 /* UserProfileCollection.swift */; };
+		63C1EE6A1FA774610094FE54 /* UserProfileModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1EE691FA774610094FE54 /* UserProfileModelAdministrator.swift */; };
+		63CB8C7422F5CCB1007150C7 /* PlayAreaPathAbilityWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB8C7322F5CCB0007150C7 /* PlayAreaPathAbilityWrapper.swift */; };
+		63CB8C8622F5D47E007150C7 /* ProtocolPlayAreaPathAbilityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB8C8522F5D47E007150C7 /* ProtocolPlayAreaPathAbilityType.swift */; };
+		63CB8C9222F6DFF1007150C7 /* PlayAreaPathAbilityWrappers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB8C9122F6DFF1007150C7 /* PlayAreaPathAbilityWrappers.swift */; };
+		63E5899F249CB90500433997 /* PlayAreaTileDataOnCompleteDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E5899E249CB90400433997 /* PlayAreaTileDataOnCompleteDataWrapper.swift */; };
+		63E589A1249CB91B00433997 /* PlayGameDataOnCompleteDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589A0249CB91A00433997 /* PlayGameDataOnCompleteDataWrapper.swift */; };
+		63E589A3249E948000433997 /* OnCompleteDataWrapperBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589A2249E947F00433997 /* OnCompleteDataWrapperBase.swift */; };
+		63E589A524BB118200433997 /* PlayMovePlayReferenceDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589A424BB118200433997 /* PlayMovePlayReferenceDataWrapper.swift */; };
+		63E589B024E097D200433997 /* PlayChallengeTypeModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589A724E097D100433997 /* PlayChallengeTypeModelAdministrator.swift */; };
+		63E589B124E097D200433997 /* PlayChallengeTypeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589A824E097D100433997 /* PlayChallengeTypeWrapper.swift */; };
+		63E589B224E097D200433997 /* PlayChallengeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589A924E097D100433997 /* PlayChallengeType.swift */; };
+		63E589B324E097D200433997 /* PlayChallengeTypeOnCompleteDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589AA24E097D100433997 /* PlayChallengeTypeOnCompleteDataWrapper.swift */; };
+		63E589B424E097D200433997 /* PlayChallengeTypeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589AB24E097D100433997 /* PlayChallengeTypeCollection.swift */; };
+		63E589B524E097D200433997 /* PlayChallengeTypeContentDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589AC24E097D100433997 /* PlayChallengeTypeContentDataWrapper.swift */; };
+		63E589B624E097D200433997 /* ProtocolPlayChallengeTypeModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589AF24E097D100433997 /* ProtocolPlayChallengeTypeModelAccessStrategy.swift */; };
+		63E589C124E09A9200433997 /* PlayChallengeObjectiveTypeContentDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589B824E09A9200433997 /* PlayChallengeObjectiveTypeContentDataWrapper.swift */; };
+		63E589C224E09A9200433997 /* PlayChallengeObjectiveType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589B924E09A9200433997 /* PlayChallengeObjectiveType.swift */; };
+		63E589C324E09A9200433997 /* PlayChallengeObjectiveTypeModelAdministrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589BA24E09A9200433997 /* PlayChallengeObjectiveTypeModelAdministrator.swift */; };
+		63E589C424E09A9200433997 /* PlayChallengeObjectiveTypeOnCompleteDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589BB24E09A9200433997 /* PlayChallengeObjectiveTypeOnCompleteDataWrapper.swift */; };
+		63E589C524E09A9200433997 /* ProtocolPlayChallengeObjectiveTypeModelAccessStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589BE24E09A9200433997 /* ProtocolPlayChallengeObjectiveTypeModelAccessStrategy.swift */; };
+		63E589C624E09A9200433997 /* PlayChallengeObjectiveTypeWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589BF24E09A9200433997 /* PlayChallengeObjectiveTypeWrapper.swift */; };
+		63E589C724E09A9300433997 /* PlayChallengeObjectiveTypeCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589C024E09A9200433997 /* PlayChallengeObjectiveTypeCollection.swift */; };
+		63E589C924E09B2600433997 /* PlayChallengeObjectiveTypeDefinitionDataWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E589C824E09B2600433997 /* PlayChallengeObjectiveTypeDefinitionDataWrapper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		630C0AC6215CE1D300F460E7 /* PlayExperienceOnCompleteDataWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayExperienceOnCompleteDataWrapper.swift; sourceTree = "<group>"; };
+		630C0AC8215CFEA500F460E7 /* PlayExperienceStepOnCompleteDataWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepOnCompleteDataWrapper.swift; sourceTree = "<group>"; };
+		631545A4227DB204008EA6A9 /* PlayMoveContentDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMoveContentDataWrapper.swift; sourceTree = "<group>"; };
+		63283F711FA6A68E00D35084 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		63283FB31FA6BD3400D35084 /* ModelProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProperties.swift; sourceTree = "<group>"; };
+		63342948250CD49300E1F87D /* ModelItemAssetDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelItemAssetDataWrapper.swift; sourceTree = "<group>"; };
+		6334294A250CD76100E1F87D /* ModelItemAssetDataItemWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelItemAssetDataItemWrapper.swift; sourceTree = "<group>"; };
+		6334296F250E352200E1F87D /* Img1Wrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Img1Wrapper.swift; sourceTree = "<group>"; };
+		63342991251FBEEC00E1F87D /* P1Wrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P1Wrapper.swift; sourceTree = "<group>"; };
+		633429AD252277FA00E1F87D /* P1SubItemWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P1SubItemWrapper.swift; sourceTree = "<group>"; };
+		633EBD5D2143D352005D0C75 /* SFModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633EBD5F2143D358005D0C75 /* SFCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633EBD612143D360005D0C75 /* f30Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = f30Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633FE97B227F5B730063D49A /* PlayAreaToken.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaToken.swift; sourceTree = "<group>"; };
+		633FE97E227F5B730063D49A /* ProtocolPlayAreaTokenModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaTokenModelAccessStrategy.swift; sourceTree = "<group>"; };
+		633FE97F227F5B730063D49A /* PlayAreaTokenWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTokenWrapper.swift; sourceTree = "<group>"; };
+		633FE980227F5B730063D49A /* PlayAreaTokenModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTokenModelAdministrator.swift; sourceTree = "<group>"; };
+		633FE981227F5B730063D49A /* PlayAreaTokenCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTokenCollection.swift; sourceTree = "<group>"; };
+		633FEAAF228EF19A0063D49A /* PlayChallengeModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeModelAdministrator.swift; sourceTree = "<group>"; };
+		633FEAB4228EF19A0063D49A /* ProtocolPlayChallengeModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayChallengeModelAccessStrategy.swift; sourceTree = "<group>"; };
+		633FEAB5228EF19A0063D49A /* PlayChallengeCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeCollection.swift; sourceTree = "<group>"; };
+		633FEAB6228EF19A0063D49A /* PlayChallengeWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeWrapper.swift; sourceTree = "<group>"; };
+		633FEAB7228EF19A0063D49A /* PlayChallenge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallenge.swift; sourceTree = "<group>"; };
+		633FEAC0228EF1CD0063D49A /* PlayChallengeObjectiveModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeObjectiveModelAdministrator.swift; sourceTree = "<group>"; };
+		633FEAC2228EF1CD0063D49A /* PlayChallengeObjectiveCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeObjectiveCollection.swift; sourceTree = "<group>"; };
+		633FEAC4228EF1CD0063D49A /* PlayChallengeObjective.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeObjective.swift; sourceTree = "<group>"; };
+		633FEAC7228EF1CD0063D49A /* ProtocolPlayChallengeObjectiveModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayChallengeObjectiveModelAccessStrategy.swift; sourceTree = "<group>"; };
+		633FEAC8228EF1CD0063D49A /* PlayChallengeObjectiveWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeObjectiveWrapper.swift; sourceTree = "<group>"; };
+		6362212521566FF80030F50C /* PlayExperienceStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStep.swift; sourceTree = "<group>"; };
+		6362212621566FF80030F50C /* PlayExperienceStepWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepWrapper.swift; sourceTree = "<group>"; };
+		6362212721566FF80030F50C /* PlayExperienceStepModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepModelAdministrator.swift; sourceTree = "<group>"; };
+		6362212821566FF80030F50C /* PlayExperienceStepCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepCollection.swift; sourceTree = "<group>"; };
+		6362212B21566FF80030F50C /* ProtocolPlayExperienceStepModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayExperienceStepModelAccessStrategy.swift; sourceTree = "<group>"; };
+		6367FB31216799050097E213 /* PlayExperienceStepContentDataWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepContentDataWrapper.swift; sourceTree = "<group>"; };
+		6367FB55216B60CB0097E213 /* PlayMove.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMove.swift; sourceTree = "<group>"; };
+		6367FB58216B60CB0097E213 /* ProtocolPlayMoveModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayMoveModelAccessStrategy.swift; sourceTree = "<group>"; };
+		6367FB59216B60CB0097E213 /* PlayMoveWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMoveWrapper.swift; sourceTree = "<group>"; };
+		6367FB5A216B60CB0097E213 /* PlayMoveCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMoveCollection.swift; sourceTree = "<group>"; };
+		6367FB5B216B60CB0097E213 /* PlayMoveModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMoveModelAdministrator.swift; sourceTree = "<group>"; };
+		6367FB6A217269E10097E213 /* PlayMoveOnCompleteDataWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayMoveOnCompleteDataWrapper.swift; sourceTree = "<group>"; };
+		63696F1621773AC800EBCD8D /* PlayAreaTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTile.swift; sourceTree = "<group>"; };
+		63696F1721773AC800EBCD8D /* PlayAreaTileCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTileCollection.swift; sourceTree = "<group>"; };
+		63696F1821773AC800EBCD8D /* PlayAreaTileModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTileModelAdministrator.swift; sourceTree = "<group>"; };
+		63696F1B21773AC800EBCD8D /* ProtocolPlayAreaTileModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaTileModelAccessStrategy.swift; sourceTree = "<group>"; };
+		63696F1C21773AC800EBCD8D /* PlayAreaTileWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTileWrapper.swift; sourceTree = "<group>"; };
+		63696F2321773AD100EBCD8D /* PlayAreaTileTypeWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTileTypeWrapper.swift; sourceTree = "<group>"; };
+		63696F2421773AD100EBCD8D /* PlayAreaTileTypeModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTileTypeModelAdministrator.swift; sourceTree = "<group>"; };
+		63696F2721773AD100EBCD8D /* ProtocolPlayAreaTileTypeModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaTileTypeModelAccessStrategy.swift; sourceTree = "<group>"; };
+		63696F2821773AD100EBCD8D /* PlayAreaTileTypeCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTileTypeCollection.swift; sourceTree = "<group>"; };
+		63696F2921773AD100EBCD8D /* PlayAreaTileType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTileType.swift; sourceTree = "<group>"; };
+		636BD27C21FB41DB00A38AC7 /* PlayAreaCellModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaCellModelAdministrator.swift; sourceTree = "<group>"; };
+		636BD27F21FB41DB00A38AC7 /* ProtocolPlayAreaCellModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaCellModelAccessStrategy.swift; sourceTree = "<group>"; };
+		636BD28021FB41DB00A38AC7 /* PlayAreaCellCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaCellCollection.swift; sourceTree = "<group>"; };
+		636BD28121FB41DB00A38AC7 /* PlayAreaCellWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaCellWrapper.swift; sourceTree = "<group>"; };
+		636BD28321FB41DB00A38AC7 /* PlayAreaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaCell.swift; sourceTree = "<group>"; };
+		636BD3452200975400A38AC7 /* SFGridScape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFGridScape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		636BD40E22031A7A00A38AC7 /* PlayGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGame.swift; sourceTree = "<group>"; };
+		636BD41122031A7A00A38AC7 /* ProtocolPlayGameModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayGameModelAccessStrategy.swift; sourceTree = "<group>"; };
+		636BD41222031A7A00A38AC7 /* PlayGameCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameCollection.swift; sourceTree = "<group>"; };
+		636BD41322031A7A00A38AC7 /* PlayGameModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameModelAdministrator.swift; sourceTree = "<group>"; };
+		636BD41422031A7A00A38AC7 /* PlayGameWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameWrapper.swift; sourceTree = "<group>"; };
+		636BD42022031E8200A38AC7 /* PlayGameDataModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameDataModelAdministrator.swift; sourceTree = "<group>"; };
+		636BD42322031E8200A38AC7 /* ProtocolPlayGameDataModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayGameDataModelAccessStrategy.swift; sourceTree = "<group>"; };
+		636BD42422031E8200A38AC7 /* PlayGameData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameData.swift; sourceTree = "<group>"; };
+		636BD42522031E8200A38AC7 /* PlayGameDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameDataWrapper.swift; sourceTree = "<group>"; };
+		636BD42622031E8200A38AC7 /* PlayGameDataCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameDataCollection.swift; sourceTree = "<group>"; };
+		636BD42722031E8200A38AC7 /* PlayGameDataAttributeDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameDataAttributeDataWrapper.swift; sourceTree = "<group>"; };
+		636BD488220461F600A38AC7 /* PlayGameWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameWrappers.swift; sourceTree = "<group>"; };
+		636BD4AD2204CEB600A38AC7 /* PlayGameDataWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayGameDataWrappers.swift; sourceTree = "<group>"; };
+		638164472243186000718A4B /* ProtocolPlayAreaCellTypeGameCenterModelAccessStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaCellTypeGameCenterModelAccessStrategy.swift; sourceTree = "<group>"; };
+		6381EAED1FA5066D00963A7D /* f30Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = f30Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6381EAF01FA5066D00963A7D /* f30Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = f30Model.h; sourceTree = "<group>"; };
+		6381EAF11FA5066D00963A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638B01B721569B420006B316 /* PlayExperienceStepResultWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepResultWrapper.swift; sourceTree = "<group>"; };
+		638B01B921569B5C0006B316 /* PlayExperienceResultWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceResultWrapper.swift; sourceTree = "<group>"; };
+		638B01CC2157BA750006B316 /* ProtocolPlayResultModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayResultModelAccessStrategy.swift; sourceTree = "<group>"; };
+		638B01CD2157BA750006B316 /* PlayResultModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayResultModelAdministrator.swift; sourceTree = "<group>"; };
+		638B01CE2157BA750006B316 /* PlayResultWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayResultWrapper.swift; sourceTree = "<group>"; };
+		638B01CF2157BA750006B316 /* PlayResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayResult.swift; sourceTree = "<group>"; };
+		638B01D02157BA750006B316 /* PlayResultCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayResultCollection.swift; sourceTree = "<group>"; };
+		638B01DB21591C950006B316 /* PlayWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayWrapper.swift; sourceTree = "<group>"; };
+		63943E232477F4DF00D96CEA /* PlayExperiencePlayExperienceStepLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperiencePlayExperienceStepLink.swift; sourceTree = "<group>"; };
+		63943E242477F4DF00D96CEA /* PlayExperiencePlayExperienceStepLinkCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperiencePlayExperienceStepLinkCollection.swift; sourceTree = "<group>"; };
+		63943E252477F4DF00D96CEA /* PlayExperiencePlayExperienceStepLinkWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperiencePlayExperienceStepLinkWrapper.swift; sourceTree = "<group>"; };
+		63943E292477F4E100D96CEA /* PlayExperiencePlayExperienceStepLinkModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperiencePlayExperienceStepLinkModelAdministrator.swift; sourceTree = "<group>"; };
+		63943E2F2477F51E00D96CEA /* ProtocolPlayExperiencePlayExperienceStepLinkModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayExperiencePlayExperienceStepLinkModelAccessStrategy.swift; sourceTree = "<group>"; };
+		63943E372478547000D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepPlayExperienceStepExerciseLink.swift; sourceTree = "<group>"; };
+		63943E382478547000D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinkModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepPlayExperienceStepExerciseLinkModelAdministrator.swift; sourceTree = "<group>"; };
+		63943E3B2478547000D96CEA /* ProtocolPlayExperienceStepPlayExperienceStepExerciseLinkModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayExperienceStepPlayExperienceStepExerciseLinkModelAccessStrategy.swift; sourceTree = "<group>"; };
+		63943E3C2478547000D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinkWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepPlayExperienceStepExerciseLinkWrapper.swift; sourceTree = "<group>"; };
+		63943E3D2478547000D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinkCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepPlayExperienceStepExerciseLinkCollection.swift; sourceTree = "<group>"; };
+		63943E49248FB3EE00D96CEA /* PlaySubsetCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySubsetCollection.swift; sourceTree = "<group>"; };
+		63943E4A248FB3EE00D96CEA /* PlaySubset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySubset.swift; sourceTree = "<group>"; };
+		63943E4B248FB3EE00D96CEA /* PlaySubsetModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySubsetModelAdministrator.swift; sourceTree = "<group>"; };
+		63943E4E248FB3EE00D96CEA /* ProtocolPlaySubsetModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlaySubsetModelAccessStrategy.swift; sourceTree = "<group>"; };
+		63943E4F248FB3EE00D96CEA /* PlaySubsetWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySubsetWrapper.swift; sourceTree = "<group>"; };
+		63943E55248FB91D00D96CEA /* PlaySubsetContentDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySubsetContentDataWrapper.swift; sourceTree = "<group>"; };
+		63A74B542152E5E3008424F5 /* PlayExperience.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperience.swift; sourceTree = "<group>"; };
+		63A74B552152E5E3008424F5 /* PlayExperienceCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceCollection.swift; sourceTree = "<group>"; };
+		63A74B582152E5E3008424F5 /* ProtocolPlayExperienceModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayExperienceModelAccessStrategy.swift; sourceTree = "<group>"; };
+		63A74B592152E5E3008424F5 /* PlayExperienceModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceModelAdministrator.swift; sourceTree = "<group>"; };
+		63A74B5A2152E5E3008424F5 /* PlayExperienceWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceWrapper.swift; sourceTree = "<group>"; };
+		63AB9E3322269F1900E7125A /* PlayAreaCellTypeCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaCellTypeCollection.swift; sourceTree = "<group>"; };
+		63AB9E3422269F1900E7125A /* PlayAreaCellTypeModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaCellTypeModelAdministrator.swift; sourceTree = "<group>"; };
+		63AB9E3522269F1900E7125A /* PlayAreaCellTypeWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaCellTypeWrapper.swift; sourceTree = "<group>"; };
+		63AB9E3822269F1900E7125A /* ProtocolPlayAreaCellTypeModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaCellTypeModelAccessStrategy.swift; sourceTree = "<group>"; };
+		63AB9E3922269F1900E7125A /* PlayAreaCellType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaCellType.swift; sourceTree = "<group>"; };
+		63B5600E2279B1D100365284 /* ProtocolPlayAreaTileDataModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaTileDataModelAccessStrategy.swift; sourceTree = "<group>"; };
+		63B5600F2279B1D100365284 /* PlayAreaTileDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTileDataWrapper.swift; sourceTree = "<group>"; };
+		63B560102279B1D100365284 /* PlayAreaTileData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTileData.swift; sourceTree = "<group>"; };
+		63B560112279B1D100365284 /* PlayAreaTileDataAttributeDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTileDataAttributeDataWrapper.swift; sourceTree = "<group>"; };
+		63B560122279B1D100365284 /* PlayAreaTileDataCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTileDataCollection.swift; sourceTree = "<group>"; };
+		63B560132279B1D100365284 /* PlayAreaTileDataModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTileDataModelAdministrator.swift; sourceTree = "<group>"; };
+		63BC134C22F096790019D74A /* PlayAreaPathWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaPathWrapper.swift; sourceTree = "<group>"; };
+		63BC134D22F096790019D74A /* PlayAreaPathModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaPathModelAdministrator.swift; sourceTree = "<group>"; };
+		63BC134E22F096790019D74A /* PlayAreaPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaPath.swift; sourceTree = "<group>"; };
+		63BC135122F096790019D74A /* ProtocolPlayAreaPathModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaPathModelAccessStrategy.swift; sourceTree = "<group>"; };
+		63BC135222F096790019D74A /* PlayAreaPathCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaPathCollection.swift; sourceTree = "<group>"; };
+		63BC136822F098D90019D74A /* ProtocolPlayAreaPathPointModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaPathPointModelAccessStrategy.swift; sourceTree = "<group>"; };
+		63BC136922F098D90019D74A /* PlayAreaPathPointWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaPathPointWrapper.swift; sourceTree = "<group>"; };
+		63BC136A22F098D90019D74A /* PlayAreaPathPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaPathPoint.swift; sourceTree = "<group>"; };
+		63BC136B22F098D90019D74A /* PlayAreaPathPointCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaPathPointCollection.swift; sourceTree = "<group>"; };
+		63BC136C22F098D90019D74A /* PlayAreaPathPointModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaPathPointModelAdministrator.swift; sourceTree = "<group>"; };
+		63C15001229AC9F00080C430 /* PlayExperienceContentDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceContentDataWrapper.swift; sourceTree = "<group>"; };
+		63C1501E22AAE1480080C430 /* PlayExperienceStepExerciseCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepExerciseCollection.swift; sourceTree = "<group>"; };
+		63C1501F22AAE1480080C430 /* PlayExperienceStepExerciseOnCompleteDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepExerciseOnCompleteDataWrapper.swift; sourceTree = "<group>"; };
+		63C1502022AAE1480080C430 /* PlayExperienceStepExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepExercise.swift; sourceTree = "<group>"; };
+		63C1502322AAE1480080C430 /* ProtocolPlayExperienceStepExerciseModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayExperienceStepExerciseModelAccessStrategy.swift; sourceTree = "<group>"; };
+		63C1502422AAE1480080C430 /* PlayExperienceStepExerciseContentDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepExerciseContentDataWrapper.swift; sourceTree = "<group>"; };
+		63C1502522AAE1480080C430 /* PlayExperienceStepExerciseWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepExerciseWrapper.swift; sourceTree = "<group>"; };
+		63C1502622AAE1480080C430 /* PlayExperienceStepExerciseResultWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepExerciseResultWrapper.swift; sourceTree = "<group>"; };
+		63C1502722AAE1480080C430 /* PlayExperienceStepExerciseModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepExerciseModelAdministrator.swift; sourceTree = "<group>"; };
+		63C1EE601FA771C90094FE54 /* ProtocolUserProfileModelAccessStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolUserProfileModelAccessStrategy.swift; sourceTree = "<group>"; };
+		63C1EE621FA772650094FE54 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		63C1EE671FA773F90094FE54 /* UserProfileCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileCollection.swift; sourceTree = "<group>"; };
+		63C1EE691FA774610094FE54 /* UserProfileModelAdministrator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileModelAdministrator.swift; sourceTree = "<group>"; };
+		63CB8C7322F5CCB0007150C7 /* PlayAreaPathAbilityWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaPathAbilityWrapper.swift; sourceTree = "<group>"; };
+		63CB8C8522F5D47E007150C7 /* ProtocolPlayAreaPathAbilityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaPathAbilityType.swift; sourceTree = "<group>"; };
+		63CB8C9122F6DFF1007150C7 /* PlayAreaPathAbilityWrappers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAreaPathAbilityWrappers.swift; sourceTree = "<group>"; };
+		63E5899E249CB90400433997 /* PlayAreaTileDataOnCompleteDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTileDataOnCompleteDataWrapper.swift; sourceTree = "<group>"; };
+		63E589A0249CB91A00433997 /* PlayGameDataOnCompleteDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameDataOnCompleteDataWrapper.swift; sourceTree = "<group>"; };
+		63E589A2249E947F00433997 /* OnCompleteDataWrapperBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnCompleteDataWrapperBase.swift; sourceTree = "<group>"; };
+		63E589A424BB118200433997 /* PlayMovePlayReferenceDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayMovePlayReferenceDataWrapper.swift; sourceTree = "<group>"; };
+		63E589A724E097D100433997 /* PlayChallengeTypeModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeTypeModelAdministrator.swift; sourceTree = "<group>"; };
+		63E589A824E097D100433997 /* PlayChallengeTypeWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeTypeWrapper.swift; sourceTree = "<group>"; };
+		63E589A924E097D100433997 /* PlayChallengeType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeType.swift; sourceTree = "<group>"; };
+		63E589AA24E097D100433997 /* PlayChallengeTypeOnCompleteDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeTypeOnCompleteDataWrapper.swift; sourceTree = "<group>"; };
+		63E589AB24E097D100433997 /* PlayChallengeTypeCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeTypeCollection.swift; sourceTree = "<group>"; };
+		63E589AC24E097D100433997 /* PlayChallengeTypeContentDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeTypeContentDataWrapper.swift; sourceTree = "<group>"; };
+		63E589AF24E097D100433997 /* ProtocolPlayChallengeTypeModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayChallengeTypeModelAccessStrategy.swift; sourceTree = "<group>"; };
+		63E589B824E09A9200433997 /* PlayChallengeObjectiveTypeContentDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeObjectiveTypeContentDataWrapper.swift; sourceTree = "<group>"; };
+		63E589B924E09A9200433997 /* PlayChallengeObjectiveType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeObjectiveType.swift; sourceTree = "<group>"; };
+		63E589BA24E09A9200433997 /* PlayChallengeObjectiveTypeModelAdministrator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeObjectiveTypeModelAdministrator.swift; sourceTree = "<group>"; };
+		63E589BB24E09A9200433997 /* PlayChallengeObjectiveTypeOnCompleteDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeObjectiveTypeOnCompleteDataWrapper.swift; sourceTree = "<group>"; };
+		63E589BE24E09A9200433997 /* ProtocolPlayChallengeObjectiveTypeModelAccessStrategy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayChallengeObjectiveTypeModelAccessStrategy.swift; sourceTree = "<group>"; };
+		63E589BF24E09A9200433997 /* PlayChallengeObjectiveTypeWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeObjectiveTypeWrapper.swift; sourceTree = "<group>"; };
+		63E589C024E09A9200433997 /* PlayChallengeObjectiveTypeCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeObjectiveTypeCollection.swift; sourceTree = "<group>"; };
+		63E589C824E09B2600433997 /* PlayChallengeObjectiveTypeDefinitionDataWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeObjectiveTypeDefinitionDataWrapper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6381EAE91FA5066D00963A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633EBD5E2143D358005D0C75 /* SFCore.framework in Frameworks */,
+				636BD3442200975400A38AC7 /* SFGridScape.framework in Frameworks */,
+				633EBD602143D360005D0C75 /* f30Core.framework in Frameworks */,
+				633EBD5C2143D352005D0C75 /* SFModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63283F7E1FA6A74B00D35084 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				633EBD5D2143D352005D0C75 /* SFModel.framework */,
+				633EBD5F2143D358005D0C75 /* SFCore.framework */,
+				636BD3452200975400A38AC7 /* SFGridScape.framework */,
+				633EBD612143D360005D0C75 /* f30Core.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6334296E250E34DA00E1F87D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				6334296F250E352200E1F87D /* Img1Wrapper.swift */,
+				63342991251FBEEC00E1F87D /* P1Wrapper.swift */,
+				633429AD252277FA00E1F87D /* P1SubItemWrapper.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		633FE97A227F5B730063D49A /* PlayAreaTokens */ = {
+			isa = PBXGroup;
+			children = (
+				633FE97C227F5B730063D49A /* ModelAccessStrategies */,
+				633FE97B227F5B730063D49A /* PlayAreaToken.swift */,
+				633FE981227F5B730063D49A /* PlayAreaTokenCollection.swift */,
+				633FE980227F5B730063D49A /* PlayAreaTokenModelAdministrator.swift */,
+				633FE97F227F5B730063D49A /* PlayAreaTokenWrapper.swift */,
+			);
+			path = PlayAreaTokens;
+			sourceTree = "<group>";
+		};
+		633FE97C227F5B730063D49A /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				633FE97D227F5B730063D49A /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		633FE97D227F5B730063D49A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				633FE97E227F5B730063D49A /* ProtocolPlayAreaTokenModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		633FEAAE228EF19A0063D49A /* PlayChallenges */ = {
+			isa = PBXGroup;
+			children = (
+				633FEAB2228EF19A0063D49A /* ModelAccessStrategies */,
+				633FEAB7228EF19A0063D49A /* PlayChallenge.swift */,
+				633FEAB5228EF19A0063D49A /* PlayChallengeCollection.swift */,
+				633FEAAF228EF19A0063D49A /* PlayChallengeModelAdministrator.swift */,
+				633FEAB6228EF19A0063D49A /* PlayChallengeWrapper.swift */,
+			);
+			path = PlayChallenges;
+			sourceTree = "<group>";
+		};
+		633FEAB2228EF19A0063D49A /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				633FEAB3228EF19A0063D49A /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		633FEAB3228EF19A0063D49A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				633FEAB4228EF19A0063D49A /* ProtocolPlayChallengeModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		633FEABF228EF1CD0063D49A /* PlayChallengeObjectives */ = {
+			isa = PBXGroup;
+			children = (
+				633FEAC5228EF1CD0063D49A /* ModelAccessStrategies */,
+				633FEAC4228EF1CD0063D49A /* PlayChallengeObjective.swift */,
+				633FEAC2228EF1CD0063D49A /* PlayChallengeObjectiveCollection.swift */,
+				633FEAC0228EF1CD0063D49A /* PlayChallengeObjectiveModelAdministrator.swift */,
+				633FEAC8228EF1CD0063D49A /* PlayChallengeObjectiveWrapper.swift */,
+			);
+			path = PlayChallengeObjectives;
+			sourceTree = "<group>";
+		};
+		633FEAC5228EF1CD0063D49A /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				633FEAC6228EF1CD0063D49A /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		633FEAC6228EF1CD0063D49A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				633FEAC7228EF1CD0063D49A /* ProtocolPlayChallengeObjectiveModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6362212421566FF80030F50C /* PlayExperienceSteps */ = {
+			isa = PBXGroup;
+			children = (
+				6362212921566FF80030F50C /* ModelAccessStrategies */,
+				6362212521566FF80030F50C /* PlayExperienceStep.swift */,
+				6362212821566FF80030F50C /* PlayExperienceStepCollection.swift */,
+				6362212721566FF80030F50C /* PlayExperienceStepModelAdministrator.swift */,
+				6362212621566FF80030F50C /* PlayExperienceStepWrapper.swift */,
+				638B01B721569B420006B316 /* PlayExperienceStepResultWrapper.swift */,
+				630C0AC8215CFEA500F460E7 /* PlayExperienceStepOnCompleteDataWrapper.swift */,
+				6367FB31216799050097E213 /* PlayExperienceStepContentDataWrapper.swift */,
+			);
+			path = PlayExperienceSteps;
+			sourceTree = "<group>";
+		};
+		6362212921566FF80030F50C /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				6362212A21566FF80030F50C /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		6362212A21566FF80030F50C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6362212B21566FF80030F50C /* ProtocolPlayExperienceStepModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6367FB54216B60CB0097E213 /* PlayMoves */ = {
+			isa = PBXGroup;
+			children = (
+				6367FB56216B60CB0097E213 /* ModelAccessStrategies */,
+				6367FB55216B60CB0097E213 /* PlayMove.swift */,
+				6367FB5A216B60CB0097E213 /* PlayMoveCollection.swift */,
+				6367FB5B216B60CB0097E213 /* PlayMoveModelAdministrator.swift */,
+				6367FB59216B60CB0097E213 /* PlayMoveWrapper.swift */,
+				631545A4227DB204008EA6A9 /* PlayMoveContentDataWrapper.swift */,
+				6367FB6A217269E10097E213 /* PlayMoveOnCompleteDataWrapper.swift */,
+				63E589A424BB118200433997 /* PlayMovePlayReferenceDataWrapper.swift */,
+			);
+			path = PlayMoves;
+			sourceTree = "<group>";
+		};
+		6367FB56216B60CB0097E213 /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				6367FB57216B60CB0097E213 /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		6367FB57216B60CB0097E213 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6367FB58216B60CB0097E213 /* ProtocolPlayMoveModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63696F1521773AC800EBCD8D /* PlayAreaTiles */ = {
+			isa = PBXGroup;
+			children = (
+				63696F1921773AC800EBCD8D /* ModelAccessStrategies */,
+				63696F1621773AC800EBCD8D /* PlayAreaTile.swift */,
+				63696F1721773AC800EBCD8D /* PlayAreaTileCollection.swift */,
+				63696F1821773AC800EBCD8D /* PlayAreaTileModelAdministrator.swift */,
+				63696F1C21773AC800EBCD8D /* PlayAreaTileWrapper.swift */,
+			);
+			path = PlayAreaTiles;
+			sourceTree = "<group>";
+		};
+		63696F1921773AC800EBCD8D /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				63696F1A21773AC800EBCD8D /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		63696F1A21773AC800EBCD8D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63696F1B21773AC800EBCD8D /* ProtocolPlayAreaTileModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63696F2221773AD100EBCD8D /* PlayAreaTileTypes */ = {
+			isa = PBXGroup;
+			children = (
+				63696F2521773AD100EBCD8D /* ModelAccessStrategies */,
+				63696F2921773AD100EBCD8D /* PlayAreaTileType.swift */,
+				63696F2821773AD100EBCD8D /* PlayAreaTileTypeCollection.swift */,
+				63696F2421773AD100EBCD8D /* PlayAreaTileTypeModelAdministrator.swift */,
+				63696F2321773AD100EBCD8D /* PlayAreaTileTypeWrapper.swift */,
+			);
+			path = PlayAreaTileTypes;
+			sourceTree = "<group>";
+		};
+		63696F2521773AD100EBCD8D /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				63696F2621773AD100EBCD8D /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		63696F2621773AD100EBCD8D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63696F2721773AD100EBCD8D /* ProtocolPlayAreaTileTypeModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		636BD27B21FB41DB00A38AC7 /* PlayAreaCells */ = {
+			isa = PBXGroup;
+			children = (
+				636BD27D21FB41DB00A38AC7 /* ModelAccessStrategies */,
+				636BD28321FB41DB00A38AC7 /* PlayAreaCell.swift */,
+				636BD28021FB41DB00A38AC7 /* PlayAreaCellCollection.swift */,
+				636BD27C21FB41DB00A38AC7 /* PlayAreaCellModelAdministrator.swift */,
+				636BD28121FB41DB00A38AC7 /* PlayAreaCellWrapper.swift */,
+			);
+			path = PlayAreaCells;
+			sourceTree = "<group>";
+		};
+		636BD27D21FB41DB00A38AC7 /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				636BD27E21FB41DB00A38AC7 /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		636BD27E21FB41DB00A38AC7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				636BD27F21FB41DB00A38AC7 /* ProtocolPlayAreaCellModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		636BD40D22031A7A00A38AC7 /* PlayGames */ = {
+			isa = PBXGroup;
+			children = (
+				636BD40F22031A7A00A38AC7 /* ModelAccessStrategies */,
+				636BD40E22031A7A00A38AC7 /* PlayGame.swift */,
+				636BD41222031A7A00A38AC7 /* PlayGameCollection.swift */,
+				636BD41322031A7A00A38AC7 /* PlayGameModelAdministrator.swift */,
+				636BD41422031A7A00A38AC7 /* PlayGameWrapper.swift */,
+				636BD488220461F600A38AC7 /* PlayGameWrappers.swift */,
+			);
+			path = PlayGames;
+			sourceTree = "<group>";
+		};
+		636BD40F22031A7A00A38AC7 /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				636BD41022031A7A00A38AC7 /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		636BD41022031A7A00A38AC7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				636BD41122031A7A00A38AC7 /* ProtocolPlayGameModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		636BD41F22031E8200A38AC7 /* PlayGameData */ = {
+			isa = PBXGroup;
+			children = (
+				636BD42122031E8200A38AC7 /* ModelAccessStrategies */,
+				636BD42422031E8200A38AC7 /* PlayGameData.swift */,
+				636BD42622031E8200A38AC7 /* PlayGameDataCollection.swift */,
+				636BD42022031E8200A38AC7 /* PlayGameDataModelAdministrator.swift */,
+				636BD42522031E8200A38AC7 /* PlayGameDataWrapper.swift */,
+				636BD42722031E8200A38AC7 /* PlayGameDataAttributeDataWrapper.swift */,
+				63E589A0249CB91A00433997 /* PlayGameDataOnCompleteDataWrapper.swift */,
+				636BD4AD2204CEB600A38AC7 /* PlayGameDataWrappers.swift */,
+			);
+			path = PlayGameData;
+			sourceTree = "<group>";
+		};
+		636BD42122031E8200A38AC7 /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				636BD42222031E8200A38AC7 /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		636BD42222031E8200A38AC7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				636BD42322031E8200A38AC7 /* ProtocolPlayGameDataModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6381EAE31FA5066D00963A7D = {
+			isa = PBXGroup;
+			children = (
+				6381EAEF1FA5066D00963A7D /* f30Model */,
+				6381EAEE1FA5066D00963A7D /* Products */,
+				63283F7E1FA6A74B00D35084 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6381EAEE1FA5066D00963A7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6381EAED1FA5066D00963A7D /* f30Model.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6381EAEF1FA5066D00963A7D /* f30Model */ = {
+			isa = PBXGroup;
+			children = (
+				63943E48248FB3EE00D96CEA /* PlaySubsets */,
+				638B01C92157BA750006B316 /* PlayResults */,
+				636BD40D22031A7A00A38AC7 /* PlayGames */,
+				636BD41F22031E8200A38AC7 /* PlayGameData */,
+				633FE97A227F5B730063D49A /* PlayAreaTokens */,
+				63696F1521773AC800EBCD8D /* PlayAreaTiles */,
+				63696F2221773AD100EBCD8D /* PlayAreaTileTypes */,
+				63B5600B2279B1D100365284 /* PlayAreaTileData */,
+				636BD27B21FB41DB00A38AC7 /* PlayAreaCells */,
+				63AB9E3222269F1900E7125A /* PlayAreaCellTypes */,
+				63BC134B22F096790019D74A /* PlayAreaPaths */,
+				63BC136522F098D90019D74A /* PlayAreaPathPoints */,
+				63CB8C7222F5CCB0007150C7 /* PlayAreaPathAbilities */,
+				6367FB54216B60CB0097E213 /* PlayMoves */,
+				63A74B532152E5E3008424F5 /* PlayExperiences */,
+				6362212421566FF80030F50C /* PlayExperienceSteps */,
+				63943E222477A63700D96CEA /* PlayExperiencePlayExperienceStepLinks */,
+				63C1501D22AAE1480080C430 /* PlayExperienceStepExercises */,
+				63943E362478547000D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinks */,
+				633FEAAE228EF19A0063D49A /* PlayChallenges */,
+				63E589A624E097D100433997 /* PlayChallengeTypes */,
+				633FEABF228EF1CD0063D49A /* PlayChallengeObjectives */,
+				63E589B724E09A9200433997 /* PlayChallengeObjectiveTypes */,
+				63C1EE5D1FA7716A0094FE54 /* UserProfiles */,
+				63283FB31FA6BD3400D35084 /* ModelProperties.swift */,
+				63342948250CD49300E1F87D /* ModelItemAssetDataWrapper.swift */,
+				6334294A250CD76100E1F87D /* ModelItemAssetDataItemWrapper.swift */,
+				63283F711FA6A68E00D35084 /* ModelManager.swift */,
+				63E589A2249E947F00433997 /* OnCompleteDataWrapperBase.swift */,
+				6381EAF01FA5066D00963A7D /* f30Model.h */,
+				6381EAF11FA5066D00963A7D /* Info.plist */,
+				638B01DB21591C950006B316 /* PlayWrapper.swift */,
+			);
+			path = f30Model;
+			sourceTree = "<group>";
+		};
+		638B01C92157BA750006B316 /* PlayResults */ = {
+			isa = PBXGroup;
+			children = (
+				638B01CA2157BA750006B316 /* ModelAccessStrategies */,
+				638B01CF2157BA750006B316 /* PlayResult.swift */,
+				638B01D02157BA750006B316 /* PlayResultCollection.swift */,
+				638B01CD2157BA750006B316 /* PlayResultModelAdministrator.swift */,
+				638B01CE2157BA750006B316 /* PlayResultWrapper.swift */,
+			);
+			path = PlayResults;
+			sourceTree = "<group>";
+		};
+		638B01CA2157BA750006B316 /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				638B01CB2157BA750006B316 /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		638B01CB2157BA750006B316 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				638B01CC2157BA750006B316 /* ProtocolPlayResultModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63943E222477A63700D96CEA /* PlayExperiencePlayExperienceStepLinks */ = {
+			isa = PBXGroup;
+			children = (
+				63943E262477F4E000D96CEA /* ModelAccessStrategies */,
+				63943E232477F4DF00D96CEA /* PlayExperiencePlayExperienceStepLink.swift */,
+				63943E242477F4DF00D96CEA /* PlayExperiencePlayExperienceStepLinkCollection.swift */,
+				63943E292477F4E100D96CEA /* PlayExperiencePlayExperienceStepLinkModelAdministrator.swift */,
+				63943E252477F4DF00D96CEA /* PlayExperiencePlayExperienceStepLinkWrapper.swift */,
+			);
+			path = PlayExperiencePlayExperienceStepLinks;
+			sourceTree = "<group>";
+		};
+		63943E262477F4E000D96CEA /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				63943E272477F4E000D96CEA /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		63943E272477F4E000D96CEA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63943E2F2477F51E00D96CEA /* ProtocolPlayExperiencePlayExperienceStepLinkModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63943E362478547000D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinks */ = {
+			isa = PBXGroup;
+			children = (
+				63943E392478547000D96CEA /* ModelAccessStrategies */,
+				63943E372478547000D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLink.swift */,
+				63943E3D2478547000D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinkCollection.swift */,
+				63943E382478547000D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinkModelAdministrator.swift */,
+				63943E3C2478547000D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinkWrapper.swift */,
+			);
+			path = PlayExperienceStepPlayExperienceStepExerciseLinks;
+			sourceTree = "<group>";
+		};
+		63943E392478547000D96CEA /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				63943E3A2478547000D96CEA /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		63943E3A2478547000D96CEA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63943E3B2478547000D96CEA /* ProtocolPlayExperienceStepPlayExperienceStepExerciseLinkModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63943E48248FB3EE00D96CEA /* PlaySubsets */ = {
+			isa = PBXGroup;
+			children = (
+				63943E4C248FB3EE00D96CEA /* ModelAccessStrategies */,
+				63943E4A248FB3EE00D96CEA /* PlaySubset.swift */,
+				63943E49248FB3EE00D96CEA /* PlaySubsetCollection.swift */,
+				63943E4B248FB3EE00D96CEA /* PlaySubsetModelAdministrator.swift */,
+				63943E4F248FB3EE00D96CEA /* PlaySubsetWrapper.swift */,
+				63943E55248FB91D00D96CEA /* PlaySubsetContentDataWrapper.swift */,
+			);
+			path = PlaySubsets;
+			sourceTree = "<group>";
+		};
+		63943E4C248FB3EE00D96CEA /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				63943E4D248FB3EE00D96CEA /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		63943E4D248FB3EE00D96CEA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63943E4E248FB3EE00D96CEA /* ProtocolPlaySubsetModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63A74B532152E5E3008424F5 /* PlayExperiences */ = {
+			isa = PBXGroup;
+			children = (
+				63A74B562152E5E3008424F5 /* ModelAccessStrategies */,
+				63A74B542152E5E3008424F5 /* PlayExperience.swift */,
+				63A74B552152E5E3008424F5 /* PlayExperienceCollection.swift */,
+				63A74B592152E5E3008424F5 /* PlayExperienceModelAdministrator.swift */,
+				63A74B5A2152E5E3008424F5 /* PlayExperienceWrapper.swift */,
+				63C15001229AC9F00080C430 /* PlayExperienceContentDataWrapper.swift */,
+				638B01B921569B5C0006B316 /* PlayExperienceResultWrapper.swift */,
+				630C0AC6215CE1D300F460E7 /* PlayExperienceOnCompleteDataWrapper.swift */,
+			);
+			path = PlayExperiences;
+			sourceTree = "<group>";
+		};
+		63A74B562152E5E3008424F5 /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				63A74B572152E5E3008424F5 /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		63A74B572152E5E3008424F5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63A74B582152E5E3008424F5 /* ProtocolPlayExperienceModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63AB9E3222269F1900E7125A /* PlayAreaCellTypes */ = {
+			isa = PBXGroup;
+			children = (
+				63AB9E3622269F1900E7125A /* ModelAccessStrategies */,
+				63AB9E3922269F1900E7125A /* PlayAreaCellType.swift */,
+				63AB9E3322269F1900E7125A /* PlayAreaCellTypeCollection.swift */,
+				63AB9E3422269F1900E7125A /* PlayAreaCellTypeModelAdministrator.swift */,
+				63AB9E3522269F1900E7125A /* PlayAreaCellTypeWrapper.swift */,
+			);
+			path = PlayAreaCellTypes;
+			sourceTree = "<group>";
+		};
+		63AB9E3622269F1900E7125A /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				63AB9E3722269F1900E7125A /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		63AB9E3722269F1900E7125A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63AB9E3822269F1900E7125A /* ProtocolPlayAreaCellTypeModelAccessStrategy.swift */,
+				638164472243186000718A4B /* ProtocolPlayAreaCellTypeGameCenterModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63B5600B2279B1D100365284 /* PlayAreaTileData */ = {
+			isa = PBXGroup;
+			children = (
+				63B5600C2279B1D100365284 /* ModelAccessStrategies */,
+				63B560102279B1D100365284 /* PlayAreaTileData.swift */,
+				63B560122279B1D100365284 /* PlayAreaTileDataCollection.swift */,
+				63B560132279B1D100365284 /* PlayAreaTileDataModelAdministrator.swift */,
+				63B5600F2279B1D100365284 /* PlayAreaTileDataWrapper.swift */,
+				63E5899E249CB90400433997 /* PlayAreaTileDataOnCompleteDataWrapper.swift */,
+				63B560112279B1D100365284 /* PlayAreaTileDataAttributeDataWrapper.swift */,
+			);
+			path = PlayAreaTileData;
+			sourceTree = "<group>";
+		};
+		63B5600C2279B1D100365284 /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				63B5600D2279B1D100365284 /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		63B5600D2279B1D100365284 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63B5600E2279B1D100365284 /* ProtocolPlayAreaTileDataModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63BC134B22F096790019D74A /* PlayAreaPaths */ = {
+			isa = PBXGroup;
+			children = (
+				63BC134F22F096790019D74A /* ModelAccessStrategies */,
+				63BC134E22F096790019D74A /* PlayAreaPath.swift */,
+				63BC135222F096790019D74A /* PlayAreaPathCollection.swift */,
+				63BC134D22F096790019D74A /* PlayAreaPathModelAdministrator.swift */,
+				63BC134C22F096790019D74A /* PlayAreaPathWrapper.swift */,
+			);
+			path = PlayAreaPaths;
+			sourceTree = "<group>";
+		};
+		63BC134F22F096790019D74A /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				63BC135022F096790019D74A /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		63BC135022F096790019D74A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63BC135122F096790019D74A /* ProtocolPlayAreaPathModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63BC136522F098D90019D74A /* PlayAreaPathPoints */ = {
+			isa = PBXGroup;
+			children = (
+				63BC136622F098D90019D74A /* ModelAccessStrategies */,
+				63BC136A22F098D90019D74A /* PlayAreaPathPoint.swift */,
+				63BC136B22F098D90019D74A /* PlayAreaPathPointCollection.swift */,
+				63BC136C22F098D90019D74A /* PlayAreaPathPointModelAdministrator.swift */,
+				63BC136922F098D90019D74A /* PlayAreaPathPointWrapper.swift */,
+			);
+			path = PlayAreaPathPoints;
+			sourceTree = "<group>";
+		};
+		63BC136622F098D90019D74A /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				63BC136722F098D90019D74A /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		63BC136722F098D90019D74A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63BC136822F098D90019D74A /* ProtocolPlayAreaPathPointModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63C1501D22AAE1480080C430 /* PlayExperienceStepExercises */ = {
+			isa = PBXGroup;
+			children = (
+				63C1502122AAE1480080C430 /* ModelAccessStrategies */,
+				6334296E250E34DA00E1F87D /* Components */,
+				63C1502022AAE1480080C430 /* PlayExperienceStepExercise.swift */,
+				63C1501E22AAE1480080C430 /* PlayExperienceStepExerciseCollection.swift */,
+				63C1502722AAE1480080C430 /* PlayExperienceStepExerciseModelAdministrator.swift */,
+				63C1502522AAE1480080C430 /* PlayExperienceStepExerciseWrapper.swift */,
+				63C1501F22AAE1480080C430 /* PlayExperienceStepExerciseOnCompleteDataWrapper.swift */,
+				63C1502422AAE1480080C430 /* PlayExperienceStepExerciseContentDataWrapper.swift */,
+				63C1502622AAE1480080C430 /* PlayExperienceStepExerciseResultWrapper.swift */,
+			);
+			path = PlayExperienceStepExercises;
+			sourceTree = "<group>";
+		};
+		63C1502122AAE1480080C430 /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				63C1502222AAE1480080C430 /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		63C1502222AAE1480080C430 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63C1502322AAE1480080C430 /* ProtocolPlayExperienceStepExerciseModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63C1EE5D1FA7716A0094FE54 /* UserProfiles */ = {
+			isa = PBXGroup;
+			children = (
+				63C1EE5E1FA771860094FE54 /* ModelAccessStrategies */,
+				63C1EE621FA772650094FE54 /* UserProfile.swift */,
+				63C1EE671FA773F90094FE54 /* UserProfileCollection.swift */,
+				63C1EE691FA774610094FE54 /* UserProfileModelAdministrator.swift */,
+			);
+			path = UserProfiles;
+			sourceTree = "<group>";
+		};
+		63C1EE5E1FA771860094FE54 /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				63C1EE5F1FA7718F0094FE54 /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		63C1EE5F1FA7718F0094FE54 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63C1EE601FA771C90094FE54 /* ProtocolUserProfileModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63CB8C7222F5CCB0007150C7 /* PlayAreaPathAbilities */ = {
+			isa = PBXGroup;
+			children = (
+				63CB8C8422F5D458007150C7 /* Protocols */,
+				63CB8C7322F5CCB0007150C7 /* PlayAreaPathAbilityWrapper.swift */,
+				63CB8C9122F6DFF1007150C7 /* PlayAreaPathAbilityWrappers.swift */,
+			);
+			path = PlayAreaPathAbilities;
+			sourceTree = "<group>";
+		};
+		63CB8C8422F5D458007150C7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63CB8C8522F5D47E007150C7 /* ProtocolPlayAreaPathAbilityType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63E589A624E097D100433997 /* PlayChallengeTypes */ = {
+			isa = PBXGroup;
+			children = (
+				63E589AD24E097D100433997 /* ModelAccessStrategies */,
+				63E589A924E097D100433997 /* PlayChallengeType.swift */,
+				63E589AB24E097D100433997 /* PlayChallengeTypeCollection.swift */,
+				63E589A724E097D100433997 /* PlayChallengeTypeModelAdministrator.swift */,
+				63E589A824E097D100433997 /* PlayChallengeTypeWrapper.swift */,
+				63E589AA24E097D100433997 /* PlayChallengeTypeOnCompleteDataWrapper.swift */,
+				63E589AC24E097D100433997 /* PlayChallengeTypeContentDataWrapper.swift */,
+			);
+			path = PlayChallengeTypes;
+			sourceTree = "<group>";
+		};
+		63E589AD24E097D100433997 /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				63E589AE24E097D100433997 /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		63E589AE24E097D100433997 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63E589AF24E097D100433997 /* ProtocolPlayChallengeTypeModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63E589B724E09A9200433997 /* PlayChallengeObjectiveTypes */ = {
+			isa = PBXGroup;
+			children = (
+				63E589BC24E09A9200433997 /* ModelAccessStrategies */,
+				63E589B924E09A9200433997 /* PlayChallengeObjectiveType.swift */,
+				63E589C024E09A9200433997 /* PlayChallengeObjectiveTypeCollection.swift */,
+				63E589BA24E09A9200433997 /* PlayChallengeObjectiveTypeModelAdministrator.swift */,
+				63E589BF24E09A9200433997 /* PlayChallengeObjectiveTypeWrapper.swift */,
+				63E589BB24E09A9200433997 /* PlayChallengeObjectiveTypeOnCompleteDataWrapper.swift */,
+				63E589C824E09B2600433997 /* PlayChallengeObjectiveTypeDefinitionDataWrapper.swift */,
+				63E589B824E09A9200433997 /* PlayChallengeObjectiveTypeContentDataWrapper.swift */,
+			);
+			path = PlayChallengeObjectiveTypes;
+			sourceTree = "<group>";
+		};
+		63E589BC24E09A9200433997 /* ModelAccessStrategies */ = {
+			isa = PBXGroup;
+			children = (
+				63E589BD24E09A9200433997 /* Protocols */,
+			);
+			path = ModelAccessStrategies;
+			sourceTree = "<group>";
+		};
+		63E589BD24E09A9200433997 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63E589BE24E09A9200433997 /* ProtocolPlayChallengeObjectiveTypeModelAccessStrategy.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6381EAEA1FA5066D00963A7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6381EAF21FA5066D00963A7D /* f30Model.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6381EAEC1FA5066D00963A7D /* f30Model */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6381EAF51FA5066D00963A7D /* Build configuration list for PBXNativeTarget "f30Model" */;
+			buildPhases = (
+				6381EAE81FA5066D00963A7D /* Sources */,
+				6381EAE91FA5066D00963A7D /* Frameworks */,
+				6381EAEA1FA5066D00963A7D /* Headers */,
+				6381EAEB1FA5066D00963A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = f30Model;
+			productName = f27Model;
+			productReference = 6381EAED1FA5066D00963A7D /* f30Model.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6381EAE41FA5066D00963A7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = com.smartfoundation;
+				TargetAttributes = {
+					6381EAEC1FA5066D00963A7D = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6381EAE71FA5066D00963A7D /* Build configuration list for PBXProject "f30Model" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6381EAE31FA5066D00963A7D;
+			productRefGroup = 6381EAEE1FA5066D00963A7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6381EAEC1FA5066D00963A7D /* f30Model */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6381EAEB1FA5066D00963A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6381EAE81FA5066D00963A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63E589B524E097D200433997 /* PlayChallengeTypeContentDataWrapper.swift in Sources */,
+				63696F2B21773AD100EBCD8D /* PlayAreaTileTypeModelAdministrator.swift in Sources */,
+				638B01B821569B420006B316 /* PlayExperienceStepResultWrapper.swift in Sources */,
+				63CB8C8622F5D47E007150C7 /* ProtocolPlayAreaPathAbilityType.swift in Sources */,
+				633FEACA228EF1CD0063D49A /* PlayChallengeObjectiveModelAdministrator.swift in Sources */,
+				63C1502822AAE1490080C430 /* PlayExperienceStepExerciseCollection.swift in Sources */,
+				63696F2121773AC900EBCD8D /* PlayAreaTileWrapper.swift in Sources */,
+				63E589A3249E948000433997 /* OnCompleteDataWrapperBase.swift in Sources */,
+				638B01D22157BA750006B316 /* PlayResultModelAdministrator.swift in Sources */,
+				638164482243186000718A4B /* ProtocolPlayAreaCellTypeGameCenterModelAccessStrategy.swift in Sources */,
+				63C1502E22AAE1490080C430 /* PlayExperienceStepExerciseResultWrapper.swift in Sources */,
+				636BD42922031E8200A38AC7 /* ProtocolPlayGameDataModelAccessStrategy.swift in Sources */,
+				63943E53248FB3F000D96CEA /* ProtocolPlaySubsetModelAccessStrategy.swift in Sources */,
+				63BC135422F096790019D74A /* PlayAreaPathModelAdministrator.swift in Sources */,
+				6362213021566FF80030F50C /* ProtocolPlayExperienceStepModelAccessStrategy.swift in Sources */,
+				636BD41722031A7A00A38AC7 /* PlayGameCollection.swift in Sources */,
+				63943E50248FB3F000D96CEA /* PlaySubsetCollection.swift in Sources */,
+				63943E54248FB3F000D96CEA /* PlaySubsetWrapper.swift in Sources */,
+				63C15002229AC9F00080C430 /* PlayExperienceContentDataWrapper.swift in Sources */,
+				638B01D52157BA750006B316 /* PlayResultCollection.swift in Sources */,
+				638B01D42157BA750006B316 /* PlayResult.swift in Sources */,
+				6334294B250CD76100E1F87D /* ModelItemAssetDataItemWrapper.swift in Sources */,
+				63E589C424E09A9200433997 /* PlayChallengeObjectiveTypeOnCompleteDataWrapper.swift in Sources */,
+				63943E56248FB91D00D96CEA /* PlaySubsetContentDataWrapper.swift in Sources */,
+				63E589B024E097D200433997 /* PlayChallengeTypeModelAdministrator.swift in Sources */,
+				633FEABE228EF19B0063D49A /* PlayChallenge.swift in Sources */,
+				63E589B224E097D200433997 /* PlayChallengeType.swift in Sources */,
+				63943E2E2477F4E100D96CEA /* PlayExperiencePlayExperienceStepLinkModelAdministrator.swift in Sources */,
+				636BD28421FB41DB00A38AC7 /* PlayAreaCellModelAdministrator.swift in Sources */,
+				63C1502922AAE1490080C430 /* PlayExperienceStepExerciseOnCompleteDataWrapper.swift in Sources */,
+				636BD28521FB41DB00A38AC7 /* ProtocolPlayAreaCellModelAccessStrategy.swift in Sources */,
+				63E589B124E097D200433997 /* PlayChallengeTypeWrapper.swift in Sources */,
+				63943E51248FB3F000D96CEA /* PlaySubset.swift in Sources */,
+				63943E2A2477F4E100D96CEA /* PlayExperiencePlayExperienceStepLink.swift in Sources */,
+				63342970250E352300E1F87D /* Img1Wrapper.swift in Sources */,
+				63943E402478547100D96CEA /* ProtocolPlayExperienceStepPlayExperienceStepExerciseLinkModelAccessStrategy.swift in Sources */,
+				63B560182279B1D100365284 /* PlayAreaTileDataCollection.swift in Sources */,
+				636BD41522031A7A00A38AC7 /* PlayGame.swift in Sources */,
+				63C1502B22AAE1490080C430 /* ProtocolPlayExperienceStepExerciseModelAccessStrategy.swift in Sources */,
+				63E589B324E097D200433997 /* PlayChallengeTypeOnCompleteDataWrapper.swift in Sources */,
+				636BD42C22031E8200A38AC7 /* PlayGameDataCollection.swift in Sources */,
+				636BD28921FB41DB00A38AC7 /* PlayAreaCell.swift in Sources */,
+				638B01D32157BA750006B316 /* PlayResultWrapper.swift in Sources */,
+				63BC135622F096790019D74A /* ProtocolPlayAreaPathModelAccessStrategy.swift in Sources */,
+				6362212E21566FF80030F50C /* PlayExperienceStepModelAdministrator.swift in Sources */,
+				63CB8C9222F6DFF1007150C7 /* PlayAreaPathAbilityWrappers.swift in Sources */,
+				6367FB60216B60CC0097E213 /* PlayMoveModelAdministrator.swift in Sources */,
+				636BD42822031E8200A38AC7 /* PlayGameDataModelAdministrator.swift in Sources */,
+				63696F1D21773AC900EBCD8D /* PlayAreaTile.swift in Sources */,
+				63BC136D22F098DA0019D74A /* ProtocolPlayAreaPathPointModelAccessStrategy.swift in Sources */,
+				63E589C124E09A9200433997 /* PlayChallengeObjectiveTypeContentDataWrapper.swift in Sources */,
+				63E589C324E09A9200433997 /* PlayChallengeObjectiveTypeModelAdministrator.swift in Sources */,
+				63C1EE631FA772650094FE54 /* UserProfile.swift in Sources */,
+				633FEABB228EF19B0063D49A /* ProtocolPlayChallengeModelAccessStrategy.swift in Sources */,
+				63E589A1249CB91B00433997 /* PlayGameDataOnCompleteDataWrapper.swift in Sources */,
+				633FE986227F5B730063D49A /* PlayAreaTokenCollection.swift in Sources */,
+				63342992251FBEEC00E1F87D /* P1Wrapper.swift in Sources */,
+				63B560172279B1D100365284 /* PlayAreaTileDataAttributeDataWrapper.swift in Sources */,
+				63BC135322F096790019D74A /* PlayAreaPathWrapper.swift in Sources */,
+				63E589C224E09A9200433997 /* PlayChallengeObjectiveType.swift in Sources */,
+				63AB9E3D22269F1A00E7125A /* ProtocolPlayAreaCellTypeModelAccessStrategy.swift in Sources */,
+				633429AE252277FA00E1F87D /* P1SubItemWrapper.swift in Sources */,
+				63BC137022F098DA0019D74A /* PlayAreaPathPointCollection.swift in Sources */,
+				63943E52248FB3F000D96CEA /* PlaySubsetModelAdministrator.swift in Sources */,
+				63A74B5D2152E5E3008424F5 /* ProtocolPlayExperienceModelAccessStrategy.swift in Sources */,
+				633FE983227F5B730063D49A /* ProtocolPlayAreaTokenModelAccessStrategy.swift in Sources */,
+				633FEABD228EF19B0063D49A /* PlayChallengeWrapper.swift in Sources */,
+				63C1502D22AAE1490080C430 /* PlayExperienceStepExerciseWrapper.swift in Sources */,
+				63E589B624E097D200433997 /* ProtocolPlayChallengeTypeModelAccessStrategy.swift in Sources */,
+				63696F2C21773AD100EBCD8D /* ProtocolPlayAreaTileTypeModelAccessStrategy.swift in Sources */,
+				6367FB5D216B60CC0097E213 /* ProtocolPlayMoveModelAccessStrategy.swift in Sources */,
+				6362212C21566FF80030F50C /* PlayExperienceStep.swift in Sources */,
+				63A74B5B2152E5E3008424F5 /* PlayExperience.swift in Sources */,
+				6362212D21566FF80030F50C /* PlayExperienceStepWrapper.swift in Sources */,
+				63A74B5C2152E5E3008424F5 /* PlayExperienceCollection.swift in Sources */,
+				63C1502F22AAE1490080C430 /* PlayExperienceStepExerciseModelAdministrator.swift in Sources */,
+				63B560162279B1D100365284 /* PlayAreaTileData.swift in Sources */,
+				63E589C624E09A9200433997 /* PlayChallengeObjectiveTypeWrapper.swift in Sources */,
+				6367FB6B217269E10097E213 /* PlayMoveOnCompleteDataWrapper.swift in Sources */,
+				63943E3F2478547100D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinkModelAdministrator.swift in Sources */,
+				63CB8C7422F5CCB1007150C7 /* PlayAreaPathAbilityWrapper.swift in Sources */,
+				63C1EE611FA771C90094FE54 /* ProtocolUserProfileModelAccessStrategy.swift in Sources */,
+				636BD42A22031E8200A38AC7 /* PlayGameData.swift in Sources */,
+				63E589C524E09A9200433997 /* ProtocolPlayChallengeObjectiveTypeModelAccessStrategy.swift in Sources */,
+				63BC136F22F098DA0019D74A /* PlayAreaPathPoint.swift in Sources */,
+				63E589B424E097D200433997 /* PlayChallengeTypeCollection.swift in Sources */,
+				63283FB41FA6BD3400D35084 /* ModelProperties.swift in Sources */,
+				633FE985227F5B730063D49A /* PlayAreaTokenModelAdministrator.swift in Sources */,
+				63696F2021773AC900EBCD8D /* ProtocolPlayAreaTileModelAccessStrategy.swift in Sources */,
+				63696F1F21773AC900EBCD8D /* PlayAreaTileModelAdministrator.swift in Sources */,
+				63AB9E3A22269F1A00E7125A /* PlayAreaCellTypeCollection.swift in Sources */,
+				63943E2C2477F4E100D96CEA /* PlayExperiencePlayExperienceStepLinkWrapper.swift in Sources */,
+				63E589C724E09A9300433997 /* PlayChallengeObjectiveTypeCollection.swift in Sources */,
+				63943E2B2477F4E100D96CEA /* PlayExperiencePlayExperienceStepLinkCollection.swift in Sources */,
+				63283F721FA6A68E00D35084 /* ModelManager.swift in Sources */,
+				63AB9E3C22269F1A00E7125A /* PlayAreaCellTypeWrapper.swift in Sources */,
+				63C1EE6A1FA774610094FE54 /* UserProfileModelAdministrator.swift in Sources */,
+				63AB9E3B22269F1A00E7125A /* PlayAreaCellTypeModelAdministrator.swift in Sources */,
+				636BD42D22031E8200A38AC7 /* PlayGameDataAttributeDataWrapper.swift in Sources */,
+				63A74B5E2152E5E3008424F5 /* PlayExperienceModelAdministrator.swift in Sources */,
+				63943E422478547100D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinkCollection.swift in Sources */,
+				63696F2A21773AD100EBCD8D /* PlayAreaTileTypeWrapper.swift in Sources */,
+				63AB9E3E22269F1A00E7125A /* PlayAreaCellType.swift in Sources */,
+				63943E3E2478547100D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLink.swift in Sources */,
+				63BC135722F096790019D74A /* PlayAreaPathCollection.swift in Sources */,
+				638B01D12157BA750006B316 /* ProtocolPlayResultModelAccessStrategy.swift in Sources */,
+				63BC137122F098DA0019D74A /* PlayAreaPathPointModelAdministrator.swift in Sources */,
+				633FEABC228EF19B0063D49A /* PlayChallengeCollection.swift in Sources */,
+				63342949250CD49300E1F87D /* ModelItemAssetDataWrapper.swift in Sources */,
+				63C1502A22AAE1490080C430 /* PlayExperienceStepExercise.swift in Sources */,
+				63696F1E21773AC900EBCD8D /* PlayAreaTileCollection.swift in Sources */,
+				6367FB5F216B60CC0097E213 /* PlayMoveCollection.swift in Sources */,
+				63696F2D21773AD100EBCD8D /* PlayAreaTileTypeCollection.swift in Sources */,
+				636BD41622031A7A00A38AC7 /* ProtocolPlayGameModelAccessStrategy.swift in Sources */,
+				63E589C924E09B2600433997 /* PlayChallengeObjectiveTypeDefinitionDataWrapper.swift in Sources */,
+				6367FB5C216B60CB0097E213 /* PlayMove.swift in Sources */,
+				6362212F21566FF80030F50C /* PlayExperienceStepCollection.swift in Sources */,
+				633FEACF228EF1CD0063D49A /* ProtocolPlayChallengeObjectiveModelAccessStrategy.swift in Sources */,
+				63B560152279B1D100365284 /* PlayAreaTileDataWrapper.swift in Sources */,
+				636BD41822031A7A00A38AC7 /* PlayGameModelAdministrator.swift in Sources */,
+				633FEAB8228EF19B0063D49A /* PlayChallengeModelAdministrator.swift in Sources */,
+				63B560192279B1D100365284 /* PlayAreaTileDataModelAdministrator.swift in Sources */,
+				63696F2E21773AD100EBCD8D /* PlayAreaTileType.swift in Sources */,
+				63A74B5F2152E5E3008424F5 /* PlayExperienceWrapper.swift in Sources */,
+				638B01DC21591C950006B316 /* PlayWrapper.swift in Sources */,
+				633FEACC228EF1CD0063D49A /* PlayChallengeObjectiveCollection.swift in Sources */,
+				63B560142279B1D100365284 /* ProtocolPlayAreaTileDataModelAccessStrategy.swift in Sources */,
+				6367FB5E216B60CC0097E213 /* PlayMoveWrapper.swift in Sources */,
+				63E5899F249CB90500433997 /* PlayAreaTileDataOnCompleteDataWrapper.swift in Sources */,
+				636BD41922031A7A00A38AC7 /* PlayGameWrapper.swift in Sources */,
+				633FE982227F5B730063D49A /* PlayAreaToken.swift in Sources */,
+				630C0AC7215CE1D300F460E7 /* PlayExperienceOnCompleteDataWrapper.swift in Sources */,
+				633FEAD0228EF1CD0063D49A /* PlayChallengeObjectiveWrapper.swift in Sources */,
+				636BD4AE2204CEB600A38AC7 /* PlayGameDataWrappers.swift in Sources */,
+				636BD42B22031E8200A38AC7 /* PlayGameDataWrapper.swift in Sources */,
+				63943E302477F51E00D96CEA /* ProtocolPlayExperiencePlayExperienceStepLinkModelAccessStrategy.swift in Sources */,
+				633FE984227F5B730063D49A /* PlayAreaTokenWrapper.swift in Sources */,
+				63943E412478547100D96CEA /* PlayExperienceStepPlayExperienceStepExerciseLinkWrapper.swift in Sources */,
+				630C0AC9215CFEA500F460E7 /* PlayExperienceStepOnCompleteDataWrapper.swift in Sources */,
+				63BC135522F096790019D74A /* PlayAreaPath.swift in Sources */,
+				63C1EE681FA773F90094FE54 /* UserProfileCollection.swift in Sources */,
+				636BD28721FB41DB00A38AC7 /* PlayAreaCellWrapper.swift in Sources */,
+				63BC136E22F098DA0019D74A /* PlayAreaPathPointWrapper.swift in Sources */,
+				633FEACE228EF1CD0063D49A /* PlayChallengeObjective.swift in Sources */,
+				63C1502C22AAE1490080C430 /* PlayExperienceStepExerciseContentDataWrapper.swift in Sources */,
+				636BD489220461F600A38AC7 /* PlayGameWrappers.swift in Sources */,
+				6367FB32216799050097E213 /* PlayExperienceStepContentDataWrapper.swift in Sources */,
+				636BD28621FB41DB00A38AC7 /* PlayAreaCellCollection.swift in Sources */,
+				631545A5227DB204008EA6A9 /* PlayMoveContentDataWrapper.swift in Sources */,
+				638B01BA21569B5C0006B316 /* PlayExperienceResultWrapper.swift in Sources */,
+				63E589A524BB118200433997 /* PlayMovePlayReferenceDataWrapper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6381EAF31FA5066D00963A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6381EAF41FA5066D00963A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6381EAF61FA5066D00963A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z8LTFFXX42;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = f30Model/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartfoundation.f30Model;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6381EAF71FA5066D00963A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z8LTFFXX42;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = f30Model/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartfoundation.f30Model;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6381EAE71FA5066D00963A7D /* Build configuration list for PBXProject "f30Model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6381EAF31FA5066D00963A7D /* Debug */,
+				6381EAF41FA5066D00963A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6381EAF51FA5066D00963A7D /* Build configuration list for PBXNativeTarget "f30Model" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6381EAF61FA5066D00963A7D /* Debug */,
+				6381EAF71FA5066D00963A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6381EAE41FA5066D00963A7D /* Project object */;
+}

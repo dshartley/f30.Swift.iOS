@@ -1,0 +1,16 @@
+/* 
+  InsertDummyRESTWebAPIResponse.strings
+  f30
+
+  Created by David on 08/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"insertPlayChallenges" = "{\"ID\":\"77\",\n
+	\"Items\":[],\n
+	\"Params\":[\n
+		{\"Key\":\"RelationalDataJSON\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[{\\\"ID\\\":\\\"PlayChallengeObjectives\\\", \\\"Items\\\" : [{\\\"ID\\\":\\\"1234\\\", \\\"Items\\\" : [], \\\"Params\\\" : [{\\\"Key\\\" : \\\"OriginalID\\\", \\\"Value\\\" : \\\"1\\\"}]}], \\\"Params\\\" : []}], \\\"Params\\\" : []}\"}\n
+	]\n
+}";
+
+

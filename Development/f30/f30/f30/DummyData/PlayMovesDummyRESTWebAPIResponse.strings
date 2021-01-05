@@ -1,0 +1,302 @@
+/* 
+  PlayMovesDummyRESTWebAPIResponse.strings
+  f30
+
+  Created by David on 08/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"byID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayMoves\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayReferenceData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"PlayReferenceActionType\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"byPlayTileID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayMoves\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayReferenceData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"PlayReferenceType\\\", \\\"Value\\\" : \\\"2\\\"},{\\\"Key\\\" : \\\"PlayReferenceID\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+				{\"Key\":\"PlayReferenceActionType\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+		
+"byPlayTokenID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayMoves\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayReferenceData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"PlayReferenceType\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"PlayReferenceID\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+				{\"Key\":\"PlayReferenceActionType\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayChallenges\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayMoveID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeTypeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"IsActiveYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"DateActive\",\"Value\":\"01/01/1900 12:00:00 AM\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayChallengeObjectives\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeObjectiveTypeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"IsAchievedYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"DateActive\",\"Value\":\"01/05/2019 12:00:00 AM\"}\n
+			]\n
+			},\n
+			{\"ID\":\"2\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeObjectiveTypeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"IsAchievedYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"DateActive\",\"Value\":\"01/05/2019 12:00:00 AM\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"DEBUG1_byPlayTokenID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayMoves\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayReferenceData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"PlayReferenceType\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"PlayReferenceID\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+				{\"Key\":\"PlayReferenceActionType\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayChallenges\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayMoveID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeTypeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"IsActiveYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"DateActive\",\"Value\":\"01/01/1900 12:00:00 AM\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayChallengeObjectives\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeObjectiveTypeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"IsAchievedYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"DateActive\",\"Value\":\"01/05/2019 12:00:00 AM\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+				
+"DEBUG2_byPlayTokenID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayMoves\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayReferenceData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"PlayReferenceType\\\", \\\"Value\\\" : \\\"1\\\"},{\\\"Key\\\" : \\\"PlayReferenceID\\\", \\\"Value\\\" : \\\"1\\\"}]}\"},\n
+				{\"Key\":\"PlayReferenceActionType\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayChallenges\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayMoveID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeTypeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"IsActiveYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"DateActive\",\"Value\":\"01/01/1900 12:00:00 AM\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayChallengeObjectives\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeObjectiveTypeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"IsAchievedYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"DateActive\",\"Value\":\"01/05/2019 12:00:00 AM\"}\n
+			]\n
+			},\n
+			{\"ID\":\"2\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeObjectiveTypeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"IsAchievedYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"DateActive\",\"Value\":\"01/05/2019 12:00:00 AM\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+				
+																										
+"byPlayTileID_5117C63F-8A65-4F31-93A2-24BCF93AD660" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayMoves\",\n
+		\"Items\":[\n
+			{\"ID\":\"DD6C0DF5-1215-4CC8-B6B7-71156095F7D1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayReferenceData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"PlayReferenceType\\\", \\\"Value\\\" : \\\"2\\\"},{\\\"Key\\\" : \\\"PlayReferenceID\\\", \\\"Value\\\" : \\\"5117C63F-8A65-4F31-93A2-24BCF93AD660\\\"}]}\"},\n
+				{\"Key\":\"PlayReferenceActionType\",\"Value\":\"0\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+				
+"byPlayTokenIDPlayAreaPath" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayMoves\",\n
+		\"Items\":[\n
+			{\"ID\":\"BeforeStartMovingAlongPath1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayReferenceData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"PlayReferenceType\\\", \\\"Value\\\" : \\\"3\\\"},{\\\"Key\\\" : \\\"PlayReferenceID\\\", \\\"Value\\\" : \\\"1XXX\\\"}]}\"},\n
+				{\"Key\":\"PlayReferenceActionType\",\"Value\":\"1\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"}\n
+			]\n
+			},\n
+			{\"ID\":\"BeforeMoveToPathPoint2\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayReferenceData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"PlayReferenceType\\\", \\\"Value\\\" : \\\"4\\\"},{\\\"Key\\\" : \\\"PlayReferenceID\\\", \\\"Value\\\" : \\\"2XXX\\\"}]}\"},\n
+				{\"Key\":\"PlayReferenceActionType\",\"Value\":\"2\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"}\n
+			]\n
+			},\n
+			{\"ID\":\"AfterMoveToPathPoint2\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayReferenceData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"PlayReferenceType\\\", \\\"Value\\\" : \\\"4\\\"},{\\\"Key\\\" : \\\"PlayReferenceID\\\", \\\"Value\\\" : \\\"2\\\"}]}\"},\n
+				{\"Key\":\"ThumbnailImageName\",\"Value\":\"\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"}\n
+			]\n
+			},\n
+			{\"ID\":\"AfterFinishedMovingAlongPath1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayReferenceData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"PlayReferenceType\\\", \\\"Value\\\" : \\\"3\\\"},{\\\"Key\\\" : \\\"PlayReferenceID\\\", \\\"Value\\\" : \\\"1XXX\\\"}]}\"},\n
+				{\"Key\":\"PlayReferenceActionType\",\"Value\":\"4\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+						

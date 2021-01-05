@@ -1,0 +1,145 @@
+/* 
+  PlayAreaPathsDummyRESTWebAPIResponse.strings
+  f30
+
+  Created by David on 08/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"byID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayAreaPaths\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PathAttributesString\",\"Value\":\"\"},\n
+				{\"Key\":\"PathLogString\",\"Value\":\"\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"byFromCellCoord_1_0_toCellCoord_0_2_type_ByFoot" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayAreaPaths\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PathAttributesString\",\"Value\":\"\"},\n
+				{\"Key\":\"PathLogString\",\"Value\":\"\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayAreaPathPoints\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayAreaPathID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Index\",\"Value\":\"0\"},\n
+				{\"Key\":\"Column\",\"Value\":\"1\"},\n
+				{\"Key\":\"Row\",\"Value\":\"0\"}\n
+			]\n
+			},\n
+			{\"ID\":\"2\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayAreaPathID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Index\",\"Value\":\"1\"},\n
+				{\"Key\":\"Column\",\"Value\":\"0\"},\n
+				{\"Key\":\"Row\",\"Value\":\"0\"}\n
+			]\n
+			},\n
+			{\"ID\":\"3\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayAreaPathID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Index\",\"Value\":\"2\"},\n
+				{\"Key\":\"Column\",\"Value\":\"0\"},\n
+				{\"Key\":\"Row\",\"Value\":\"1\"}\n
+			]\n
+			},\n
+			{\"ID\":\"4\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayAreaPathID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Index\",\"Value\":\"3\"},\n
+				{\"Key\":\"Column\",\"Value\":\"0\"},\n
+				{\"Key\":\"Row\",\"Value\":\"2\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"byFromCellCoord_0_0_toCellCoord_0_2_type_ByFoot" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayAreaPaths\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PathAttributesString\",\"Value\":\"\"},\n
+				{\"Key\":\"PathLogString\",\"Value\":\"\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayAreaPathPoints\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayAreaPathID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Index\",\"Value\":\"0\"},\n
+				{\"Key\":\"Column\",\"Value\":\"0\"},\n
+				{\"Key\":\"Row\",\"Value\":\"0\"}\n
+			]\n
+			},\n
+			{\"ID\":\"2\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayAreaPathID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Index\",\"Value\":\"1\"},\n
+				{\"Key\":\"Column\",\"Value\":\"0\"},\n
+				{\"Key\":\"Row\",\"Value\":\"1\"}\n
+			]\n
+			},\n
+			{\"ID\":\"3\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayAreaPathID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Index\",\"Value\":\"2\"},\n
+				{\"Key\":\"Column\",\"Value\":\"0\"},\n
+				{\"Key\":\"Row\",\"Value\":\"2\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+						

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PlayAreaPathAbilityButtonView" customModule="f30" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="d9T-Fd-388" id="SJu-i3-NtY"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="jFa-yq-fXs"/>
+                <outlet property="nameLabel" destination="029-wt-N94" id="2e5-dF-RiA"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d9T-Fd-388">
+                    <rect key="frame" x="3" y="3" width="50" height="50"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="l" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="029-wt-N94">
+                            <rect key="frame" x="20" y="-4.5" width="9.5" height="51.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="43"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="d9T-Fd-388" secondAttribute="height" multiplier="1:1" id="Ems-3r-Kd0"/>
+                        <constraint firstItem="029-wt-N94" firstAttribute="centerY" secondItem="d9T-Fd-388" secondAttribute="centerY" constant="-4" id="XQ1-sg-IMt"/>
+                        <constraint firstItem="029-wt-N94" firstAttribute="centerX" secondItem="d9T-Fd-388" secondAttribute="centerX" id="qhq-Of-AIW"/>
+                        <constraint firstAttribute="width" constant="50" id="sfY-Jt-ucp"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="dpR-0n-tjD" appends="YES" id="SJc-VL-mxk"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="d9T-Fd-388" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="3" id="LDe-Ed-YSB"/>
+                <constraint firstItem="d9T-Fd-388" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="3" id="QZZ-fA-nci"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+        <tapGestureRecognizer id="dpR-0n-tjD">
+            <connections>
+                <action selector="containerViewTapped:" destination="-1" id="caF-Xh-bcv"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

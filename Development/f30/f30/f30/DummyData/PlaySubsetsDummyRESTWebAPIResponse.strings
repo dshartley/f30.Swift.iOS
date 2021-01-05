@@ -1,0 +1,57 @@
+/* 
+  PlaySubsetsDummyRESTWebAPIResponse.strings
+  f30
+
+  Created by David on 08/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"byID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlaySubsets\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"Name\",\"Value\":\"subset1\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+			
+"byRelativeMember" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlaySubsets\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"Name\",\"Value\":\"English\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"FlagEnglish\\\"}]}\"}\n
+			]\n
+			},\n
+			{\"ID\":\"2\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"Name\",\"Value\":\"Spanish\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"FlagSpanish\\\"}]}\"}\n
+			]\n
+			},\n
+			{\"ID\":\"3\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"Name\",\"Value\":\"German\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"{\\\"ID\\\":\\\"\\\", \\\"Items\\\":[], \\\"Params\\\" : [{\\\"Key\\\" : \\\"ThumbnailImageName\\\", \\\"Value\\\" : \\\"FlagGerman\\\"}]}\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";

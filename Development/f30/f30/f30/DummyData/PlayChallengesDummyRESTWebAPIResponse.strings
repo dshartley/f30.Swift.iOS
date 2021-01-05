@@ -1,0 +1,109 @@
+/* 
+  PlayChallengesDummyRESTWebAPIResponse.strings
+  f30
+
+  Created by David on 08/02/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"byID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayChallenges\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayMoveID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeTypeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"IsActiveYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"DateActive\",\"Value\":\"01/01/1900 12:00:00 AM\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+
+"byIsActiveYN_playGameID" = "{\"ID\":\"\",\n
+	\"Items\":[\n
+		{\"ID\":\"PlayChallenges\",\n
+		\"Items\":[\n
+			{\"ID\":\"1234\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayGameID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayMoveID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeTypeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"IsActiveYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"IsCompleteYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"DateActive\",\"Value\":\"01/05/2019 12:00:00 AM\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayChallengeTypes\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayChallengeObjectives\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeID\",\"Value\":\"1234\"},\n
+				{\"Key\":\"PlayChallengeObjectiveTypeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"IsAchievedYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"DateActive\",\"Value\":\"01/05/2019 12:00:00 AM\"}\n
+			]\n
+			},\n
+			{\"ID\":\"2\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"RelativeMemberID\",\"Value\":\"1\"},\n
+				{\"Key\":\"PlayChallengeID\",\"Value\":\"1234\"},\n
+				{\"Key\":\"PlayChallengeObjectiveTypeID\",\"Value\":\"1\"},\n
+				{\"Key\":\"IsAchievedYN\",\"Value\":\"0\"},\n
+				{\"Key\":\"DateActive\",\"Value\":\"01/05/2019 12:00:00 AM\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		},\n
+		{\"ID\":\"PlayChallengeObjectiveTypes\",\n
+		\"Items\":[\n
+			{\"ID\":\"1\",\n
+			\"Items\":[],\n
+			\"Params\":[\n
+				{\"Key\":\"PlaySubsetID\",\"Value\":\"1\"},\n
+				{\"Key\":\"Name\",\"Value\":\"\"},\n
+				{\"Key\":\"ContentData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"OnCompleteData\",\"Value\":\"JSON\"},\n
+				{\"Key\":\"Code\",\"Value\":\"1234\"},\n
+				{\"Key\":\"DefinitionData\",\"Value\":\"JSON\"}\n
+			]\n
+			}\n
+		],\n
+		\"Params\":[]\n
+		}\n
+	],\n
+	\"Params\":[]\n
+}";
+

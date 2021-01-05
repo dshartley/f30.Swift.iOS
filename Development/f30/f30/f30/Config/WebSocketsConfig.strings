@@ -1,0 +1,9 @@
+/* 
+  WebSocketsConfig.strings
+  f30
+
+  Created by David on 21/04/2018.
+  Copyright © 2018 com.smartfoundation. All rights reserved.
+*/
+
+"WSf29Url" = "ws://www.sfserver.co.uk/ws?a=%@&ch=%@&crm=%@";

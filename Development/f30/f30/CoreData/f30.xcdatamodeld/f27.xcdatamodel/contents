@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13533" systemVersion="17F77" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PlayAreaCells" representedClassName="PlayAreaCells" syncable="YES" codeGenerationType="class">
+        <attribute name="dataString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playAreaID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playGameID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="relativeMemberID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PlayAreaTileData" representedClassName="PlayAreaTileData" syncable="YES" codeGenerationType="class">
+        <attribute name="dataString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playAreaID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playGameID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="relativeMemberID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PlayAreaTiles" representedClassName="PlayAreaTiles" syncable="YES" codeGenerationType="class">
+        <attribute name="dataString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playAreaID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playGameID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="relativeMemberID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PlayAreaTokens" representedClassName="PlayAreaTokens" syncable="YES" codeGenerationType="class">
+        <attribute name="dataString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playAreaID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playGameID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="relativeMemberID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PlayGameDataCache" representedClassName="PlayGameDataCache" syncable="YES" codeGenerationType="class">
+        <attribute name="dataString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="playGameID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="relativeMemberID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="PlayGames" representedClassName="PlayGames" syncable="YES" codeGenerationType="class">
+        <attribute name="dataString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="relativeMemberID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RelativeMembers" representedClassName="RelativeMembers" syncable="YES" codeGenerationType="class">
+        <attribute name="dataString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userProfileID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserProfiles" representedClassName="UserProfiles" syncable="YES" codeGenerationType="class">
+        <attribute name="dataString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userPropertiesID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PlayAreaCells" positionX="-63" positionY="9" width="128" height="105"/>
+        <element name="PlayAreaTileData" positionX="-36" positionY="45" width="128" height="105"/>
+        <element name="PlayAreaTiles" positionX="-36" positionY="45" width="128" height="105"/>
+        <element name="PlayGameDataCache" positionX="-27" positionY="54" width="128" height="90"/>
+        <element name="PlayGames" positionX="-54" positionY="27" width="128" height="75"/>
+        <element name="RelativeMembers" positionX="-63" positionY="0" width="128" height="75"/>
+        <element name="UserProfiles" positionX="-63" positionY="-18" width="128" height="75"/>
+        <element name="PlayAreaTokens" positionX="-45" positionY="45" width="128" height="105"/>
+    </elements>
+</model>

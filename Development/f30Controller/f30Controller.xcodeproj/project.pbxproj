@@ -1,0 +1,1517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		630607501FCF4E8E001E9169 /* ProtocolChangePasswordViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306074F1FCF4E8E001E9169 /* ProtocolChangePasswordViewControlManagerDelegate.swift */; };
+		630607521FCF4EA9001E9169 /* ChangePasswordViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630607511FCF4EA9001E9169 /* ChangePasswordViewControlManager.swift */; };
+		630B1E56233B55AE00CF3A71 /* PlayAreaPathAbilityTypeBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630B1E55233B55AE00CF3A71 /* PlayAreaPathAbilityTypeBase.swift */; };
+		630D98AF1FAF681E002A564A /* MainDisplayControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630D98AE1FAF681E002A564A /* MainDisplayControlManager.swift */; };
+		630D98C51FAF7693002A564A /* ProtocolMainDisplayControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630D98C41FAF7693002A564A /* ProtocolMainDisplayControlManagerDelegate.swift */; };
+		63283F6C1FA6A5C400D35084 /* Localizable.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63283F6B1FA6A5C400D35084 /* Localizable.plist */; };
+		63283F701FA6A5FE00D35084 /* SignInDisplayControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63283F6F1FA6A5FE00D35084 /* SignInDisplayControlManager.swift */; };
+		63342946250BC9AF00E1F87D /* MC1ControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63342943250BC9AF00E1F87D /* MC1ControlManager.swift */; };
+		63342947250BC9AF00E1F87D /* ProtocolMC1ControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63342945250BC9AF00E1F87D /* ProtocolMC1ControlManagerDelegate.swift */; };
+		6334296C250E2E4F00E1F87D /* Img1ControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63342969250E2E4F00E1F87D /* Img1ControlManager.swift */; };
+		6334296D250E2E4F00E1F87D /* ProtocolImg1ControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334296B250E2E4F00E1F87D /* ProtocolImg1ControlManagerDelegate.swift */; };
+		6334299D251FC02D00E1F87D /* P1ControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334299A251FC02D00E1F87D /* P1ControlManager.swift */; };
+		6334299E251FC02D00E1F87D /* ProtocolP1ControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6334299C251FC02D00E1F87D /* ProtocolP1ControlManagerDelegate.swift */; };
+		633429A3251FC04200E1F87D /* MP1ControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633429A0251FC04200E1F87D /* MP1ControlManager.swift */; };
+		633429A4251FC04200E1F87D /* ProtocolMP1ControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633429A2251FC04200E1F87D /* ProtocolMP1ControlManagerDelegate.swift */; };
+		633429BF252284A600E1F87D /* P1SubItemControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633429BC252284A600E1F87D /* P1SubItemControlManager.swift */; };
+		633429C0252284A600E1F87D /* ProtocolP1SubItemControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633429BE252284A600E1F87D /* ProtocolP1SubItemControlManagerDelegate.swift */; };
+		633EBD682143D409005D0C75 /* SFSerialization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633EBD692143D409005D0C75 /* SFSerialization.framework */; };
+		633EBD6A2143D411005D0C75 /* SFSocial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633EBD6B2143D411005D0C75 /* SFSocial.framework */; };
+		633EBD6C2143D417005D0C75 /* SFModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633EBD6D2143D417005D0C75 /* SFModel.framework */; };
+		633EBD6E2143D424005D0C75 /* SFController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633EBD6F2143D424005D0C75 /* SFController.framework */; };
+		633EBD702143D430005D0C75 /* SFNet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633EBD712143D430005D0C75 /* SFNet.framework */; };
+		633EBD722143D43F005D0C75 /* f30Model.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633EBD732143D43F005D0C75 /* f30Model.framework */; };
+		633EBD742143D448005D0C75 /* f30View.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633EBD752143D448005D0C75 /* f30View.framework */; };
+		633EBD762143D44F005D0C75 /* f30Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 633EBD772143D44F005D0C75 /* f30Core.framework */; };
+		633EBDCC214670F2005D0C75 /* PlayAreaViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633EBDC9214670F1005D0C75 /* PlayAreaViewControlManager.swift */; };
+		633EBDCD214670F2005D0C75 /* ProtocolPlayAreaViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633EBDCB214670F1005D0C75 /* ProtocolPlayAreaViewControlManagerDelegate.swift */; };
+		633FE989227F5DD10063D49A /* PlayAreaTokenssCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FE988227F5DD10063D49A /* PlayAreaTokenssCacheManager.swift */; };
+		633FE9C9227F6A020063D49A /* PlayAreaGridTokenViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FE9C6227F6A020063D49A /* PlayAreaGridTokenViewControlManager.swift */; };
+		633FE9CA227F6A020063D49A /* ProtocolPlayAreaGridTokenViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FE9C8227F6A020063D49A /* ProtocolPlayAreaGridTokenViewControlManagerDelegate.swift */; };
+		633FEA04228083670063D49A /* PlayAreaGridTokenMenuViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FEA01228083660063D49A /* PlayAreaGridTokenMenuViewControlManager.swift */; };
+		633FEA05228083670063D49A /* ProtocolPlayAreaGridTokenMenuViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FEA03228083660063D49A /* ProtocolPlayAreaGridTokenMenuViewControlManagerDelegate.swift */; };
+		633FEAF2228F15B40063D49A /* PlayActiveChallengeViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FEAEF228F15B40063D49A /* PlayActiveChallengeViewControlManager.swift */; };
+		633FEAF3228F15B40063D49A /* ProtocolPlayActiveChallengeViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633FEAF1228F15B40063D49A /* ProtocolPlayActiveChallengeViewControlManagerDelegate.swift */; };
+		634B8C821FAB430A00BF56E4 /* AuthenticationViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634B8C811FAB430A00BF56E4 /* AuthenticationViewControlManager.swift */; };
+		634B8C8F1FACC42200BF56E4 /* ProtocolAuthenticationViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634B8C8E1FACC42200BF56E4 /* ProtocolAuthenticationViewControlManagerDelegate.swift */; };
+		6351E72C209344F400884810 /* DashboardBarViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6351E729209344F400884810 /* DashboardBarViewControlManager.swift */; };
+		6351E72D209344F400884810 /* ProtocolDashboardBarViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6351E72B209344F400884810 /* ProtocolDashboardBarViewControlManagerDelegate.swift */; };
+		635AEA00205C030C004AF1B7 /* RelativeMembersCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635AE9FF205C030C004AF1B7 /* RelativeMembersCacheManager.swift */; };
+		635AEA10205C4488004AF1B7 /* UserProfilesCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635AEA0F205C4488004AF1B7 /* UserProfilesCacheManager.swift */; };
+		6367FB432169EB5B0097E213 /* PlayExperienceStepMarkerViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367FB402169EB5B0097E213 /* PlayExperienceStepMarkerViewControlManager.swift */; };
+		6367FB442169EB5B0097E213 /* ProtocolPlayExperienceStepMarkerViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6367FB422169EB5B0097E213 /* ProtocolPlayExperienceStepMarkerViewControlManagerDelegate.swift */; };
+		636BD2AE21FB4EDA00A38AC7 /* PlayAreaGridCellViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD2AB21FB4ED900A38AC7 /* PlayAreaGridCellViewControlManager.swift */; };
+		636BD2AF21FB4EDA00A38AC7 /* ProtocolPlayAreaGridCellViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD2AD21FB4ED900A38AC7 /* ProtocolPlayAreaGridCellViewControlManagerDelegate.swift */; };
+		636BD2D021FF313F00A38AC7 /* SFGridScape.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 636BD2D121FF313F00A38AC7 /* SFGridScape.framework */; };
+		636BD3582201B53200A38AC7 /* PlayAreaCellsCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD3572201B53200A38AC7 /* PlayAreaCellsCacheManager.swift */; };
+		636BD468220456B800A38AC7 /* PlayGamesViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD465220456B800A38AC7 /* PlayGamesViewControlManager.swift */; };
+		636BD469220456B800A38AC7 /* ProtocolPlayGamesViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD467220456B800A38AC7 /* ProtocolPlayGamesViewControlManagerDelegate.swift */; };
+		636BD4A92204BBF100A38AC7 /* PlayGameDataCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD4A82204BBF100A38AC7 /* PlayGameDataCacheManager.swift */; };
+		636BD4AC2204BBFC00A38AC7 /* PlayGamesCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD4AB2204BBFC00A38AC7 /* PlayGamesCacheManager.swift */; };
+		636BD4BF2206014500A38AC7 /* PlayGameEditViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD4BC2206014500A38AC7 /* PlayGameEditViewControlManager.swift */; };
+		636BD4C02206014500A38AC7 /* ProtocolPlayGameEditViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636BD4BE2206014500A38AC7 /* ProtocolPlayGameEditViewControlManagerDelegate.swift */; };
+		6374CC9921F6132800530045 /* PlayDeckViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6374CC9621F6132800530045 /* PlayDeckViewControlManager.swift */; };
+		6374CC9A21F6132800530045 /* ProtocolPlayDeckViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6374CC9821F6132800530045 /* ProtocolPlayDeckViewControlManagerDelegate.swift */; };
+		63816470224E7C2200718A4B /* PlayAreaTilesCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6381646F224E7C2100718A4B /* PlayAreaTilesCacheManager.swift */; };
+		63816490224EA2EE00718A4B /* PlayAreaGridTileViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6381648D224EA2ED00718A4B /* PlayAreaGridTileViewControlManager.swift */; };
+		63816491224EA2EE00718A4B /* ProtocolPlayAreaGridTileViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6381648F224EA2ED00718A4B /* ProtocolPlayAreaGridTileViewControlManagerDelegate.swift */; };
+		6381EB1C1FA506A000963A7D /* f30Controller.h in Headers */ = {isa = PBXBuildFile; fileRef = 6381EB1A1FA506A000963A7D /* f30Controller.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6388BAB12279C6BE00C73157 /* PlayAreaTileDataCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6388BAB02279C6BD00C73157 /* PlayAreaTileDataCacheManager.swift */; };
+		638B01AB215689130006B316 /* BasicPlayExperienceStepViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B01A7215689130006B316 /* BasicPlayExperienceStepViewControlManager.swift */; };
+		638B01AC215689130006B316 /* ProtocolBasicPlayExperienceStepViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B01A9215689130006B316 /* ProtocolBasicPlayExperienceStepViewControlManagerDelegate.swift */; };
+		638B0209215CB6140006B316 /* PlayExperienceStepViewControlManagerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B0208215CB6130006B316 /* PlayExperienceStepViewControlManagerBase.swift */; };
+		638B020C215CB6670006B316 /* ProtocolPlayExperienceStepViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B020B215CB6660006B316 /* ProtocolPlayExperienceStepViewControlManagerDelegate.swift */; };
+		638B020F215CB6CB0006B316 /* ProtocolPlayExperienceViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B020E215CB6CB0006B316 /* ProtocolPlayExperienceViewControlManagerDelegate.swift */; };
+		638B0211215CB6E10006B316 /* PlayExperienceViewControlManagerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B0210215CB6E10006B316 /* PlayExperienceViewControlManagerBase.swift */; };
+		639261F81FC7EC9C0061CF3B /* ProtocolPrimarySettingsViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639261F71FC7EC9C0061CF3B /* ProtocolPrimarySettingsViewControlManagerDelegate.swift */; };
+		639261FA1FC7ECE30061CF3B /* PrimarySettingsViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639261F91FC7ECE30061CF3B /* PrimarySettingsViewControlManager.swift */; };
+		63A2E2E22332860500A45E31 /* PlayAreaPathAbilityButtonViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2E2DF2332860500A45E31 /* PlayAreaPathAbilityButtonViewControlManager.swift */; };
+		63A2E2E32332860500A45E31 /* PlayAreaPathAbilityButtonViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A2E2E12332860500A45E31 /* PlayAreaPathAbilityButtonViewControlManagerDelegate.swift */; };
+		63A74B8D2153CAE0008424F5 /* BasicPlayExperienceViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A74B8A2153CAE0008424F5 /* BasicPlayExperienceViewControlManager.swift */; };
+		63A74B8E2153CAE0008424F5 /* ProtocolBasicPlayExperienceViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A74B8C2153CAE0008424F5 /* ProtocolBasicPlayExperienceViewControlManagerDelegate.swift */; };
+		63ABF7601FBB8FE800818754 /* ProtocolSettingsDisplayControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ABF75F1FBB8FE800818754 /* ProtocolSettingsDisplayControlManagerDelegate.swift */; };
+		63ABF7621FBB901A00818754 /* SettingsDisplayControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ABF7611FBB901A00818754 /* SettingsDisplayControlManager.swift */; };
+		63ABF79C1FBCE0A400818754 /* ProtocolSettingsViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ABF79B1FBCE0A400818754 /* ProtocolSettingsViewControlManagerDelegate.swift */; };
+		63ABF79E1FBCE12400818754 /* SettingsViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63ABF79D1FBCE12400818754 /* SettingsViewControlManager.swift */; };
+		63B15C291FB2455C0001E6FF /* AppDelegateControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B15C281FB2455C0001E6FF /* AppDelegateControlManager.swift */; };
+		63B56001226FA36E00365284 /* PlayAreaGridTileMenuViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B55FFE226FA36E00365284 /* PlayAreaGridTileMenuViewControlManager.swift */; };
+		63B56002226FA36E00365284 /* ProtocolPlayAreaGridTileMenuViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B56000226FA36E00365284 /* ProtocolPlayAreaGridTileMenuViewControlManagerDelegate.swift */; };
+		63BC134122F093A40019D74A /* PlayControlBarViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC133E22F093A40019D74A /* PlayControlBarViewControlManager.swift */; };
+		63BC134222F093A40019D74A /* ProtocolPlayControlBarViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BC134022F093A40019D74A /* ProtocolPlayControlBarViewControlManagerDelegate.swift */; };
+		63C1501322A2E6280080C430 /* PlayExperienceStepCompleteViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1501022A2E6280080C430 /* PlayExperienceStepCompleteViewControlManager.swift */; };
+		63C1501422A2E6280080C430 /* ProtocolPlayExperienceStepCompleteViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1501222A2E6280080C430 /* ProtocolPlayExperienceStepCompleteViewControlManagerDelegate.swift */; };
+		63C1505022ACE6840080C430 /* BasicPlayExperienceStepExerciseViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1504A22ACE6840080C430 /* BasicPlayExperienceStepExerciseViewControlManager.swift */; };
+		63C1505122ACE6840080C430 /* ProtocolBasicPlayExperienceStepExerciseViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1504C22ACE6840080C430 /* ProtocolBasicPlayExperienceStepExerciseViewControlManagerDelegate.swift */; };
+		63C1505222ACE6840080C430 /* PlayExperienceStepExerciseViewControlManagerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1504D22ACE6840080C430 /* PlayExperienceStepExerciseViewControlManagerBase.swift */; };
+		63C1505322ACE6840080C430 /* ProtocolPlayExperienceStepExerciseViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1504F22ACE6840080C430 /* ProtocolPlayExperienceStepExerciseViewControlManagerDelegate.swift */; };
+		63C1508B22B9FCBE0080C430 /* PlayExperienceCompleteViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1508822B9FCBD0080C430 /* PlayExperienceCompleteViewControlManager.swift */; };
+		63C1508C22B9FCBE0080C430 /* ProtocolPlayExperienceCompleteViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1508A22B9FCBD0080C430 /* ProtocolPlayExperienceCompleteViewControlManagerDelegate.swift */; };
+		63C1509522B9FCCA0080C430 /* PlayChallengeCompleteViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1508E22B9FCC90080C430 /* PlayChallengeCompleteViewControlManager.swift */; };
+		63C1509622B9FCCA0080C430 /* ProtocolPlayChallengeCompleteViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1509022B9FCC90080C430 /* ProtocolPlayChallengeCompleteViewControlManagerDelegate.swift */; };
+		63C1509722B9FCCA0080C430 /* PlayChallengeObjectiveCompleteViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1509222B9FCC90080C430 /* PlayChallengeObjectiveCompleteViewControlManager.swift */; };
+		63C1509822B9FCCA0080C430 /* ProtocolPlayChallengeObjectiveCompleteViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C1509422B9FCC90080C430 /* ProtocolPlayChallengeObjectiveCompleteViewControlManagerDelegate.swift */; };
+		63C150CF22C7C3B20080C430 /* PlayChallengeObjectiveListItemViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C150CC22C7C3B00080C430 /* PlayChallengeObjectiveListItemViewControlManager.swift */; };
+		63C150D022C7C3B20080C430 /* PlayChallengeObjectiveListItemViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C150CE22C7C3B00080C430 /* PlayChallengeObjectiveListItemViewControlManagerDelegate.swift */; };
+		63C818791FB0A9AB00448E73 /* ExtensionControlManagerBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C818781FB0A9AB00448E73 /* ExtensionControlManagerBase.swift */; };
+		63CB8C8B22F5D638007150C7 /* PlayAreaPathAbilitiesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB8C8A22F5D638007150C7 /* PlayAreaPathAbilitiesManager.swift */; };
+		63CB8C8D22F5D742007150C7 /* ByFootPlayAreaPathAbilityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB8C8C22F5D742007150C7 /* ByFootPlayAreaPathAbilityType.swift */; };
+		63CB8C9022F6D484007150C7 /* ByCarPlayAreaPathAbilityType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB8C8F22F6D484007150C7 /* ByCarPlayAreaPathAbilityType.swift */; };
+		63CB8CA523054053007150C7 /* ProtocolPlayAreaPathMenuViewControlManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB8CA323054053007150C7 /* ProtocolPlayAreaPathMenuViewControlManagerDelegate.swift */; };
+		63CB8CA623054053007150C7 /* PlayAreaPathMenuViewControlManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CB8CA423054053007150C7 /* PlayAreaPathMenuViewControlManager.swift */; };
+		63CBA0B51FC182ED00C8A091 /* ControlManagerBaseDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63CBA0B41FC182ED00C8A091 /* ControlManagerBaseDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6306074F1FCF4E8E001E9169 /* ProtocolChangePasswordViewControlManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolChangePasswordViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		630607511FCF4EA9001E9169 /* ChangePasswordViewControlManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewControlManager.swift; sourceTree = "<group>"; };
+		630B1E55233B55AE00CF3A71 /* PlayAreaPathAbilityTypeBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAreaPathAbilityTypeBase.swift; sourceTree = "<group>"; };
+		630D98AE1FAF681E002A564A /* MainDisplayControlManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDisplayControlManager.swift; sourceTree = "<group>"; };
+		630D98C41FAF7693002A564A /* ProtocolMainDisplayControlManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolMainDisplayControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63283F6B1FA6A5C400D35084 /* Localizable.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Localizable.plist; sourceTree = "<group>"; };
+		63283F6F1FA6A5FE00D35084 /* SignInDisplayControlManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInDisplayControlManager.swift; sourceTree = "<group>"; };
+		63342943250BC9AF00E1F87D /* MC1ControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MC1ControlManager.swift; sourceTree = "<group>"; };
+		63342945250BC9AF00E1F87D /* ProtocolMC1ControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolMC1ControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63342969250E2E4F00E1F87D /* Img1ControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Img1ControlManager.swift; sourceTree = "<group>"; };
+		6334296B250E2E4F00E1F87D /* ProtocolImg1ControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolImg1ControlManagerDelegate.swift; sourceTree = "<group>"; };
+		6334299A251FC02D00E1F87D /* P1ControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P1ControlManager.swift; sourceTree = "<group>"; };
+		6334299C251FC02D00E1F87D /* ProtocolP1ControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolP1ControlManagerDelegate.swift; sourceTree = "<group>"; };
+		633429A0251FC04200E1F87D /* MP1ControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MP1ControlManager.swift; sourceTree = "<group>"; };
+		633429A2251FC04200E1F87D /* ProtocolMP1ControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolMP1ControlManagerDelegate.swift; sourceTree = "<group>"; };
+		633429BC252284A600E1F87D /* P1SubItemControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = P1SubItemControlManager.swift; sourceTree = "<group>"; };
+		633429BE252284A600E1F87D /* ProtocolP1SubItemControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolP1SubItemControlManagerDelegate.swift; sourceTree = "<group>"; };
+		633EBD692143D409005D0C75 /* SFSerialization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFSerialization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633EBD6B2143D411005D0C75 /* SFSocial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFSocial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633EBD6D2143D417005D0C75 /* SFModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633EBD6F2143D424005D0C75 /* SFController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633EBD712143D430005D0C75 /* SFNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633EBD732143D43F005D0C75 /* f30Model.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = f30Model.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633EBD752143D448005D0C75 /* f30View.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = f30View.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633EBD772143D44F005D0C75 /* f30Core.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = f30Core.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		633EBDC9214670F1005D0C75 /* PlayAreaViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaViewControlManager.swift; sourceTree = "<group>"; };
+		633EBDCB214670F1005D0C75 /* ProtocolPlayAreaViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		633FE988227F5DD10063D49A /* PlayAreaTokenssCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTokenssCacheManager.swift; sourceTree = "<group>"; };
+		633FE9C6227F6A020063D49A /* PlayAreaGridTokenViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaGridTokenViewControlManager.swift; sourceTree = "<group>"; };
+		633FE9C8227F6A020063D49A /* ProtocolPlayAreaGridTokenViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaGridTokenViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		633FEA01228083660063D49A /* PlayAreaGridTokenMenuViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaGridTokenMenuViewControlManager.swift; sourceTree = "<group>"; };
+		633FEA03228083660063D49A /* ProtocolPlayAreaGridTokenMenuViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaGridTokenMenuViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		633FEAEF228F15B40063D49A /* PlayActiveChallengeViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayActiveChallengeViewControlManager.swift; sourceTree = "<group>"; };
+		633FEAF1228F15B40063D49A /* ProtocolPlayActiveChallengeViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayActiveChallengeViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		634B8C811FAB430A00BF56E4 /* AuthenticationViewControlManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewControlManager.swift; sourceTree = "<group>"; };
+		634B8C8E1FACC42200BF56E4 /* ProtocolAuthenticationViewControlManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolAuthenticationViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		6351E729209344F400884810 /* DashboardBarViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardBarViewControlManager.swift; sourceTree = "<group>"; };
+		6351E72B209344F400884810 /* ProtocolDashboardBarViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolDashboardBarViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		635AE9FF205C030C004AF1B7 /* RelativeMembersCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativeMembersCacheManager.swift; sourceTree = "<group>"; };
+		635AEA0F205C4488004AF1B7 /* UserProfilesCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfilesCacheManager.swift; sourceTree = "<group>"; };
+		6367FB402169EB5B0097E213 /* PlayExperienceStepMarkerViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepMarkerViewControlManager.swift; sourceTree = "<group>"; };
+		6367FB422169EB5B0097E213 /* ProtocolPlayExperienceStepMarkerViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayExperienceStepMarkerViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		636BD2AB21FB4ED900A38AC7 /* PlayAreaGridCellViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaGridCellViewControlManager.swift; sourceTree = "<group>"; };
+		636BD2AD21FB4ED900A38AC7 /* ProtocolPlayAreaGridCellViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaGridCellViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		636BD2D121FF313F00A38AC7 /* SFGridScape.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SFGridScape.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		636BD3572201B53200A38AC7 /* PlayAreaCellsCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaCellsCacheManager.swift; sourceTree = "<group>"; };
+		636BD465220456B800A38AC7 /* PlayGamesViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGamesViewControlManager.swift; sourceTree = "<group>"; };
+		636BD467220456B800A38AC7 /* ProtocolPlayGamesViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayGamesViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		636BD4A82204BBF100A38AC7 /* PlayGameDataCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameDataCacheManager.swift; sourceTree = "<group>"; };
+		636BD4AB2204BBFC00A38AC7 /* PlayGamesCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGamesCacheManager.swift; sourceTree = "<group>"; };
+		636BD4BC2206014500A38AC7 /* PlayGameEditViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayGameEditViewControlManager.swift; sourceTree = "<group>"; };
+		636BD4BE2206014500A38AC7 /* ProtocolPlayGameEditViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayGameEditViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		6374CC9621F6132800530045 /* PlayDeckViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayDeckViewControlManager.swift; sourceTree = "<group>"; };
+		6374CC9821F6132800530045 /* ProtocolPlayDeckViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayDeckViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		6381646F224E7C2100718A4B /* PlayAreaTilesCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTilesCacheManager.swift; sourceTree = "<group>"; };
+		6381648D224EA2ED00718A4B /* PlayAreaGridTileViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaGridTileViewControlManager.swift; sourceTree = "<group>"; };
+		6381648F224EA2ED00718A4B /* ProtocolPlayAreaGridTileViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaGridTileViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		6381EB171FA506A000963A7D /* f30Controller.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = f30Controller.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6381EB1A1FA506A000963A7D /* f30Controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = f30Controller.h; sourceTree = "<group>"; };
+		6381EB1B1FA506A000963A7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6388BAB02279C6BD00C73157 /* PlayAreaTileDataCacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaTileDataCacheManager.swift; sourceTree = "<group>"; };
+		638B01A7215689130006B316 /* BasicPlayExperienceStepViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicPlayExperienceStepViewControlManager.swift; sourceTree = "<group>"; };
+		638B01A9215689130006B316 /* ProtocolBasicPlayExperienceStepViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolBasicPlayExperienceStepViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		638B0208215CB6130006B316 /* PlayExperienceStepViewControlManagerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepViewControlManagerBase.swift; sourceTree = "<group>"; };
+		638B020B215CB6660006B316 /* ProtocolPlayExperienceStepViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayExperienceStepViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		638B020E215CB6CB0006B316 /* ProtocolPlayExperienceViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayExperienceViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		638B0210215CB6E10006B316 /* PlayExperienceViewControlManagerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceViewControlManagerBase.swift; sourceTree = "<group>"; };
+		639261F71FC7EC9C0061CF3B /* ProtocolPrimarySettingsViewControlManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolPrimarySettingsViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		639261F91FC7ECE30061CF3B /* PrimarySettingsViewControlManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimarySettingsViewControlManager.swift; sourceTree = "<group>"; };
+		63A2E2DF2332860500A45E31 /* PlayAreaPathAbilityButtonViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaPathAbilityButtonViewControlManager.swift; sourceTree = "<group>"; };
+		63A2E2E12332860500A45E31 /* PlayAreaPathAbilityButtonViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaPathAbilityButtonViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63A74B8A2153CAE0008424F5 /* BasicPlayExperienceViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicPlayExperienceViewControlManager.swift; sourceTree = "<group>"; };
+		63A74B8C2153CAE0008424F5 /* ProtocolBasicPlayExperienceViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolBasicPlayExperienceViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63ABF75F1FBB8FE800818754 /* ProtocolSettingsDisplayControlManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolSettingsDisplayControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63ABF7611FBB901A00818754 /* SettingsDisplayControlManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsDisplayControlManager.swift; sourceTree = "<group>"; };
+		63ABF79B1FBCE0A400818754 /* ProtocolSettingsViewControlManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolSettingsViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63ABF79D1FBCE12400818754 /* SettingsViewControlManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewControlManager.swift; sourceTree = "<group>"; };
+		63B15C281FB2455C0001E6FF /* AppDelegateControlManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateControlManager.swift; sourceTree = "<group>"; };
+		63B55FFE226FA36E00365284 /* PlayAreaGridTileMenuViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaGridTileMenuViewControlManager.swift; sourceTree = "<group>"; };
+		63B56000226FA36E00365284 /* ProtocolPlayAreaGridTileMenuViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaGridTileMenuViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63BC133E22F093A40019D74A /* PlayControlBarViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayControlBarViewControlManager.swift; sourceTree = "<group>"; };
+		63BC134022F093A40019D74A /* ProtocolPlayControlBarViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayControlBarViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63C1501022A2E6280080C430 /* PlayExperienceStepCompleteViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepCompleteViewControlManager.swift; sourceTree = "<group>"; };
+		63C1501222A2E6280080C430 /* ProtocolPlayExperienceStepCompleteViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayExperienceStepCompleteViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63C1504A22ACE6840080C430 /* BasicPlayExperienceStepExerciseViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicPlayExperienceStepExerciseViewControlManager.swift; sourceTree = "<group>"; };
+		63C1504C22ACE6840080C430 /* ProtocolBasicPlayExperienceStepExerciseViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolBasicPlayExperienceStepExerciseViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63C1504D22ACE6840080C430 /* PlayExperienceStepExerciseViewControlManagerBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceStepExerciseViewControlManagerBase.swift; sourceTree = "<group>"; };
+		63C1504F22ACE6840080C430 /* ProtocolPlayExperienceStepExerciseViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayExperienceStepExerciseViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63C1508822B9FCBD0080C430 /* PlayExperienceCompleteViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayExperienceCompleteViewControlManager.swift; sourceTree = "<group>"; };
+		63C1508A22B9FCBD0080C430 /* ProtocolPlayExperienceCompleteViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayExperienceCompleteViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63C1508E22B9FCC90080C430 /* PlayChallengeCompleteViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeCompleteViewControlManager.swift; sourceTree = "<group>"; };
+		63C1509022B9FCC90080C430 /* ProtocolPlayChallengeCompleteViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayChallengeCompleteViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63C1509222B9FCC90080C430 /* PlayChallengeObjectiveCompleteViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeObjectiveCompleteViewControlManager.swift; sourceTree = "<group>"; };
+		63C1509422B9FCC90080C430 /* ProtocolPlayChallengeObjectiveCompleteViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayChallengeObjectiveCompleteViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63C150CC22C7C3B00080C430 /* PlayChallengeObjectiveListItemViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeObjectiveListItemViewControlManager.swift; sourceTree = "<group>"; };
+		63C150CE22C7C3B00080C430 /* PlayChallengeObjectiveListItemViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayChallengeObjectiveListItemViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63C818781FB0A9AB00448E73 /* ExtensionControlManagerBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionControlManagerBase.swift; sourceTree = "<group>"; };
+		63CB8C8A22F5D638007150C7 /* PlayAreaPathAbilitiesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayAreaPathAbilitiesManager.swift; sourceTree = "<group>"; };
+		63CB8C8C22F5D742007150C7 /* ByFootPlayAreaPathAbilityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByFootPlayAreaPathAbilityType.swift; sourceTree = "<group>"; };
+		63CB8C8F22F6D484007150C7 /* ByCarPlayAreaPathAbilityType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ByCarPlayAreaPathAbilityType.swift; sourceTree = "<group>"; };
+		63CB8CA323054053007150C7 /* ProtocolPlayAreaPathMenuViewControlManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolPlayAreaPathMenuViewControlManagerDelegate.swift; sourceTree = "<group>"; };
+		63CB8CA423054053007150C7 /* PlayAreaPathMenuViewControlManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayAreaPathMenuViewControlManager.swift; sourceTree = "<group>"; };
+		63CBA0B41FC182ED00C8A091 /* ControlManagerBaseDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlManagerBaseDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6381EB131FA506A000963A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				633EBD722143D43F005D0C75 /* f30Model.framework in Frameworks */,
+				633EBD742143D448005D0C75 /* f30View.framework in Frameworks */,
+				633EBD762143D44F005D0C75 /* f30Core.framework in Frameworks */,
+				633EBD702143D430005D0C75 /* SFNet.framework in Frameworks */,
+				636BD2D021FF313F00A38AC7 /* SFGridScape.framework in Frameworks */,
+				633EBD6A2143D411005D0C75 /* SFSocial.framework in Frameworks */,
+				633EBD6C2143D417005D0C75 /* SFModel.framework in Frameworks */,
+				633EBD6E2143D424005D0C75 /* SFController.framework in Frameworks */,
+				633EBD682143D409005D0C75 /* SFSerialization.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6306074D1FCF4E61001E9169 /* ChangePasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				6306074E1FCF4E6D001E9169 /* Protocols */,
+				630607511FCF4EA9001E9169 /* ChangePasswordViewControlManager.swift */,
+			);
+			path = ChangePasswordView;
+			sourceTree = "<group>";
+		};
+		6306074E1FCF4E6D001E9169 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6306074F1FCF4E8E001E9169 /* ProtocolChangePasswordViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		630D98AD1FAF67FD002A564A /* MainDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				630D98C31FAF767C002A564A /* Protocols */,
+				6345921A2061075C007CD9E2 /* Views */,
+				630D98AE1FAF681E002A564A /* MainDisplayControlManager.swift */,
+			);
+			path = MainDisplay;
+			sourceTree = "<group>";
+		};
+		630D98C31FAF767C002A564A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				630D98C41FAF7693002A564A /* ProtocolMainDisplayControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63283F6A1FA6A5AE00D35084 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				63283F6B1FA6A5C400D35084 /* Localizable.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		63283F6D1FA6A5CC00D35084 /* Displays */ = {
+			isa = PBXGroup;
+			children = (
+				63ABF7541FBB8EA100818754 /* SettingsDisplay */,
+				630D98AD1FAF67FD002A564A /* MainDisplay */,
+				63283F6E1FA6A5D300D35084 /* SignInDisplay */,
+			);
+			path = Displays;
+			sourceTree = "<group>";
+		};
+		63283F6E1FA6A5D300D35084 /* SignInDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				634B8C7F1FAB42E400BF56E4 /* Views */,
+				63283F6F1FA6A5FE00D35084 /* SignInDisplayControlManager.swift */,
+			);
+			path = SignInDisplay;
+			sourceTree = "<group>";
+		};
+		63283F951FA6B99C00D35084 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				633EBD732143D43F005D0C75 /* f30Model.framework */,
+				633EBD752143D448005D0C75 /* f30View.framework */,
+				633EBD772143D44F005D0C75 /* f30Core.framework */,
+				633EBD692143D409005D0C75 /* SFSerialization.framework */,
+				633EBD712143D430005D0C75 /* SFNet.framework */,
+				636BD2D121FF313F00A38AC7 /* SFGridScape.framework */,
+				633EBD6D2143D417005D0C75 /* SFModel.framework */,
+				633EBD6F2143D424005D0C75 /* SFController.framework */,
+				633EBD6B2143D411005D0C75 /* SFSocial.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63342942250BC9AF00E1F87D /* MC1 */ = {
+			isa = PBXGroup;
+			children = (
+				63342944250BC9AF00E1F87D /* Protocols */,
+				63342943250BC9AF00E1F87D /* MC1ControlManager.swift */,
+			);
+			path = MC1;
+			sourceTree = "<group>";
+		};
+		63342944250BC9AF00E1F87D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63342945250BC9AF00E1F87D /* ProtocolMC1ControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63342958250E2CD800E1F87D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				63C1504922ACE6840080C430 /* BasicPlayExperienceStepExerciseView */,
+				63342942250BC9AF00E1F87D /* MC1 */,
+				6334299F251FC04200E1F87D /* MP1 */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63342959250E2CDE00E1F87D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				63342968250E2E4F00E1F87D /* Img1 */,
+				633429BB252284A600E1F87D /* P1SubItem */,
+				63342999251FC02D00E1F87D /* P1 */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		63342968250E2E4F00E1F87D /* Img1 */ = {
+			isa = PBXGroup;
+			children = (
+				6334296A250E2E4F00E1F87D /* Protocols */,
+				63342969250E2E4F00E1F87D /* Img1ControlManager.swift */,
+			);
+			path = Img1;
+			sourceTree = "<group>";
+		};
+		6334296A250E2E4F00E1F87D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6334296B250E2E4F00E1F87D /* ProtocolImg1ControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63342999251FC02D00E1F87D /* P1 */ = {
+			isa = PBXGroup;
+			children = (
+				6334299B251FC02D00E1F87D /* Protocols */,
+				6334299A251FC02D00E1F87D /* P1ControlManager.swift */,
+			);
+			path = P1;
+			sourceTree = "<group>";
+		};
+		6334299B251FC02D00E1F87D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6334299C251FC02D00E1F87D /* ProtocolP1ControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6334299F251FC04200E1F87D /* MP1 */ = {
+			isa = PBXGroup;
+			children = (
+				633429A1251FC04200E1F87D /* Protocols */,
+				633429A0251FC04200E1F87D /* MP1ControlManager.swift */,
+			);
+			path = MP1;
+			sourceTree = "<group>";
+		};
+		633429A1251FC04200E1F87D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				633429A2251FC04200E1F87D /* ProtocolMP1ControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		633429BB252284A600E1F87D /* P1SubItem */ = {
+			isa = PBXGroup;
+			children = (
+				633429BD252284A600E1F87D /* Protocols */,
+				633429BC252284A600E1F87D /* P1SubItemControlManager.swift */,
+			);
+			path = P1SubItem;
+			sourceTree = "<group>";
+		};
+		633429BD252284A600E1F87D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				633429BE252284A600E1F87D /* ProtocolP1SubItemControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		633EBDC8214670F1005D0C75 /* PlayAreaView */ = {
+			isa = PBXGroup;
+			children = (
+				633EBDCA214670F1005D0C75 /* Protocols */,
+				633EBDC9214670F1005D0C75 /* PlayAreaViewControlManager.swift */,
+			);
+			path = PlayAreaView;
+			sourceTree = "<group>";
+		};
+		633EBDCA214670F1005D0C75 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				633EBDCB214670F1005D0C75 /* ProtocolPlayAreaViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		633FE987227F5DD10063D49A /* PlayAreaTokens */ = {
+			isa = PBXGroup;
+			children = (
+				633FE988227F5DD10063D49A /* PlayAreaTokenssCacheManager.swift */,
+			);
+			path = PlayAreaTokens;
+			sourceTree = "<group>";
+		};
+		633FE9C5227F6A020063D49A /* PlayAreaGridTokenView */ = {
+			isa = PBXGroup;
+			children = (
+				633FE9C7227F6A020063D49A /* Protocols */,
+				633FE9C6227F6A020063D49A /* PlayAreaGridTokenViewControlManager.swift */,
+			);
+			path = PlayAreaGridTokenView;
+			sourceTree = "<group>";
+		};
+		633FE9C7227F6A020063D49A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				633FE9C8227F6A020063D49A /* ProtocolPlayAreaGridTokenViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		633FEA00228083660063D49A /* PlayAreaGridTokenMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				633FEA02228083660063D49A /* Protocols */,
+				633FEA01228083660063D49A /* PlayAreaGridTokenMenuViewControlManager.swift */,
+			);
+			path = PlayAreaGridTokenMenuView;
+			sourceTree = "<group>";
+		};
+		633FEA02228083660063D49A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				633FEA03228083660063D49A /* ProtocolPlayAreaGridTokenMenuViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		633FEAEE228F15B40063D49A /* PlayActiveChallengeView */ = {
+			isa = PBXGroup;
+			children = (
+				633FEAF0228F15B40063D49A /* Protocols */,
+				633FEAEF228F15B40063D49A /* PlayActiveChallengeViewControlManager.swift */,
+			);
+			path = PlayActiveChallengeView;
+			sourceTree = "<group>";
+		};
+		633FEAF0228F15B40063D49A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				633FEAF1228F15B40063D49A /* ProtocolPlayActiveChallengeViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6345921A2061075C007CD9E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				636BD464220456B800A38AC7 /* PlayGamesView */,
+				636BD4BB2206014500A38AC7 /* PlayGameEditView */,
+				63BC133D22F093A40019D74A /* PlayControlBarView */,
+				6374CC9521F6132800530045 /* PlayDeckView */,
+				6351E728209344F400884810 /* DashboardBarView */,
+				633FEAEE228F15B40063D49A /* PlayActiveChallengeView */,
+				63C150CB22C7C3B00080C430 /* PlayChallengeObjectiveListItemView */,
+				633EBDC8214670F1005D0C75 /* PlayAreaView */,
+				633FE9C5227F6A020063D49A /* PlayAreaGridTokenView */,
+				633FEA00228083660063D49A /* PlayAreaGridTokenMenuView */,
+				636BD2AA21FB4ED900A38AC7 /* PlayAreaGridCellView */,
+				6381648C224EA2ED00718A4B /* PlayAreaGridTileView */,
+				63B55FFD226FA36E00365284 /* PlayAreaGridTileMenuView */,
+				63CB8CA123054053007150C7 /* PlayAreaPathMenuView */,
+				63A2E2DE2332860500A45E31 /* PlayAreaPathAbilityButtonView */,
+				63A74B882153CAE0008424F5 /* PlayExperienceViews */,
+				6367FB3F2169EB5B0097E213 /* PlayExperienceStepMarkerView */,
+				638B01A4215689130006B316 /* PlayExperienceStepViews */,
+				63C1504822ACE6840080C430 /* PlayExperienceStepExerciseViews */,
+				63C1508D22B9FCC90080C430 /* PlayChallengeCompleteView */,
+				63C1509122B9FCC90080C430 /* PlayChallengeObjectiveCompleteView */,
+				63C1508722B9FCBD0080C430 /* PlayExperienceCompleteView */,
+				63C1500F22A2E6280080C430 /* PlayExperienceStepCompleteView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		634B8C7F1FAB42E400BF56E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				634B8C801FAB42EB00BF56E4 /* AuthenticationView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		634B8C801FAB42EB00BF56E4 /* AuthenticationView */ = {
+			isa = PBXGroup;
+			children = (
+				634B8C8D1FACC40100BF56E4 /* Protocols */,
+				634B8C811FAB430A00BF56E4 /* AuthenticationViewControlManager.swift */,
+			);
+			path = AuthenticationView;
+			sourceTree = "<group>";
+		};
+		634B8C8D1FACC40100BF56E4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				634B8C8E1FACC42200BF56E4 /* ProtocolAuthenticationViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6351E728209344F400884810 /* DashboardBarView */ = {
+			isa = PBXGroup;
+			children = (
+				6351E72A209344F400884810 /* Protocols */,
+				6351E729209344F400884810 /* DashboardBarViewControlManager.swift */,
+			);
+			path = DashboardBarView;
+			sourceTree = "<group>";
+		};
+		6351E72A209344F400884810 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6351E72B209344F400884810 /* ProtocolDashboardBarViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		635AEA01205C0314004AF1B7 /* RelativeMembers */ = {
+			isa = PBXGroup;
+			children = (
+				635AE9FF205C030C004AF1B7 /* RelativeMembersCacheManager.swift */,
+			);
+			path = RelativeMembers;
+			sourceTree = "<group>";
+		};
+		635AEA0E205C4477004AF1B7 /* UserProfiles */ = {
+			isa = PBXGroup;
+			children = (
+				635AEA0F205C4488004AF1B7 /* UserProfilesCacheManager.swift */,
+			);
+			path = UserProfiles;
+			sourceTree = "<group>";
+		};
+		6367FB3F2169EB5B0097E213 /* PlayExperienceStepMarkerView */ = {
+			isa = PBXGroup;
+			children = (
+				6367FB412169EB5B0097E213 /* Protocols */,
+				6367FB402169EB5B0097E213 /* PlayExperienceStepMarkerViewControlManager.swift */,
+			);
+			path = PlayExperienceStepMarkerView;
+			sourceTree = "<group>";
+		};
+		6367FB412169EB5B0097E213 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6367FB422169EB5B0097E213 /* ProtocolPlayExperienceStepMarkerViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		636BD2AA21FB4ED900A38AC7 /* PlayAreaGridCellView */ = {
+			isa = PBXGroup;
+			children = (
+				636BD2AC21FB4ED900A38AC7 /* Protocols */,
+				636BD2AB21FB4ED900A38AC7 /* PlayAreaGridCellViewControlManager.swift */,
+			);
+			path = PlayAreaGridCellView;
+			sourceTree = "<group>";
+		};
+		636BD2AC21FB4ED900A38AC7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				636BD2AD21FB4ED900A38AC7 /* ProtocolPlayAreaGridCellViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		636BD3552201B4E000A38AC7 /* PlayAreaCells */ = {
+			isa = PBXGroup;
+			children = (
+				636BD3572201B53200A38AC7 /* PlayAreaCellsCacheManager.swift */,
+			);
+			path = PlayAreaCells;
+			sourceTree = "<group>";
+		};
+		636BD464220456B800A38AC7 /* PlayGamesView */ = {
+			isa = PBXGroup;
+			children = (
+				636BD466220456B800A38AC7 /* Protocols */,
+				636BD465220456B800A38AC7 /* PlayGamesViewControlManager.swift */,
+			);
+			path = PlayGamesView;
+			sourceTree = "<group>";
+		};
+		636BD466220456B800A38AC7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				636BD467220456B800A38AC7 /* ProtocolPlayGamesViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		636BD4A72204BBF100A38AC7 /* PlayGameData */ = {
+			isa = PBXGroup;
+			children = (
+				636BD4A82204BBF100A38AC7 /* PlayGameDataCacheManager.swift */,
+			);
+			path = PlayGameData;
+			sourceTree = "<group>";
+		};
+		636BD4AA2204BBFC00A38AC7 /* PlayGames */ = {
+			isa = PBXGroup;
+			children = (
+				636BD4AB2204BBFC00A38AC7 /* PlayGamesCacheManager.swift */,
+			);
+			path = PlayGames;
+			sourceTree = "<group>";
+		};
+		636BD4BB2206014500A38AC7 /* PlayGameEditView */ = {
+			isa = PBXGroup;
+			children = (
+				636BD4BD2206014500A38AC7 /* Protocols */,
+				636BD4BC2206014500A38AC7 /* PlayGameEditViewControlManager.swift */,
+			);
+			path = PlayGameEditView;
+			sourceTree = "<group>";
+		};
+		636BD4BD2206014500A38AC7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				636BD4BE2206014500A38AC7 /* ProtocolPlayGameEditViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6374CC9521F6132800530045 /* PlayDeckView */ = {
+			isa = PBXGroup;
+			children = (
+				6374CC9721F6132800530045 /* Protocols */,
+				6374CC9621F6132800530045 /* PlayDeckViewControlManager.swift */,
+			);
+			path = PlayDeckView;
+			sourceTree = "<group>";
+		};
+		6374CC9721F6132800530045 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6374CC9821F6132800530045 /* ProtocolPlayDeckViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6381646E224E7C2100718A4B /* PlayAreaTiles */ = {
+			isa = PBXGroup;
+			children = (
+				6381646F224E7C2100718A4B /* PlayAreaTilesCacheManager.swift */,
+			);
+			path = PlayAreaTiles;
+			sourceTree = "<group>";
+		};
+		6381648C224EA2ED00718A4B /* PlayAreaGridTileView */ = {
+			isa = PBXGroup;
+			children = (
+				6381648E224EA2ED00718A4B /* Protocols */,
+				6381648D224EA2ED00718A4B /* PlayAreaGridTileViewControlManager.swift */,
+			);
+			path = PlayAreaGridTileView;
+			sourceTree = "<group>";
+		};
+		6381648E224EA2ED00718A4B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				6381648F224EA2ED00718A4B /* ProtocolPlayAreaGridTileViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		6381EB0D1FA506A000963A7D = {
+			isa = PBXGroup;
+			children = (
+				6381EB191FA506A000963A7D /* f30Controller */,
+				6381EB181FA506A000963A7D /* Products */,
+				63283F951FA6B99C00D35084 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6381EB181FA506A000963A7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6381EB171FA506A000963A7D /* f30Controller.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6381EB191FA506A000963A7D /* f30Controller */ = {
+			isa = PBXGroup;
+			children = (
+				63CBA0B31FC1829900C8A091 /* ControlManagerBase */,
+				63B15C271FB245390001E6FF /* AppDelegate */,
+				63C1EE9A1FA788DF0094FE54 /* Cache */,
+				63283F6D1FA6A5CC00D35084 /* Displays */,
+				63CB8C8722F5D5D9007150C7 /* Model */,
+				63283F6A1FA6A5AE00D35084 /* Resources */,
+				6381EB1A1FA506A000963A7D /* f30Controller.h */,
+				6381EB1B1FA506A000963A7D /* Info.plist */,
+			);
+			path = f30Controller;
+			sourceTree = "<group>";
+		};
+		6388BAAF2279C6BD00C73157 /* PlayAreaTileData */ = {
+			isa = PBXGroup;
+			children = (
+				6388BAB02279C6BD00C73157 /* PlayAreaTileDataCacheManager.swift */,
+			);
+			path = PlayAreaTileData;
+			sourceTree = "<group>";
+		};
+		638B01A4215689130006B316 /* PlayExperienceStepViews */ = {
+			isa = PBXGroup;
+			children = (
+				638B020A215CB6660006B316 /* Protocols */,
+				638B01A6215689130006B316 /* BasicPlayExperienceStepView */,
+				638B0208215CB6130006B316 /* PlayExperienceStepViewControlManagerBase.swift */,
+			);
+			path = PlayExperienceStepViews;
+			sourceTree = "<group>";
+		};
+		638B01A6215689130006B316 /* BasicPlayExperienceStepView */ = {
+			isa = PBXGroup;
+			children = (
+				638B01A8215689130006B316 /* Protocols */,
+				638B01A7215689130006B316 /* BasicPlayExperienceStepViewControlManager.swift */,
+			);
+			path = BasicPlayExperienceStepView;
+			sourceTree = "<group>";
+		};
+		638B01A8215689130006B316 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				638B01A9215689130006B316 /* ProtocolBasicPlayExperienceStepViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		638B020A215CB6660006B316 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				638B020B215CB6660006B316 /* ProtocolPlayExperienceStepViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		638B020D215CB6CB0006B316 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				638B020E215CB6CB0006B316 /* ProtocolPlayExperienceViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		639261F51FC7EC730061CF3B /* PrimarySettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				639261F61FC7EC7D0061CF3B /* Protocols */,
+				639261F91FC7ECE30061CF3B /* PrimarySettingsViewControlManager.swift */,
+			);
+			path = PrimarySettingsView;
+			sourceTree = "<group>";
+		};
+		639261F61FC7EC7D0061CF3B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				639261F71FC7EC9C0061CF3B /* ProtocolPrimarySettingsViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63A2E2DE2332860500A45E31 /* PlayAreaPathAbilityButtonView */ = {
+			isa = PBXGroup;
+			children = (
+				63A2E2E02332860500A45E31 /* Protocols */,
+				63A2E2DF2332860500A45E31 /* PlayAreaPathAbilityButtonViewControlManager.swift */,
+			);
+			path = PlayAreaPathAbilityButtonView;
+			sourceTree = "<group>";
+		};
+		63A2E2E02332860500A45E31 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63A2E2E12332860500A45E31 /* PlayAreaPathAbilityButtonViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63A74B882153CAE0008424F5 /* PlayExperienceViews */ = {
+			isa = PBXGroup;
+			children = (
+				638B020D215CB6CB0006B316 /* Protocols */,
+				63A74B892153CAE0008424F5 /* BasicPlayExperienceView */,
+				638B0210215CB6E10006B316 /* PlayExperienceViewControlManagerBase.swift */,
+			);
+			path = PlayExperienceViews;
+			sourceTree = "<group>";
+		};
+		63A74B892153CAE0008424F5 /* BasicPlayExperienceView */ = {
+			isa = PBXGroup;
+			children = (
+				63A74B8B2153CAE0008424F5 /* Protocols */,
+				63A74B8A2153CAE0008424F5 /* BasicPlayExperienceViewControlManager.swift */,
+			);
+			path = BasicPlayExperienceView;
+			sourceTree = "<group>";
+		};
+		63A74B8B2153CAE0008424F5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63A74B8C2153CAE0008424F5 /* ProtocolBasicPlayExperienceViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63ABF7541FBB8EA100818754 /* SettingsDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				63ABF7981FBCE04C00818754 /* Views */,
+				63ABF7551FBB8EAA00818754 /* Protocols */,
+				63ABF7611FBB901A00818754 /* SettingsDisplayControlManager.swift */,
+			);
+			path = SettingsDisplay;
+			sourceTree = "<group>";
+		};
+		63ABF7551FBB8EAA00818754 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63ABF75F1FBB8FE800818754 /* ProtocolSettingsDisplayControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63ABF7981FBCE04C00818754 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6306074D1FCF4E61001E9169 /* ChangePasswordView */,
+				639261F51FC7EC730061CF3B /* PrimarySettingsView */,
+				63ABF7991FBCE05700818754 /* SettingsView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		63ABF7991FBCE05700818754 /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				63ABF79A1FBCE05E00818754 /* Protocols */,
+				63ABF79D1FBCE12400818754 /* SettingsViewControlManager.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		63ABF79A1FBCE05E00818754 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63ABF79B1FBCE0A400818754 /* ProtocolSettingsViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63B15C271FB245390001E6FF /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				63B15C281FB2455C0001E6FF /* AppDelegateControlManager.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		63B55FFD226FA36E00365284 /* PlayAreaGridTileMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				63B55FFF226FA36E00365284 /* Protocols */,
+				63B55FFE226FA36E00365284 /* PlayAreaGridTileMenuViewControlManager.swift */,
+			);
+			path = PlayAreaGridTileMenuView;
+			sourceTree = "<group>";
+		};
+		63B55FFF226FA36E00365284 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63B56000226FA36E00365284 /* ProtocolPlayAreaGridTileMenuViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63BC133D22F093A40019D74A /* PlayControlBarView */ = {
+			isa = PBXGroup;
+			children = (
+				63BC133F22F093A40019D74A /* Protocols */,
+				63BC133E22F093A40019D74A /* PlayControlBarViewControlManager.swift */,
+			);
+			path = PlayControlBarView;
+			sourceTree = "<group>";
+		};
+		63BC133F22F093A40019D74A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63BC134022F093A40019D74A /* ProtocolPlayControlBarViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63C1500F22A2E6280080C430 /* PlayExperienceStepCompleteView */ = {
+			isa = PBXGroup;
+			children = (
+				63C1501122A2E6280080C430 /* Protocols */,
+				63C1501022A2E6280080C430 /* PlayExperienceStepCompleteViewControlManager.swift */,
+			);
+			path = PlayExperienceStepCompleteView;
+			sourceTree = "<group>";
+		};
+		63C1501122A2E6280080C430 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63C1501222A2E6280080C430 /* ProtocolPlayExperienceStepCompleteViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63C1504822ACE6840080C430 /* PlayExperienceStepExerciseViews */ = {
+			isa = PBXGroup;
+			children = (
+				63C1504E22ACE6840080C430 /* Protocols */,
+				63342958250E2CD800E1F87D /* Views */,
+				63342959250E2CDE00E1F87D /* Components */,
+				63C1504D22ACE6840080C430 /* PlayExperienceStepExerciseViewControlManagerBase.swift */,
+			);
+			path = PlayExperienceStepExerciseViews;
+			sourceTree = "<group>";
+		};
+		63C1504922ACE6840080C430 /* BasicPlayExperienceStepExerciseView */ = {
+			isa = PBXGroup;
+			children = (
+				63C1504B22ACE6840080C430 /* Protocols */,
+				63C1504A22ACE6840080C430 /* BasicPlayExperienceStepExerciseViewControlManager.swift */,
+			);
+			path = BasicPlayExperienceStepExerciseView;
+			sourceTree = "<group>";
+		};
+		63C1504B22ACE6840080C430 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63C1504C22ACE6840080C430 /* ProtocolBasicPlayExperienceStepExerciseViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63C1504E22ACE6840080C430 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63C1504F22ACE6840080C430 /* ProtocolPlayExperienceStepExerciseViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63C1508722B9FCBD0080C430 /* PlayExperienceCompleteView */ = {
+			isa = PBXGroup;
+			children = (
+				63C1508922B9FCBD0080C430 /* Protocols */,
+				63C1508822B9FCBD0080C430 /* PlayExperienceCompleteViewControlManager.swift */,
+			);
+			path = PlayExperienceCompleteView;
+			sourceTree = "<group>";
+		};
+		63C1508922B9FCBD0080C430 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63C1508A22B9FCBD0080C430 /* ProtocolPlayExperienceCompleteViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63C1508D22B9FCC90080C430 /* PlayChallengeCompleteView */ = {
+			isa = PBXGroup;
+			children = (
+				63C1508F22B9FCC90080C430 /* Protocols */,
+				63C1508E22B9FCC90080C430 /* PlayChallengeCompleteViewControlManager.swift */,
+			);
+			path = PlayChallengeCompleteView;
+			sourceTree = "<group>";
+		};
+		63C1508F22B9FCC90080C430 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63C1509022B9FCC90080C430 /* ProtocolPlayChallengeCompleteViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63C1509122B9FCC90080C430 /* PlayChallengeObjectiveCompleteView */ = {
+			isa = PBXGroup;
+			children = (
+				63C1509322B9FCC90080C430 /* Protocols */,
+				63C1509222B9FCC90080C430 /* PlayChallengeObjectiveCompleteViewControlManager.swift */,
+			);
+			path = PlayChallengeObjectiveCompleteView;
+			sourceTree = "<group>";
+		};
+		63C1509322B9FCC90080C430 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63C1509422B9FCC90080C430 /* ProtocolPlayChallengeObjectiveCompleteViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63C150CB22C7C3B00080C430 /* PlayChallengeObjectiveListItemView */ = {
+			isa = PBXGroup;
+			children = (
+				63C150CD22C7C3B00080C430 /* Protocols */,
+				63C150CC22C7C3B00080C430 /* PlayChallengeObjectiveListItemViewControlManager.swift */,
+			);
+			path = PlayChallengeObjectiveListItemView;
+			sourceTree = "<group>";
+		};
+		63C150CD22C7C3B00080C430 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63C150CE22C7C3B00080C430 /* PlayChallengeObjectiveListItemViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63C1EE9A1FA788DF0094FE54 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				636BD3552201B4E000A38AC7 /* PlayAreaCells */,
+				6381646E224E7C2100718A4B /* PlayAreaTiles */,
+				6388BAAF2279C6BD00C73157 /* PlayAreaTileData */,
+				636BD4AA2204BBFC00A38AC7 /* PlayGames */,
+				633FE987227F5DD10063D49A /* PlayAreaTokens */,
+				636BD4A72204BBF100A38AC7 /* PlayGameData */,
+				635AEA0E205C4477004AF1B7 /* UserProfiles */,
+				635AEA01205C0314004AF1B7 /* RelativeMembers */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		63C8187A1FB0F92900448E73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				63C818781FB0A9AB00448E73 /* ExtensionControlManagerBase.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		63CB8C8722F5D5D9007150C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63CB8C8822F5D5E4007150C7 /* PlayAreaPathAbilities */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63CB8C8822F5D5E4007150C7 /* PlayAreaPathAbilities */ = {
+			isa = PBXGroup;
+			children = (
+				63CB8C8E22F6D464007150C7 /* ByCarPlayAreaPathAbilityType */,
+				63CB8C8922F5D612007150C7 /* ByFootPlayAreaPathAbilityType */,
+				63CB8C8A22F5D638007150C7 /* PlayAreaPathAbilitiesManager.swift */,
+				630B1E55233B55AE00CF3A71 /* PlayAreaPathAbilityTypeBase.swift */,
+			);
+			path = PlayAreaPathAbilities;
+			sourceTree = "<group>";
+		};
+		63CB8C8922F5D612007150C7 /* ByFootPlayAreaPathAbilityType */ = {
+			isa = PBXGroup;
+			children = (
+				63CB8C8C22F5D742007150C7 /* ByFootPlayAreaPathAbilityType.swift */,
+			);
+			path = ByFootPlayAreaPathAbilityType;
+			sourceTree = "<group>";
+		};
+		63CB8C8E22F6D464007150C7 /* ByCarPlayAreaPathAbilityType */ = {
+			isa = PBXGroup;
+			children = (
+				63CB8C8F22F6D484007150C7 /* ByCarPlayAreaPathAbilityType.swift */,
+			);
+			path = ByCarPlayAreaPathAbilityType;
+			sourceTree = "<group>";
+		};
+		63CB8CA123054053007150C7 /* PlayAreaPathMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				63CB8CA223054053007150C7 /* Protocols */,
+				63CB8CA423054053007150C7 /* PlayAreaPathMenuViewControlManager.swift */,
+			);
+			path = PlayAreaPathMenuView;
+			sourceTree = "<group>";
+		};
+		63CB8CA223054053007150C7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				63CB8CA323054053007150C7 /* ProtocolPlayAreaPathMenuViewControlManagerDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		63CBA0B31FC1829900C8A091 /* ControlManagerBase */ = {
+			isa = PBXGroup;
+			children = (
+				63C8187A1FB0F92900448E73 /* Extensions */,
+				63CBA0B41FC182ED00C8A091 /* ControlManagerBaseDelegate.swift */,
+			);
+			path = ControlManagerBase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6381EB141FA506A000963A7D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6381EB1C1FA506A000963A7D /* f30Controller.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6381EB161FA506A000963A7D /* f30Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6381EB1F1FA506A000963A7D /* Build configuration list for PBXNativeTarget "f30Controller" */;
+			buildPhases = (
+				6381EB121FA506A000963A7D /* Sources */,
+				6381EB131FA506A000963A7D /* Frameworks */,
+				6381EB141FA506A000963A7D /* Headers */,
+				6381EB151FA506A000963A7D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = f30Controller;
+			productName = f27Controller;
+			productReference = 6381EB171FA506A000963A7D /* f30Controller.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6381EB0E1FA506A000963A7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = com.smartfoundation;
+				TargetAttributes = {
+					6381EB161FA506A000963A7D = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6381EB111FA506A000963A7D /* Build configuration list for PBXProject "f30Controller" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6381EB0D1FA506A000963A7D;
+			productRefGroup = 6381EB181FA506A000963A7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6381EB161FA506A000963A7D /* f30Controller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6381EB151FA506A000963A7D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63283F6C1FA6A5C400D35084 /* Localizable.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6381EB121FA506A000963A7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C1505022ACE6840080C430 /* BasicPlayExperienceStepExerciseViewControlManager.swift in Sources */,
+				630D98C51FAF7693002A564A /* ProtocolMainDisplayControlManagerDelegate.swift in Sources */,
+				63A74B8D2153CAE0008424F5 /* BasicPlayExperienceViewControlManager.swift in Sources */,
+				63BC134222F093A40019D74A /* ProtocolPlayControlBarViewControlManagerDelegate.swift in Sources */,
+				638B0209215CB6140006B316 /* PlayExperienceStepViewControlManagerBase.swift in Sources */,
+				63C1508B22B9FCBE0080C430 /* PlayExperienceCompleteViewControlManager.swift in Sources */,
+				638B020C215CB6670006B316 /* ProtocolPlayExperienceStepViewControlManagerDelegate.swift in Sources */,
+				6367FB442169EB5B0097E213 /* ProtocolPlayExperienceStepMarkerViewControlManagerDelegate.swift in Sources */,
+				634B8C821FAB430A00BF56E4 /* AuthenticationViewControlManager.swift in Sources */,
+				636BD2AF21FB4EDA00A38AC7 /* ProtocolPlayAreaGridCellViewControlManagerDelegate.swift in Sources */,
+				6351E72D209344F400884810 /* ProtocolDashboardBarViewControlManagerDelegate.swift in Sources */,
+				63C150CF22C7C3B20080C430 /* PlayChallengeObjectiveListItemViewControlManager.swift in Sources */,
+				633429A3251FC04200E1F87D /* MP1ControlManager.swift in Sources */,
+				63816470224E7C2200718A4B /* PlayAreaTilesCacheManager.swift in Sources */,
+				63B15C291FB2455C0001E6FF /* AppDelegateControlManager.swift in Sources */,
+				638B0211215CB6E10006B316 /* PlayExperienceViewControlManagerBase.swift in Sources */,
+				6334299D251FC02D00E1F87D /* P1ControlManager.swift in Sources */,
+				634B8C8F1FACC42200BF56E4 /* ProtocolAuthenticationViewControlManagerDelegate.swift in Sources */,
+				6334296C250E2E4F00E1F87D /* Img1ControlManager.swift in Sources */,
+				63C1505322ACE6840080C430 /* ProtocolPlayExperienceStepExerciseViewControlManagerDelegate.swift in Sources */,
+				636BD469220456B800A38AC7 /* ProtocolPlayGamesViewControlManagerDelegate.swift in Sources */,
+				63C1505122ACE6840080C430 /* ProtocolBasicPlayExperienceStepExerciseViewControlManagerDelegate.swift in Sources */,
+				633FEA04228083670063D49A /* PlayAreaGridTokenMenuViewControlManager.swift in Sources */,
+				639261FA1FC7ECE30061CF3B /* PrimarySettingsViewControlManager.swift in Sources */,
+				633EBDCD214670F2005D0C75 /* ProtocolPlayAreaViewControlManagerDelegate.swift in Sources */,
+				63CB8CA523054053007150C7 /* ProtocolPlayAreaPathMenuViewControlManagerDelegate.swift in Sources */,
+				636BD2AE21FB4EDA00A38AC7 /* PlayAreaGridCellViewControlManager.swift in Sources */,
+				63C1505222ACE6840080C430 /* PlayExperienceStepExerciseViewControlManagerBase.swift in Sources */,
+				6367FB432169EB5B0097E213 /* PlayExperienceStepMarkerViewControlManager.swift in Sources */,
+				638B01AC215689130006B316 /* ProtocolBasicPlayExperienceStepViewControlManagerDelegate.swift in Sources */,
+				630607521FCF4EA9001E9169 /* ChangePasswordViewControlManager.swift in Sources */,
+				63B56002226FA36E00365284 /* ProtocolPlayAreaGridTileMenuViewControlManagerDelegate.swift in Sources */,
+				63816491224EA2EE00718A4B /* ProtocolPlayAreaGridTileViewControlManagerDelegate.swift in Sources */,
+				635AEA00205C030C004AF1B7 /* RelativeMembersCacheManager.swift in Sources */,
+				63C1501322A2E6280080C430 /* PlayExperienceStepCompleteViewControlManager.swift in Sources */,
+				63CB8C8D22F5D742007150C7 /* ByFootPlayAreaPathAbilityType.swift in Sources */,
+				63C1509522B9FCCA0080C430 /* PlayChallengeCompleteViewControlManager.swift in Sources */,
+				63342947250BC9AF00E1F87D /* ProtocolMC1ControlManagerDelegate.swift in Sources */,
+				63A74B8E2153CAE0008424F5 /* ProtocolBasicPlayExperienceViewControlManagerDelegate.swift in Sources */,
+				633FEAF2228F15B40063D49A /* PlayActiveChallengeViewControlManager.swift in Sources */,
+				639261F81FC7EC9C0061CF3B /* ProtocolPrimarySettingsViewControlManagerDelegate.swift in Sources */,
+				63ABF79C1FBCE0A400818754 /* ProtocolSettingsViewControlManagerDelegate.swift in Sources */,
+				63C150D022C7C3B20080C430 /* PlayChallengeObjectiveListItemViewControlManagerDelegate.swift in Sources */,
+				6374CC9A21F6132800530045 /* ProtocolPlayDeckViewControlManagerDelegate.swift in Sources */,
+				633429BF252284A600E1F87D /* P1SubItemControlManager.swift in Sources */,
+				633429C0252284A600E1F87D /* ProtocolP1SubItemControlManagerDelegate.swift in Sources */,
+				633FE9C9227F6A020063D49A /* PlayAreaGridTokenViewControlManager.swift in Sources */,
+				63B56001226FA36E00365284 /* PlayAreaGridTileMenuViewControlManager.swift in Sources */,
+				63816490224EA2EE00718A4B /* PlayAreaGridTileViewControlManager.swift in Sources */,
+				633FE9CA227F6A020063D49A /* ProtocolPlayAreaGridTokenViewControlManagerDelegate.swift in Sources */,
+				63C1509822B9FCCA0080C430 /* ProtocolPlayChallengeObjectiveCompleteViewControlManagerDelegate.swift in Sources */,
+				636BD4BF2206014500A38AC7 /* PlayGameEditViewControlManager.swift in Sources */,
+				633FEA05228083670063D49A /* ProtocolPlayAreaGridTokenMenuViewControlManagerDelegate.swift in Sources */,
+				63ABF7621FBB901A00818754 /* SettingsDisplayControlManager.swift in Sources */,
+				63C1508C22B9FCBE0080C430 /* ProtocolPlayExperienceCompleteViewControlManagerDelegate.swift in Sources */,
+				636BD3582201B53200A38AC7 /* PlayAreaCellsCacheManager.swift in Sources */,
+				635AEA10205C4488004AF1B7 /* UserProfilesCacheManager.swift in Sources */,
+				63283F701FA6A5FE00D35084 /* SignInDisplayControlManager.swift in Sources */,
+				63A2E2E32332860500A45E31 /* PlayAreaPathAbilityButtonViewControlManagerDelegate.swift in Sources */,
+				636BD4C02206014500A38AC7 /* ProtocolPlayGameEditViewControlManagerDelegate.swift in Sources */,
+				633FE989227F5DD10063D49A /* PlayAreaTokenssCacheManager.swift in Sources */,
+				630B1E56233B55AE00CF3A71 /* PlayAreaPathAbilityTypeBase.swift in Sources */,
+				636BD4AC2204BBFC00A38AC7 /* PlayGamesCacheManager.swift in Sources */,
+				63CB8C9022F6D484007150C7 /* ByCarPlayAreaPathAbilityType.swift in Sources */,
+				630D98AF1FAF681E002A564A /* MainDisplayControlManager.swift in Sources */,
+				633EBDCC214670F2005D0C75 /* PlayAreaViewControlManager.swift in Sources */,
+				63CB8C8B22F5D638007150C7 /* PlayAreaPathAbilitiesManager.swift in Sources */,
+				63ABF7601FBB8FE800818754 /* ProtocolSettingsDisplayControlManagerDelegate.swift in Sources */,
+				63CB8CA623054053007150C7 /* PlayAreaPathMenuViewControlManager.swift in Sources */,
+				63CBA0B51FC182ED00C8A091 /* ControlManagerBaseDelegate.swift in Sources */,
+				63BC134122F093A40019D74A /* PlayControlBarViewControlManager.swift in Sources */,
+				636BD468220456B800A38AC7 /* PlayGamesViewControlManager.swift in Sources */,
+				63C1501422A2E6280080C430 /* ProtocolPlayExperienceStepCompleteViewControlManagerDelegate.swift in Sources */,
+				6351E72C209344F400884810 /* DashboardBarViewControlManager.swift in Sources */,
+				638B01AB215689130006B316 /* BasicPlayExperienceStepViewControlManager.swift in Sources */,
+				633429A4251FC04200E1F87D /* ProtocolMP1ControlManagerDelegate.swift in Sources */,
+				63342946250BC9AF00E1F87D /* MC1ControlManager.swift in Sources */,
+				6334299E251FC02D00E1F87D /* ProtocolP1ControlManagerDelegate.swift in Sources */,
+				633FEAF3228F15B40063D49A /* ProtocolPlayActiveChallengeViewControlManagerDelegate.swift in Sources */,
+				638B020F215CB6CB0006B316 /* ProtocolPlayExperienceViewControlManagerDelegate.swift in Sources */,
+				6334296D250E2E4F00E1F87D /* ProtocolImg1ControlManagerDelegate.swift in Sources */,
+				6374CC9921F6132800530045 /* PlayDeckViewControlManager.swift in Sources */,
+				636BD4A92204BBF100A38AC7 /* PlayGameDataCacheManager.swift in Sources */,
+				63A2E2E22332860500A45E31 /* PlayAreaPathAbilityButtonViewControlManager.swift in Sources */,
+				6388BAB12279C6BE00C73157 /* PlayAreaTileDataCacheManager.swift in Sources */,
+				63ABF79E1FBCE12400818754 /* SettingsViewControlManager.swift in Sources */,
+				630607501FCF4E8E001E9169 /* ProtocolChangePasswordViewControlManagerDelegate.swift in Sources */,
+				63C1509622B9FCCA0080C430 /* ProtocolPlayChallengeCompleteViewControlManagerDelegate.swift in Sources */,
+				63C1509722B9FCCA0080C430 /* PlayChallengeObjectiveCompleteViewControlManager.swift in Sources */,
+				63C818791FB0A9AB00448E73 /* ExtensionControlManagerBase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6381EB1D1FA506A000963A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6381EB1E1FA506A000963A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6381EB201FA506A000963A7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z8LTFFXX42;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = f30Controller/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartfoundation.f30Controller;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6381EB211FA506A000963A7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Z8LTFFXX42;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = f30Controller/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.smartfoundation.f30Controller;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6381EB111FA506A000963A7D /* Build configuration list for PBXProject "f30Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6381EB1D1FA506A000963A7D /* Debug */,
+				6381EB1E1FA506A000963A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6381EB1F1FA506A000963A7D /* Build configuration list for PBXNativeTarget "f30Controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6381EB201FA506A000963A7D /* Debug */,
+				6381EB211FA506A000963A7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6381EB0E1FA506A000963A7D /* Project object */;
+}
